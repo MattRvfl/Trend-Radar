@@ -30,6 +30,19 @@ export function getHistory(market, category) {
     : Promise.reject(new Error('historique invalide'));
 }
 
+// ---- Articles hebdo (data/articles, absents tant qu'aucun article n'est publié) ----
+export const isArticleId = (s) => typeof s === 'string' && /^\d{4}-W\d{2}$/.test(s);
+/** Index des articles, le plus récent en premier ; [] si le dossier n'existe pas encore (404). */
+export function getArticleIndex() {
+  return load('articles/index.json').then(
+    (a) => (Array.isArray(a) ? a.filter((x) => x && isArticleId(x.id)) : []),
+    (e) => { if (/HTTP 404/.test(e.message)) return []; throw e; },
+  );
+}
+export function getArticle(id) {
+  return isArticleId(id) ? load(`articles/${id}.json`) : Promise.reject(new Error('HTTP 404 article invalide'));
+}
+
 const daysCache = new WeakMap();
 /** Union des dates présentes dans un fichier d'historique = jours où la catégorie a été relevée. */
 export function collectedDays(hist) {

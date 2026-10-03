@@ -14,7 +14,11 @@ l'historique jour après jour : jour, 7 jours, 30 jours, mois, année.
 
 - `collector/` (Python, bibliothèque standard uniquement) : `run.py` collecte et enregistre
   `data/snapshots/<année>/<date>.json.gz`; `aggregate.py` calcule les classements dans `site/data/`.
+- `collector/weekly.py` : article hebdo du lundi (`data/articles/`), avec ton édito facultatif
+  (`editorial/README.md`); `collector/newsletter.py` : envoi aux inscrits via Brevo.
 - `site/` : le site statique (HTML/CSS/JS sans build). Charte : `design/DESIGN.md`.
+- `supabase/schema.sql` : comptes (Google, GitHub, Microsoft, Discord, lien e-mail), newsletter,
+  membres fondateurs. Mise en route : `docs/MISE-EN-ROUTE-COMPTES.md`.
 - `.github/workflows/daily.yml` : chaque jour vers 7 h (Paris), collecte, enregistre le relevé dans le dépôt,
   puis publie le site sur GitHub Pages.
 

@@ -8,6 +8,10 @@ on:
       only:
         description: "Sources to collect (comma separated)"
         default: "amazon,shopify,gtrends"
+      weekly:
+        description: "Generate the weekly article now (normally Mondays only)"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["site/**", "collector/**", "data/**"]   # bot commits use GITHUB_TOKEN and never re-trigger this
@@ -28,6 +32,12 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      SMTP_LOGIN: ${{ secrets.SMTP_LOGIN }}
+      SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
     steps:
       - uses: actions/checkout@v5
 
@@ -39,12 +49,21 @@ jobs:
         if: github.event_name != 'push'
         run: python -m collector.run --only "${{ inputs.only || 'amazon,shopify,gtrends' }}"
 
+      - name: Weekly article (Mondays)
+        if: github.event_name != 'push' && (inputs.weekly || github.event_name == 'schedule')
+        run: |
+          if [ "${{ inputs.weekly }}" = "true" ] || [ "$(date -u +%u)" = "1" ]; then
+            python -m collector.weekly
+          else
+            echo "not Monday, no article"
+          fi
+
       - name: Save snapshot
         if: github.event_name != 'push' && always()
         run: |
           git config user.name "trend-radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/snapshots
+          git add -A data editorial
           git diff --cached --quiet || git commit -m "data: snapshot $(date -u +%F)"
           git pull --rebase --autostash && git push
 
@@ -61,3 +80,20 @@ jobs:
       - id: deploy
         if: always()
         uses: actions/deploy-pages@v4
+
+      # Sends the latest article once (newsletter_issues prevents duplicates); no-op without secrets.
+      - name: Newsletter
+        if: github.event_name != 'push' && steps.deploy.outcome == 'success'
+        run: python -m collector.newsletter
+
+      # Supabase pauses free projects after 7 days without activity: one tiny query per day.
+      - name: Keep Supabase awake
+        if: always()
+        run: |
+          if [ -n "$SUPABASE_URL" ]; then
+            auth=(); case "$SUPABASE_SERVICE_ROLE_KEY" in sb_*) ;; *) auth=(-H "Authorization: Bearer $SUPABASE_SERVICE_ROLE_KEY");; esac
+            curl -fsS -o /dev/null "$SUPABASE_URL/rest/v1/newsletter_issues?select=id&limit=1" \
+              -H "apikey: $SUPABASE_SERVICE_ROLE_KEY" "${auth[@]}" && echo "Supabase pinged"
+          else
+            echo "Supabase not configured"
+          fi

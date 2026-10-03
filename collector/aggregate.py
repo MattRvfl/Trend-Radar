@@ -4,6 +4,7 @@ site/data/meta.json      sources status, coverage, categories, stores
 site/data/latest.json    today's lists with day-over-day movement (new, up, down)
 site/data/rankings/index.json, rankings/<period>.json  top products per period (7d, 30d, YYYY-MM, YYYY)
 site/data/history/<market>-<category>.json  daily Amazon ranks per product (for charts)
+site/data/articles/index.json, articles/<YYYY-Www>.json  weekly articles (copied from data/articles)
 
 Score for a period = sum over days of (N + 1 - rank), N = list length. A product #1 every day of the
 period scores highest; it rewards both high ranks and staying power. This is a *ranking signal*,
@@ -227,6 +228,12 @@ def main():
         write(OUT / "rankings" / f"{key}.json", data)
     for name, data in build_history(snaps).items():
         write(OUT / "history" / f"{name}.json", data)
+    index = []
+    for f in sorted((ROOT / "data" / "articles").glob("*.json"), reverse=True):
+        art = json.loads(f.read_text(encoding="utf-8"))
+        write(OUT / "articles" / f.name, art)
+        index.append({k: art.get(k) for k in ("id", "title", "published", "period", "summary")})
+    write(OUT / "articles" / "index.json", index)
     print(f"site/data built from {len(snaps)} day(s)")
 
 

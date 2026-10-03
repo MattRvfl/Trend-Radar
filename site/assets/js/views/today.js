@@ -1,5 +1,6 @@
 // Vue Aujourd'hui (§6.2, §10) : « Qu'est-ce qui bouge ce matin ? »
-import { html } from '../escape.js';
+import { html, fr } from '../escape.js';
+import { getArticleIndex } from '../data.js';
 import { build } from '../router.js';
 import { dLong, dShort, num, no, price, dec1, plural } from '../format.js';
 import { renderList } from '../components/row.js';
@@ -24,6 +25,7 @@ export async function today(ctx) {
   const days = meta.days_collected || 0;
   const cmp = Boolean(latest.compared_to);
   const market = (meta.markets && meta.markets[m]) || m;
+  const art = (await getArticleIndex().catch(() => []))[0];
 
   let main;
   if (!lists.length) {
@@ -112,7 +114,7 @@ ${pending.length ? html`<section class="module" aria-labelledby="pending-title">
     html: html`<div class="container page today">
 <div class="page-head"><h1 tabindex="-1">Relevé du ${dLong(latest.date)}</h1>
 <p class="lede num">${num(count)} ${plural(count, 'produit', 'produits')} · ${lists.length} catégories · ${market} · ${cmp ? `comparé au ${dShort(latest.compared_to)}` : 'premier relevé, pas encore de comparaison'}</p>
-<p class="c-note is-info">${icon('i-info')}<span>${SHORT_WARNING} <a href="#/methode">En savoir +</a></span></p></div>
+<p class="c-note is-info">${icon('i-info')}<span>${SHORT_WARNING} <a href="#/methode">En savoir +</a></span></p>${art ? html`<p class="art-teaser">${icon('i-article')}<span>Article de la semaine : <a href="#/articles/${art.id}">${fr(art.title || 'lire l’article')}</a></span></p>` : ''}</div>
 <div class="today-grid"><div class="today-main">${main}</div><aside class="today-side" aria-label="Autres sources">${aside}</aside></div></div>`,
     after: (root) => mountSparks(root, meta),
   };

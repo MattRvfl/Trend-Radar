@@ -1,5 +1,6 @@
 // Routes hash (compatibles GitHub Pages en sous-chemin) : #/vue[/sous-partie]?param=valeur
-export const VIEWS = ['aujourdhui', 'classements', 'boutiques', 'tiktok', 'buzz', 'methode'];
+export const VIEWS = ['aujourdhui', 'classements', 'boutiques', 'tiktok', 'buzz', 'methode',
+  'articles', 'connexion', 'compte', 'confidentialite', 'desinscription'];
 
 const dec = (s) => {
   try { return decodeURIComponent(s); } catch { return ''; }

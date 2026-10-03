@@ -16,13 +16,23 @@ import { stores } from './views/stores.js';
 import { tiktok } from './views/tiktok.js';
 import { buzz } from './views/buzz.js';
 import { method } from './views/method.js';
+import { articles } from './views/articles.js';
+import { connexion, compte, desinscription } from './views/account.js';
+import { privacy } from './views/privacy.js';
+import * as auth from './auth.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const app = $('#app');
 const panel = $('#panel');
 const sheet = $('#sheet');
 const live = $('#live');
-const VIEWS = { aujourdhui: today, classements: rankings, boutiques: stores, tiktok, buzz, methode: method };
+const VIEWS = {
+  aujourdhui: today, classements: rankings, boutiques: stores, tiktok, buzz, methode: method,
+  articles, connexion, compte, confidentialite: privacy, desinscription,
+};
+// Vues qui ont besoin de meta.json + latest.json avant de s'afficher ; les autres s'en passent.
+const DATA_VIEWS = new Set(['aujourdhui', 'classements', 'boutiques', 'tiktok', 'buzz', 'methode']);
+const NAV_OF = { compte: 'connexion', desinscription: 'connexion' };
 const S = { meta: null, latest: null, viewHash: null, view: null, fromApp: false, token: 0, first: true, openHash: null, pd: null, chart: null };
 
 const store = {
@@ -70,9 +80,36 @@ function renderChrome() {
   }
 }
 
+/** Bandeau des sources et pied de page sur les pages sans données : chargés sans bloquer ni échouer. */
+function loadChrome() {
+  if (S.meta || S.chromeP) return;
+  S.chromeP = Promise.all([getMeta(), getLatest()]).then(([meta, latest]) => {
+    if (!S.meta) { S.meta = meta; S.latest = latest; renderChrome(); }
+  }, () => {}).finally(() => { S.chromeP = null; });
+}
+
+const pageSkeleton = () => html`<div class="container page narrow" aria-busy="true"><span class="sr-only" role="status">Chargement…</span><div class="sk sk-h1"></div><div class="sk"></div><div class="sk sk-60 sk-gap"></div></div>`;
+
+// ---- Compte dans l'en-tête : « Se connecter » ou initiale + menu ----
+function renderAccount() {
+  const el = $('#acct');
+  if (!el) return;
+  const s = auth.cachedSession();
+  const email = (s && s.user && s.user.email) || '';
+  if (!s) {
+    el.innerHTML = String(html`<a class="acct-link" href="#/connexion" data-nav="connexion"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-user"></use></svg><span class="acct-lbl">Se connecter</span></a>`);
+  } else {
+    const initial = (email.trim().charAt(0) || '?').toUpperCase();
+    el.innerHTML = String(html`<button type="button" class="acct-btn" popovertarget="acct-menu" aria-label="${`Mon compte${email ? ` (${email})` : ''}`}" data-nav="connexion"><span class="avatar" aria-hidden="true">${initial}</span><span class="acct-lbl" aria-hidden="true">Mon compte</span></button>
+<div id="acct-menu" class="c-menu acct-menu" popover>${email ? html`<p class="menu-email">${email}</p>` : ''}<a href="#/compte">Mon compte</a><button type="button" data-action="signout">Se déconnecter</button></div>`);
+  }
+  syncChrome(S.view, marketOf(parse(location.hash).params));
+}
+
 function syncChrome(view, m) {
+  const nav = NAV_OF[view] || view;
   document.querySelectorAll('[data-nav]').forEach((a) => {
-    if (a.dataset.nav === view) a.setAttribute('aria-current', 'page');
+    if (a.dataset.nav === nav) a.setAttribute('aria-current', 'page');
     else a.removeAttribute('aria-current');
   });
   document.querySelectorAll('input[name="market"]').forEach((i) => { i.checked = i.value === m; });
@@ -95,13 +132,16 @@ async function renderView(r, hash) {
   const m = marketOf(r.params);
   syncChrome(r.view, m);
   app.setAttribute('aria-busy', 'true');
-  const timer = setTimeout(() => { if (token === S.token && !same) app.innerHTML = String(renderSkeleton(10)); }, 150);
+  const needsData = DATA_VIEWS.has(r.view);
+  const timer = setTimeout(() => {
+    if (token === S.token && !same) app.innerHTML = String(needsData ? renderSkeleton(10) : pageSkeleton());
+  }, 150);
   let out;
   try {
-    if (!S.meta || !S.latest) {
+    if (needsData && (!S.meta || !S.latest)) {
       [S.meta, S.latest] = await Promise.all([getMeta(), getLatest()]);
       renderChrome();
-    }
+    } else if (!needsData) loadChrome();
     out = await VIEWS[r.view]({ meta: S.meta, latest: S.latest, r, m, params: r.params, open: S.openHash });
   } catch (e) {
     console.error(e);
@@ -109,6 +149,7 @@ async function renderView(r, hash) {
   }
   clearTimeout(timer);
   if (token !== S.token) return;
+  if (out.redirect) { location.replace(out.redirect); return; }
   app.removeAttribute('aria-busy');
   app.innerHTML = String(out.html);
   document.title = out.docTitle || `${out.title} · Relevé`;
@@ -333,6 +374,17 @@ document.addEventListener('click', (e) => {
     $('#sheet-title', sheet).focus();
   } else if (act === 'close-sheet') sheet.close();
   else if (act === 'close-panel') requestClose();
+  else if (act === 'signout') {
+    const menu = $('#acct-menu');
+    if (menu && menu.hidePopover && menu.matches(':popover-open')) menu.hidePopover();
+    b.disabled = true;
+    auth.signOut().catch((x) => console.error(x)).finally(() => {
+      b.disabled = false;
+      renderAccount();
+      live.textContent = 'Vous êtes déconnecté.';
+      if (S.view === 'compte') location.hash = '#/';
+    });
+  }
   else if ((act === 'prev' || act === 'next') && S.pd && S.pd[act]) location.replace(S.pd[act]);
 });
 
@@ -367,7 +419,40 @@ document.addEventListener('error', (e) => {
   img.replaceWith(s);
 }, true);
 
-window.addEventListener('hashchange', route);
-initTips();
-applyTheme(currentTheme());
-route();
+// Menu du compte : se ferme dès qu'on choisit une entrée.
+document.addEventListener('click', (e) => {
+  const item = e.target.closest('#acct-menu a');
+  const menu = item && item.closest('[popover]');
+  if (menu && menu.hidePopover) menu.hidePopover();
+});
+
+// ---- Comptes : état de l'en-tête et pages compte suivent la session ----
+let lastUser = null;
+auth.onAuthChange((ev, s) => {
+  const uid = (s && s.user && s.user.id) || null;
+  renderAccount();
+  if (uid === lastUser) return; // rafraîchissement de jeton, retour sur l'onglet : rien à refaire
+  lastUser = uid;
+  if (ev === 'INITIAL_SESSION') return; // session lue au démarrage : la vue l'a déjà attendue
+  if (app.querySelector('[data-keep]')) return; // ex. « Compte supprimé » : on laisse le message affiché
+  // Seuls les cas où la page affichée ne correspond plus à l'état de connexion sont re-rendus.
+  if ((S.view === 'compte' && !uid) || (S.view === 'connexion' && uid)) { S.viewHash = null; route(); }
+});
+
+async function boot() {
+  initTips();
+  applyTheme(currentTheme());
+  window.addEventListener('hashchange', route);
+  if (auth.isConfigured()) {
+    if (auth.isCallback()) {
+      // Retour PKCE (?code=…) : on échange le code avant le premier rendu, puis on nettoie l'URL.
+      await auth.completeRedirect();
+    } else if (auth.hasStoredSession()) {
+      auth.getSession().then(() => auth.applyIntent()).catch(() => {}).finally(renderAccount);
+    }
+    lastUser = (auth.cachedSession() && auth.cachedSession().user.id) || null;
+    renderAccount();
+  }
+  route();
+}
+boot();
