@@ -1,0 +1,63 @@
+name: Collecte quotidienne et publication
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # every day ~07:17 Paris (summer time)
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Sources to collect (comma separated)"
+        default: "amazon,shopify,gtrends"
+  push:
+    branches: [main]
+    paths: ["site/**", "collector/aggregate.py", "collector/config.py"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Collect
+        if: github.event_name != 'push'
+        run: python -m collector.run --only "${{ inputs.only || 'amazon,shopify,gtrends' }}"
+
+      - name: Save snapshot
+        if: github.event_name != 'push' && always()
+        run: |
+          git config user.name "trend-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/snapshots
+          git diff --cached --quiet || git commit -m "data: snapshot $(date -u +%F)"
+          git pull --rebase --autostash && git push
+
+      - name: Build site data
+        if: always()
+        run: python -m collector.aggregate
+
+      - uses: actions/configure-pages@v5
+        if: always()
+      - uses: actions/upload-pages-artifact@v4
+        if: always()
+        with:
+          path: site
+      - id: deploy
+        if: always()
+        uses: actions/deploy-pages@v4

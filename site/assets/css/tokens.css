@@ -1,0 +1,201 @@
+/* ==========================================================================
+   Relevé : design tokens v1.0
+   Thème : clair par défaut, sombre via prefers-color-scheme ou data-theme.
+   ========================================================================== */
+
+/* Typographie : charger dans <head>, avant tokens.css
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap">
+*/
+
+:root {
+  color-scheme: light;
+
+  /* ---- Fonds et surfaces ---- */
+  --bg:            #FAFAF9;  /* fond de page */
+  --surface:       #FFFFFF;  /* cartes, panneau, lignes de liste */
+  --surface-2:     #F4F4F2;  /* survol, fond de contrôle segmenté */
+  --surface-3:     #EBEBE8;  /* état actif/pressé ; texte-3 interdit dessus */
+  --border:        #E4E4E0;  /* séparateurs, contour de carte (décoratif) */
+  --border-strong: #8F8F96;  /* contour de champ/contrôle (≥ 3:1) */
+
+  /* ---- Texte ---- */
+  --text:   #18181B;  /* principal */
+  --text-2: #52525B;  /* secondaire : méta, libellés */
+  --text-3: #6B6B73;  /* tertiaire : axes, aides ; jamais sur --surface-3 */
+
+  /* ---- Accent (interaction uniquement) ---- */
+  --accent:       #2453C2;
+  --accent-hover: #1D46A8;
+  --accent-soft:  #EBF0FB;  /* fond d'élément sélectionné, bande top 10 */
+  --on-accent:    #FFFFFF;
+  --focus-ring:   #2453C2;
+
+  /* ---- Variation de rang (toujours avec icône + signe) ---- */
+  --up:           #00704F;  --up-soft:      #E2F3EC;
+  --down:         #B03A06;  --down-soft:    #FBEAE0;
+  --new:          #8A3373;  --new-soft:     #F6E7F1;
+  --neutral:      #6B6B73;  --neutral-soft: #F1F1EF;
+
+  /* ---- Statut de source (toujours avec icône + mot) ---- */
+  --ok:     #00704F;  --ok-soft:     #E2F3EC;
+  --warn:   #8A5300;  --warn-soft:   #FBF0D9;
+  --danger: #B42318;  --danger-soft: #FDEBEA;
+
+  /* ---- Pastilles de source (point 8 px + nom, jamais en aplat) ---- */
+  --src-amazon:  #9E5F00;
+  --src-shopify: #4E7F2A;
+  --src-tiktok:  #0B7E85;
+  --src-google:  #4A64D0;
+
+  /* ---- Graphiques ---- */
+  --chart-line:  var(--accent);
+  --chart-grid:  #EDEDEA;
+  --chart-band:  #EBF0FB;   /* bande « top 10 » */
+  --hatch:       #C9C9C4;   /* hachures « jour non relevé » */
+  --skeleton:    #EBEBE8;
+  --image-tile:  #FFFFFF;   /* fond des vignettes produit, blanc dans les 2 thèmes */
+  --overlay:     rgb(24 24 27 / 0.32);
+
+  /* ---- Ombres ---- */
+  --shadow-1: 0 1px 2px rgb(24 24 27 / 0.06);
+  --shadow-2: 0 1px 2px rgb(24 24 27 / 0.06), 0 4px 12px rgb(24 24 27 / 0.08);
+  --shadow-3: 0 16px 48px rgb(24 24 27 / 0.16);
+
+  /* ---- Typographie ---- */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace; /* uniquement page Méthode (formule) */
+
+  --text-xs:   0.75rem;    --lh-xs:   1rem;       /* 12/16 axes, méta fine */
+  --text-sm:   0.8125rem;  --lh-sm:   1.25rem;    /* 13/20 badges, colonnes secondaires */
+  --text-md:   0.875rem;   --lh-md:   1.375rem;   /* 14/22 texte d'interface par défaut */
+  --text-base: 1rem;       --lh-base: 1.5rem;     /* 16/24 lecture (Méthode), titres produit du panneau */
+  --text-lg:   1.125rem;   --lh-lg:   1.625rem;   /* 18/26 titres de module (h3) */
+  --text-xl:   1.375rem;   --lh-xl:   1.75rem;    /* 22/28 titres de section (h2) */
+  --text-2xl:  1.75rem;    --lh-2xl:  2.125rem;   /* 28/34 h1 mobile, chiffres KPI */
+  --text-3xl:  2.25rem;    --lh-3xl:  2.625rem;   /* 36/42 h1 ≥ 900 px */
+
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-semibold: 600;
+  --weight-bold:    700;   /* h1 et logotype uniquement */
+
+  --tracking-tight: -0.02em;  /* ≥ 22 px */
+  --tracking-caps:   0.04em;  /* petites capitales de libellés de colonnes */
+
+  /* ---- Espacements (base 4 px) ---- */
+  --space-0: 0;
+  --space-1: 0.125rem; /* 2  */
+  --space-2: 0.25rem;  /* 4  */
+  --space-3: 0.5rem;   /* 8  */
+  --space-4: 0.75rem;  /* 12 */
+  --space-5: 1rem;     /* 16 : gouttière mobile */
+  --space-6: 1.25rem;  /* 20 */
+  --space-7: 1.5rem;   /* 24 : gouttière tablette, gap de grille */
+  --space-8: 2rem;     /* 32 : gouttière desktop, écart entre modules */
+  --space-9: 2.5rem;   /* 40 */
+  --space-10: 3rem;    /* 48 : écart entre sections */
+  --space-11: 4rem;    /* 64 */
+
+  --gutter: var(--space-5);
+  --container: 75rem;      /* 1200 px */
+  --reading: 42.5rem;      /* 680 px, page Méthode */
+  --panel-width: 30rem;    /* 480 px, panneau produit desktop */
+  --header-h: 3.5rem;      /* 56 px */
+  --tabbar-h: 3.5rem;      /* 56 px, barre d'onglets mobile */
+  --row-h: 4rem;           /* 64 px, ligne de classement desktop */
+  --row-h-mobile: 4.5rem;  /* 72 px */
+  --tap: 2.75rem;          /* 44 px, cible tactile minimale */
+
+  /* ---- Rayons ---- */
+  --radius-xs: 4px;    /* badges, pastilles */
+  --radius-sm: 6px;    /* boutons, champs, vignettes de ligne */
+  --radius-md: 10px;   /* cartes, modules */
+  --radius-lg: 14px;   /* panneau, feuilles mobiles */
+  --radius-full: 999px;
+
+  /* ---- Z-index ---- */
+  --z-base: 0;
+  --z-sticky: 100;     /* en-tête, barre de filtres, barre d'onglets */
+  --z-dropdown: 200;   /* menus Mois/Année, popover statut */
+  --z-overlay: 300;    /* voile du panneau */
+  --z-panel: 310;      /* panneau produit (<dialog>) */
+  --z-toast: 400;
+  --z-tooltip: 500;    /* infobulles de graphique */
+
+  /* ---- Mouvement ---- */
+  --dur-instant: 80ms;   /* survol, pression */
+  --dur-fast: 140ms;     /* badges, menus */
+  --dur-base: 220ms;     /* panneau, feuille mobile */
+  --dur-slow: 320ms;     /* tracé de courbe à l'ouverture */
+  --ease-out: cubic-bezier(0.2, 0, 0, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --skeleton-cycle: 1400ms;
+}
+
+/* ---- Thème sombre : préférence système, sauf choix explicite « clair » ---- */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0E0F11;  --surface: #17181B;  --surface-2: #1F2024;  --surface-3: #26282D;
+    --border: #2B2D32;  --border-strong: #686B74;
+    --text: #EDEDEF;  --text-2: #A8A8B0;  --text-3: #8B8B94;
+    --accent: #82A7F8;  --accent-hover: #A1BEFA;  --accent-soft: #1A2540;  --on-accent: #0E0F11;  --focus-ring: #82A7F8;
+    --up: #3CCB9B;  --up-soft: #10291F;
+    --down: #FF925A;  --down-soft: #33190D;
+    --new: #EE93CF;  --new-soft: #2E1726;
+    --neutral: #8B8B94;  --neutral-soft: #222327;
+    --ok: #3CCB9B;  --ok-soft: #10291F;
+    --warn: #F0C04A;  --warn-soft: #2B2210;
+    --danger: #FF8078;  --danger-soft: #331614;
+    --src-amazon: #F0A23B;  --src-shopify: #8CC265;  --src-tiktok: #3CC8CF;  --src-google: #8BA0F2;
+    --chart-grid: #24262A;  --chart-band: #1A2540;  --hatch: #3A3C42;  --skeleton: #222327;
+    --image-tile: #FFFFFF;
+    --overlay: rgb(0 0 0 / 0.6);
+    --shadow-1: 0 0 0 1px var(--border);
+    --shadow-2: 0 0 0 1px var(--border), 0 4px 16px rgb(0 0 0 / 0.5);
+    --shadow-3: 0 0 0 1px var(--border), 0 16px 48px rgb(0 0 0 / 0.6);
+  }
+}
+
+/* ---- Thème sombre forcé par l'utilisateur (même valeurs) ---- */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0E0F11;  --surface: #17181B;  --surface-2: #1F2024;  --surface-3: #26282D;
+  --border: #2B2D32;  --border-strong: #686B74;
+  --text: #EDEDEF;  --text-2: #A8A8B0;  --text-3: #8B8B94;
+  --accent: #82A7F8;  --accent-hover: #A1BEFA;  --accent-soft: #1A2540;  --on-accent: #0E0F11;  --focus-ring: #82A7F8;
+  --up: #3CCB9B;  --up-soft: #10291F;
+  --down: #FF925A;  --down-soft: #33190D;
+  --new: #EE93CF;  --new-soft: #2E1726;
+  --neutral: #8B8B94;  --neutral-soft: #222327;
+  --ok: #3CCB9B;  --ok-soft: #10291F;
+  --warn: #F0C04A;  --warn-soft: #2B2210;
+  --danger: #FF8078;  --danger-soft: #331614;
+  --src-amazon: #F0A23B;  --src-shopify: #8CC265;  --src-tiktok: #3CC8CF;  --src-google: #8BA0F2;
+  --chart-grid: #24262A;  --chart-band: #1A2540;  --hatch: #3A3C42;  --skeleton: #222327;
+  --image-tile: #FFFFFF;
+  --overlay: rgb(0 0 0 / 0.6);
+  --shadow-1: 0 0 0 1px var(--border);
+  --shadow-2: 0 0 0 1px var(--border), 0 4px 16px rgb(0 0 0 / 0.5);
+  --shadow-3: 0 0 0 1px var(--border), 0 16px 48px rgb(0 0 0 / 0.6);
+}
+
+/* ---- Gouttières responsive ---- */
+@media (min-width: 600px)  { :root { --gutter: var(--space-7); } }
+@media (min-width: 1200px) { :root { --gutter: var(--space-8); } }
+
+/* ---- Mouvement réduit : tout devient instantané, pas de shimmer ---- */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-instant: 0ms; --dur-fast: 0ms; --dur-base: 0ms; --dur-slow: 0ms;
+    --skeleton-cycle: 0ms;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
