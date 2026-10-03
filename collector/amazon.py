@@ -69,18 +69,34 @@ def parse_page(page, domain):
     return items[:AMAZON_TOP_N]
 
 
+RETRY_ROUNDS = 2  # occasional captchas (seen on GitHub runners) usually clear after a minute or two
+
+
 def collect(log):
-    lists, errors = [], []
+    lists, failed = [], {}
+    todo = []
     for market, cfg in MARKETS.items():
-        domain, idx = cfg["amazon"], (1 if market == "FR" else 2)
+        idx = 1 if market == "FR" else 2
         for key, row in AMAZON_CATEGORIES.items():
-            url = f"https://{domain}/gp/bestsellers/{row[idx]}/"
+            todo.append((market, key, f"https://{cfg['amazon']}/gp/bestsellers/{row[idx]}/"))
+    for attempt in range(RETRY_ROUNDS + 1):
+        if attempt:
+            log(f"amazon: retrying {len(todo)} blocked page(s), round {attempt}")
+            http.pause(60, 120)
+        retry = []
+        for market, key, url in todo:
+            cfg = MARKETS[market]
             try:
-                items = parse_page(http.get(url, cfg["lang"]), domain)
+                items = parse_page(http.get(url, cfg["lang"]), cfg["amazon"])
                 lists.append({"market": market, "category": key, "source_url": url, "items": items})
+                failed.pop((market, key), None)
                 log(f"amazon {market} {key}: {len(items)} items")
             except (http.FetchError, ValueError) as e:
-                errors.append(f"{market}/{key}: {e}")
+                failed[(market, key)] = str(e)
+                retry.append((market, key, url))
                 log(f"amazon {market} {key}: ERROR {e}")
             http.pause()
-    return {"lists": lists, "errors": errors}
+        todo = retry
+        if not todo:
+            break
+    return {"lists": lists, "errors": [f"{m}/{k}: {e}" for (m, k), e in failed.items()]}

@@ -10,7 +10,7 @@ on:
         default: "amazon,shopify,gtrends"
   push:
     branches: [main]
-    paths: ["site/**", "collector/aggregate.py", "collector/config.py"]
+    paths: ["site/**", "collector/**", "data/**"]   # bot commits use GITHUB_TOKEN and never re-trigger this
 
 permissions:
   contents: write

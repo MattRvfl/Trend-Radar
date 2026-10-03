@@ -11,6 +11,7 @@ import sys
 import time
 
 from . import amazon, gtrends, shopify
+from .config import AMAZON_CATEGORIES, MARKETS, SHOPIFY_STORES
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SOURCES = {"amazon": amazon, "shopify": shopify, "gtrends": gtrends}
@@ -22,6 +23,28 @@ def log(msg):
 
 def snapshot_path(day):
     return ROOT / "data" / "snapshots" / day[:4] / f"{day}.json.gz"
+
+
+def _label(lst):
+    """Prefix used by each collector's error messages for this list."""
+    if "store" in lst:
+        return f"{lst['store']}:"
+    if "category" in lst:
+        return f"{lst['market']}/{lst['category']}:"
+    return f"{lst['market']}:"
+
+
+def carry_over(old, res):
+    """Same-day re-run: a list that fails now keeps what was already collected earlier that day."""
+    have = {_label(lst) for lst in res["lists"]}
+    for lst in (old or {}).get("lists", []):
+        lab = _label(lst)
+        if lab not in have:
+            res["lists"].append(dict(lst, carried_from=lst.get("carried_from") or old.get("collected_at")))
+            res["errors"] = [e for e in res["errors"] if not e.startswith(lab)]
+    order = {k: i for i, k in enumerate([*MARKETS, *AMAZON_CATEGORIES, *(h for s in SHOPIFY_STORES.values() for h in s)])}
+    res["lists"].sort(key=lambda l: (order.get(l["market"], 99), order.get(l.get("host") or l.get("category"), 99)))
+    return res
 
 
 def main(argv=None):
@@ -43,6 +66,7 @@ def main(argv=None):
         except Exception as e:  # a broken source must never stop the others
             res = {"lists": [], "errors": [f"crash: {type(e).__name__}: {e}"]}
             log(f"{name}: CRASH {e}")
+        res = carry_over(snap["sources"].get(name), res)
         res["status"] = "ok" if res["lists"] and not res["errors"] else ("partial" if res["lists"] else "error")
         res["collected_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
         res["seconds"] = round(time.time() - started)
