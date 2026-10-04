@@ -24,7 +24,7 @@ from .config import AMAZON_CATEGORIES, MARKETS
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE_URL = os.environ.get("SITE_URL", "https://mattrvfl.github.io/Trend-Radar/")
-DAILY_CAP = 290          # Brevo free plan: 300 e-mails/day, keep a margin for login links
+DAILY_CAP = 290          # Brevo free: 300/day, Gmail: 500/day; keep a margin for login links
 PER_SECTION = 5
 FLAGS = {"FR": "France", "US": "États-Unis"}
 
@@ -126,8 +126,8 @@ def render(article, sub):
 
 
 def send_all(article, subs, dry_run):
-    host = os.environ.get("SMTP_HOST", "smtp-relay.brevo.com")
-    port = int(os.environ.get("SMTP_PORT", "587"))
+    host = os.environ.get("SMTP_HOST") or "smtp-relay.brevo.com"   # Gmail: smtp.gmail.com
+    port = int(os.environ.get("SMTP_PORT") or "587")
     sender = os.environ.get("NEWSLETTER_FROM", "Relevé <releve@example.invalid>")
     name, addr = parseaddr(sender)
     subject = f"Relevé · {article['title']}"
