@@ -102,10 +102,23 @@ jobs:
       - name: Keep Supabase awake
         if: always()
         run: |
-          if [ -n "$SUPABASE_URL" ]; then
-            auth=(); case "$SUPABASE_SERVICE_ROLE_KEY" in sb_*) ;; *) auth=(-H "Authorization: Bearer $SUPABASE_SERVICE_ROLE_KEY");; esac
-            curl -fsS -o /dev/null "$SUPABASE_URL/rest/v1/newsletter_issues?select=id&limit=1" \
-              -H "apikey: $SUPABASE_SERVICE_ROLE_KEY" "${auth[@]}" && echo "Supabase pinged"
-          else
-            echo "Supabase not configured"
+          if [ -z "$SUPABASE_URL" ]; then echo "Supabase not configured"; exit 0; fi
+          url="$(echo -n "$SUPABASE_URL" | tr -d '[:space:]')"; url="${url%/}"
+          key="$(echo -n "$SUPABASE_SERVICE_ROLE_KEY" | tr -d '[:space:]')"
+          # Format checks only: secret values are never printed.
+          [[ "$url" =~ ^https://[a-z0-9]{20}\.supabase\.co$ ]] && echo "SUPABASE_URL format: ok" \
+            || echo "::error::SUPABASE_URL must look like https://<20 letters>.supabase.co (no path)"
+          case "$key" in
+            sb_secret_*) echo "SUPABASE_SERVICE_ROLE_KEY: secret key (sb_secret_)";;
+            eyJ*) echo "SUPABASE_SERVICE_ROLE_KEY: legacy JWT key";;
+            sb_publishable_*) echo "::error::SUPABASE_SERVICE_ROLE_KEY is the PUBLISHABLE key; use the secret key (sb_secret_...)";;
+            *) echo "::error::SUPABASE_SERVICE_ROLE_KEY has an unknown format";;
+          esac
+          auth=(); case "$key" in sb_*) ;; *) auth=(-H "Authorization: Bearer $key");; esac
+          code=$(curl -sS -o /dev/null -w '%{http_code}' "$url/rest/v1/newsletter_issues?select=id&limit=1" \
+            -H "apikey: $key" "${auth[@]}" || echo "000")
+          echo "Supabase answered HTTP $code"
+          if [ "$code" != "200" ]; then
+            echo "::error::Supabase ping failed (HTTP $code): 401 = wrong key, 404 = wrong URL, 000 = host unreachable"
+            exit 1
           fi

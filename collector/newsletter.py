@@ -31,8 +31,8 @@ FLAGS = {"FR": "France", "US": "États-Unis"}
 
 # --- Supabase (PostgREST) ------------------------------------------------------------------------
 def supabase(method, path, body=None):
-    url = os.environ["SUPABASE_URL"].rstrip("/") + "/rest/v1/" + path
-    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"]
+    url = os.environ["SUPABASE_URL"].strip().rstrip("/") + "/rest/v1/" + path
+    key = os.environ["SUPABASE_SERVICE_ROLE_KEY"].strip()   # tolerate a pasted newline
     headers = {"apikey": key, "Content-Type": "application/json", "Prefer": "return=minimal"}
     if not key.startswith("sb_"):  # legacy service_role JWT; new sb_secret_ keys go in apikey only
         headers["Authorization"] = f"Bearer {key}"
