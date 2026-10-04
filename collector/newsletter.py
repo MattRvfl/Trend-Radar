@@ -109,7 +109,11 @@ def render(article, sub):
                'Relevé deviendra payant.</p>') if sub.get("founding_member") else ""
     body = f"""<!doctype html><html lang="fr"><body style="margin:0;background:#f5f5f7">
 <div style="max-width:600px;margin:0 auto;padding:24px 20px;font:15px/1.5 -apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1d1d1f;background:#fff">
-<p style="color:#6e6e73;font-size:13px;margin:0 0 4px">Relevé · semaine {e(article['id'].split('-W')[1])}</p>
+<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 18px"><tr>
+<td style="vertical-align:middle"><img src="{e(SITE_URL)}assets/icons/icon-192.png" width="36" height="36" alt="Relevé" style="display:block;border:0;border-radius:9px"></td>
+<td style="vertical-align:middle;padding-left:10px;font-weight:700;font-size:18px">Relevé</td>
+<td style="vertical-align:middle;padding-left:10px;color:#6e6e73;font-size:13px">· semaine {e(article['id'].split('-W')[1])}</td>
+</tr></table>
 <h1 style="font-size:22px;margin:0 0 8px">{e(article['title'])}</h1>
 <p style="color:#6e6e73;font-size:13px;margin:0 0 20px">{article['period']['days']} relevés quotidiens · un classement n'est pas un volume de ventes.</p>
 {''.join(parts)}
