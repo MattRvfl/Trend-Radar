@@ -3,9 +3,12 @@ import { html, fr } from '../escape.js';
 import { dFull, time, parisDay } from '../format.js';
 import { renderEmpty, renderError, renderNote } from '../components/states.js';
 import { icon } from '../components/ui.js';
+import { renderPushSection, mountPushSection } from '../components/push-ui.js';
+import { isMobile } from '../device.js';
+import { disable as disablePush } from '../push.js';
 import {
   isConfigured, getSession, takeFlash, setIntent, enabledProviders, PROVIDERS, signInWithProvider, signInWithEmail,
-  applyIntent, getProfile, updateProfile, deleteAccount, unsubscribe, isToken, humanize,
+  verifyEmailCode, humanizeCode, applyIntent, getProfile, updateProfile, deleteAccount, unsubscribe, isToken, humanize,
 } from '../auth.js';
 
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
@@ -49,17 +52,33 @@ export async function connexion() {
 
   const buttons = shown.length ? html`<div class="providers">${shown.map((p) => html`<button type="button" class="btn btn-provider" data-provider="${p.id}">${
     icon(`pv-${p.id}`, 'pv-ic')}<span>Continuer avec ${p.label}</span></button>`)}</div>` : '';
+  // Téléphone, tablette ou application installée : un code à saisir (le lien s'ouvrirait souvent dans un
+  // autre navigateur que celui-ci). Ordinateur : le lien, avec le code en recours.
+  const mobile = isMobile();
   const form = emailOn ? html`<form class="otp" novalidate aria-labelledby="otp-title">
-<h2 class="h3" id="otp-title">Recevoir un lien de connexion par e-mail</h2>
+<h2 class="h3" id="otp-title">${mobile ? 'Recevoir un code de connexion par e-mail' : 'Recevoir un lien de connexion par e-mail'}</h2>
 <label class="field-label" for="otp-email">Adresse e-mail</label>
 <input class="field" id="otp-email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" required aria-describedby="otp-help otp-err">
 <p class="field-err" id="otp-err"></p>
-<p class="field-help" id="otp-help">Un lien valable une heure, à ouvrir dans ce même navigateur.</p>
-<button class="btn-primary" type="submit">Recevoir le lien</button></form>
-<div class="otp-sent" hidden tabindex="-1">${icon('i-mail', 'sent-ic')}<div><p class="state-title">Lien envoyé</p>
-<p>Un lien de connexion part vers <strong class="sent-email"></strong>. <strong>Ouvrez-le dans ce même navigateur</strong> : sinon la connexion échouera. Il expire au bout d'une heure.</p>
+<p class="field-help" id="otp-help">${mobile
+    ? fr('Vous recevrez un e-mail avec un code à 6 chiffres (et un lien) : saisissez le code ici, sans quitter Relevé.')
+    : 'Un lien valable une heure, à ouvrir dans ce même navigateur.'}</p>
+<button class="btn-primary" type="submit">${mobile ? 'Recevoir le code' : 'Recevoir le lien'}</button></form>
+${mobile ? '' : html`<div class="otp-sent" hidden tabindex="-1">${icon('i-mail', 'sent-ic')}<div><p class="state-title">Lien envoyé</p>
+<p>Un e-mail part vers <strong class="sent-email"></strong>. Il contient un lien et un code. <strong>Ouvrez le lien dans ce même navigateur</strong> : sinon la connexion échouera. Il expire au bout d'une heure.</p>
 <p class="muted">Rien reçu d'ici quelques minutes ? Regardez dans les courriers indésirables.</p>
-<button type="button" class="btn" data-otp-reset>Utiliser une autre adresse</button></div></div>` : '';
+<button type="button" class="link-btn" data-code-show aria-expanded="false" aria-controls="otp-code-form">Vous avez reçu un code ? Saisissez-le</button>
+<button type="button" class="btn" data-otp-reset>Utiliser une autre adresse</button></div></div>`}
+<form class="otp otp-code" id="otp-code-form" novalidate hidden aria-labelledby="code-title">
+<h2 class="h3" id="code-title" tabindex="-1">Saisissez le code reçu par e-mail</h2>
+${mobile ? html`<p class="field-help" id="code-sent">Envoyé à <strong class="sent-email"></strong>. L'e-mail contient un code et un lien : ici, le code est le plus sûr, car le lien peut s'ouvrir dans un autre navigateur. Le code expire au bout d'une heure.</p>` : ''}
+<label class="field-label" for="otp-code">Code à 6 chiffres</label>
+<input class="field code-field num" id="otp-code" name="code" type="text" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]*" autocapitalize="off" spellcheck="false" aria-describedby="${mobile ? 'code-sent code-err' : 'code-err'}">
+<p class="field-err" id="code-err"></p>
+<button class="btn-primary" type="submit">Se connecter</button>
+<div class="code-actions"><button type="button" class="btn-ghost" data-code-resend>Renvoyer le code</button>${mobile ? html`<button type="button" class="btn-ghost" data-code-edit>Modifier l'adresse</button>` : ''}</div>
+${mobile ? html`<p class="muted small">Rien reçu d'ici quelques minutes ? Regardez dans les courriers indésirables.</p>` : ''}
+<p class="save-status" id="code-status" role="status"></p></form>` : '';
 
   return {
     title,
@@ -68,11 +87,14 @@ export async function connexion() {
 <label class="check" for="nl-intent"><input type="checkbox" id="nl-intent"><span><span class="check-title">Recevoir l'article hebdo chaque lundi</span><span class="check-hint">Facultatif. Désinscription en un clic dans chaque e-mail.</span></span></label>
 ${buttons}${buttons && form ? html`<p class="or" aria-hidden="true"><span>ou</span></p>` : ''}${form}
 <p class="form-msg" role="alert"></p></div>${legal()}`),
-    after: (root) => mountConnexion(root),
+    after: (root) => mountConnexion(root, mobile),
   };
 }
 
-function mountConnexion(root) {
+const CODE = /^\d{6,8}$/; // longueur réglable dans Supabase (6 par défaut)
+const RESEND_WAIT = 60;
+
+function mountConnexion(root, mobile) {
   const cb = root.querySelector('#nl-intent');
   const msg = root.querySelector('.form-msg');
   const card = root.querySelector('.auth-card');
@@ -93,20 +115,53 @@ function mountConnexion(root) {
     }
   }));
 
-  const form = root.querySelector('form.otp');
+  const form = root.querySelector('form.otp:not(.otp-code)');
   if (!form) return;
   const input = form.querySelector('#otp-email');
   const err = form.querySelector('#otp-err');
   const submit = form.querySelector('[type="submit"]');
-  const sent = root.querySelector('.otp-sent');
+  const submitLabel = submit.textContent;
+  const sent = root.querySelector('.otp-sent'); // ordinateur seulement
+  const codeForm = root.querySelector('form.otp-code');
+  const code = codeForm.querySelector('#otp-code');
+  const codeErr = codeForm.querySelector('#code-err');
+  const codeGo = codeForm.querySelector('[type="submit"]');
+  const resend = codeForm.querySelector('[data-code-resend]');
+  const codeStatus = codeForm.querySelector('#code-status');
+  const showCode = root.querySelector('[data-code-show]');
+  let email = '';
+  let timer = null;
+
+  // « Renvoyer le code » : attente de 60 s (c'est aussi le délai imposé par Supabase entre deux envois).
+  function cooldown() {
+    clearInterval(timer);
+    let left = RESEND_WAIT;
+    const tick = () => {
+      if (!root.isConnected) { clearInterval(timer); return; }
+      resend.disabled = left > 0;
+      resend.textContent = left > 0 ? `Renvoyer le code (${left} s)` : 'Renvoyer le code';
+      if (left <= 0) clearInterval(timer);
+      left -= 1;
+    };
+    tick();
+    timer = setInterval(tick, 1000);
+  }
+  const setSent = (addr) => root.querySelectorAll('.sent-email').forEach((s) => { s.textContent = addr; });
+  const resetCode = () => {
+    code.value = '';
+    code.removeAttribute('aria-invalid');
+    codeErr.textContent = '';
+    codeStatus.textContent = '';
+  };
+
   input.addEventListener('input', () => {
     if (input.getAttribute('aria-invalid') && EMAIL.test(input.value.trim())) { input.removeAttribute('aria-invalid'); err.textContent = ''; }
   });
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     msg.textContent = '';
-    const email = input.value.trim();
-    if (!EMAIL.test(email)) {
+    const addr = input.value.trim();
+    if (!EMAIL.test(addr)) {
       input.setAttribute('aria-invalid', 'true');
       err.textContent = fr('Saisissez une adresse e-mail valide, par exemple nom@exemple.fr.');
       input.focus();
@@ -118,26 +173,109 @@ function mountConnexion(root) {
     lock(true);
     submit.textContent = 'Envoi…';
     try {
-      await signInWithEmail(email);
+      await signInWithEmail(addr);
+      email = addr;
       lock(false);
       form.hidden = true;
-      sent.querySelector('.sent-email').textContent = email;
-      sent.hidden = false;
-      sent.focus();
+      setSent(addr);
+      resetCode();
+      cooldown();
+      if (mobile) {
+        card.classList.add('is-code'); // une seule chose à faire : saisir le code
+        codeForm.hidden = false;
+        code.focus();
+      } else {
+        codeForm.hidden = true;
+        showCode.setAttribute('aria-expanded', 'false');
+        sent.hidden = false;
+        sent.focus();
+      }
     } catch (x) {
       setIntent(false);
       lock(false);
       msg.textContent = humanize(x);
       input.focus();
     } finally {
-      submit.textContent = 'Recevoir le lien';
+      submit.textContent = submitLabel;
     }
   });
-  sent.querySelector('[data-otp-reset]').addEventListener('click', () => {
-    sent.hidden = true;
+
+  const backToEmail = () => {
+    clearInterval(timer);
+    card.classList.remove('is-code');
+    if (sent) sent.hidden = true;
+    codeForm.hidden = true;
     form.hidden = false;
+    msg.textContent = '';
     input.select();
     input.focus();
+  };
+  if (sent) sent.querySelector('[data-otp-reset]').addEventListener('click', backToEmail);
+  const edit = codeForm.querySelector('[data-code-edit]');
+  if (edit) edit.addEventListener('click', backToEmail);
+  if (showCode) {
+    showCode.addEventListener('click', () => {
+      const open = codeForm.hidden;
+      codeForm.hidden = !open;
+      showCode.setAttribute('aria-expanded', String(open));
+      if (open) code.focus();
+    });
+  }
+
+  // Chiffres seulement : un code collé « 123 456 » ou « 123-456 » est nettoyé.
+  code.addEventListener('input', () => {
+    const v = code.value.replace(/\D/g, '').slice(0, 8);
+    if (v !== code.value) code.value = v;
+    if (code.getAttribute('aria-invalid') && CODE.test(v)) { code.removeAttribute('aria-invalid'); codeErr.textContent = ''; }
+  });
+  codeForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    codeStatus.textContent = '';
+    const token = code.value.replace(/\D/g, '');
+    if (!CODE.test(token)) {
+      code.setAttribute('aria-invalid', 'true');
+      codeErr.textContent = 'Saisissez les 6 chiffres du code reçu par e-mail.';
+      code.focus();
+      return;
+    }
+    code.removeAttribute('aria-invalid');
+    codeErr.textContent = '';
+    codeGo.disabled = true;
+    codeGo.textContent = 'Vérification…';
+    try {
+      await verifyEmailCode(email, token);
+      clearInterval(timer);
+      codeStatus.textContent = 'Connexion réussie.';
+      // Même suite que le lien : l'intention newsletter est appliquée (SIGNED_IN, puis Mon compte).
+      await applyIntent().catch(() => {});
+      location.hash = '#/compte';
+    } catch (x) {
+      code.setAttribute('aria-invalid', 'true');
+      codeErr.textContent = fr(humanizeCode(x));
+      code.select();
+      code.focus();
+    } finally {
+      codeGo.disabled = false;
+      codeGo.textContent = 'Se connecter';
+    }
+  });
+  resend.addEventListener('click', async () => {
+    if (!email) return;
+    resend.disabled = true;
+    codeStatus.classList.remove('is-error');
+    codeStatus.textContent = 'Envoi…';
+    try {
+      await signInWithEmail(email);
+      resetCode();
+      codeStatus.textContent = fr(`Nouveau code envoyé à ${email}. Seul le plus récent fonctionne.`);
+      cooldown();
+      code.focus();
+    } catch (x) {
+      codeStatus.textContent = humanize(x);
+      codeStatus.classList.add('is-error');
+      resend.disabled = false;
+      resend.textContent = 'Renvoyer le code';
+    }
   });
 }
 
@@ -187,6 +325,8 @@ ${p.founding_member ? html`<p class="muted">Le jour où Relevé deviendra payant
 <p class="check-hint">Au moins un marché.</p></fieldset>
 <p class="save-status" id="save-status" role="status"></p></section>
 
+${renderPushSection()}
+
 <section class="acc-sec" aria-labelledby="ses-h"><h2 id="ses-h">Connexion</h2>
 <p>Connecté avec ${PROVIDER_LABEL[provider] || provider}.</p>
 <button type="button" class="btn" data-action="signout">Se déconnecter</button></section>
@@ -202,7 +342,7 @@ ${p.founding_member ? html`<p class="muted">Le jour où Relevé deviendra payant
 <p class="form-msg" role="alert"></p>
 <div class="dialog-actions"><button type="button" class="btn" data-del-cancel autofocus>Annuler</button><button type="button" class="btn btn-danger" data-del-go disabled>Supprimer définitivement</button></div>
 </div></dialog>`, 'account'),
-    after: (root) => mountAccount(root, p),
+    after: (root) => { mountAccount(root, p); mountPushSection(root); },
   };
 }
 
@@ -264,6 +404,7 @@ function mountAccount(root, initial) {
     msg.textContent = '';
     try {
       await deleteAccount();
+      disablePush().catch(() => {}); // l'abonnement rattaché au compte vient d'être effacé côté serveur
       dlg.close();
       root.innerHTML = String(page(html`<div data-keep>${head('Compte supprimé')}${renderEmpty({
         ic: 'i-ok',

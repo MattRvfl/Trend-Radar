@@ -39,6 +39,7 @@ jobs:
       SMTP_LOGIN: ${{ secrets.SMTP_LOGIN }}
       SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       NEWSLETTER_FROM: ${{ secrets.NEWSLETTER_FROM }}
+      VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
     steps:
       - uses: actions/checkout@v5
 
@@ -86,6 +87,16 @@ jobs:
       - name: Newsletter
         if: github.event_name != 'push' && steps.deploy.outcome == 'success'
         run: python -m collector.newsletter
+
+      # Push notifications (new weekly article, new rush), each sent once; no-op without the VAPID secret.
+      - name: Notifications
+        if: github.event_name != 'push' && steps.deploy.outcome == 'success'
+        run: |
+          if [ -n "$VAPID_PRIVATE_KEY" ]; then
+            pip install --quiet "pywebpush>=2,<3" && python -m collector.push
+          else
+            echo "push not configured"
+          fi
 
       # Supabase pauses free projects after 7 days without activity: one tiny query per day.
       - name: Keep Supabase awake

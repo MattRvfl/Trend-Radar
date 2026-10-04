@@ -340,11 +340,11 @@
 }
 .panel-head {
   position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: var(--space-2);
-  height: var(--header-h); padding: 0 var(--space-2) 0 var(--space-4); background: var(--surface); border-bottom: 1px solid var(--border);
+  height: calc(var(--header-h) + var(--safe-t)); padding: var(--safe-t) max(var(--space-2), var(--safe-r)) 0 max(var(--space-4), var(--safe-l)); background: var(--surface); border-bottom: 1px solid var(--border);
 }
 .back-btn { display: inline-flex; align-items: center; gap: 2px; min-height: var(--tap); padding: 0 var(--space-2); border: 0; background: none; color: var(--accent); cursor: pointer; }
 .panel-src { flex: 1; display: flex; align-items: center; gap: 6px; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-size: var(--text-sm); color: var(--text-2); }
-.panel-body { display: grid; gap: var(--space-6); padding: var(--space-5); }
+.panel-body { display: grid; gap: var(--space-6); padding: var(--space-5) max(var(--space-5), var(--safe-r)) calc(var(--space-5) + var(--safe-b)) max(var(--space-5), var(--safe-l)); }
 .panel-id { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: var(--space-4); align-items: start; }
 .panel-id > div { display: grid; gap: var(--space-3); align-content: start; min-width: 0; }
 .panel-id h2 { font-size: var(--text-base); line-height: var(--lh-base); font-weight: var(--weight-semibold); letter-spacing: 0; overflow-wrap: anywhere; }
@@ -400,7 +400,7 @@
 
 /* ---- Feuille « Sources » (mobile) ---- */
 .c-sheet {
-  position: fixed; inset: auto 0 0 0; margin: 0; width: 100%; max-width: 100%; max-height: 85dvh; padding: var(--space-5);
+  position: fixed; inset: auto 0 0 0; margin: 0; width: 100%; max-width: 100%; max-height: 85dvh; padding: var(--space-5) max(var(--space-5), var(--safe-r)) calc(var(--space-5) + var(--safe-b)) max(var(--space-5), var(--safe-l));
   border: 0; border-radius: var(--radius-lg) var(--radius-lg) 0 0; background: var(--surface); color: var(--text); box-shadow: var(--shadow-3);
 }
 .c-sheet::backdrop { background: var(--overlay); }
@@ -456,7 +456,7 @@
 .essentiel { padding: var(--space-6); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); }
 .essentiel h2 { margin-bottom: var(--space-3); }
 .essentiel ul { display: grid; gap: var(--space-3); padding-left: 1.25em; list-style: disc; }
-.method-sec { margin-top: var(--space-10); scroll-margin-top: calc(var(--header-h) + var(--space-5)); }
+.method-sec { margin-top: var(--space-10); scroll-margin-top: calc(var(--sticky-top) + var(--space-5)); }
 .method-sec h2 { display: flex; align-items: center; gap: var(--space-3); }
 .method-sec h3 { margin: var(--space-5) 0 var(--space-2); }
 .method-sec p + p, .method-sec h2 + p { margin-top: var(--space-3); }
@@ -471,3 +471,17 @@
 .data-table .num { text-align: right; }
 .c-unavail + .list-meta { margin-top: var(--space-5); }
 @media (max-width: 599px) { .no-mobile { display: none; } }
+
+/* ---- Encart d'installation (iPhone/iPad Safari, ou navigateur qui propose l'installation) ---- */
+.install:empty { display: none; }
+.install { padding-top: var(--space-3); }
+.c-install {
+  display: flex; align-items: flex-start; gap: var(--space-3); padding: var(--space-3) var(--space-1) var(--space-3) var(--space-4);
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); box-shadow: var(--shadow-1);
+  font-size: var(--text-sm); line-height: var(--lh-sm);
+}
+.inst-ic { flex: none; width: 40px; height: 40px; border-radius: 9px; box-shadow: 0 0 0 1px var(--border); }
+.inst-body { flex: 1; min-width: 0; display: grid; gap: var(--space-2); justify-items: start; padding-block: 2px; }
+.inst-body p { color: var(--text); }
+.inst-close { margin-top: -6px; }
+.ic-inline { display: inline-block; width: 16px; height: 16px; vertical-align: -3px; margin-inline: 1px; }

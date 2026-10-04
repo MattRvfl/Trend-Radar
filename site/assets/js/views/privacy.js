@@ -16,9 +16,10 @@ export async function privacy() {
 <p class="lede">Ce que Relevé sait de vous, pourquoi, et comment tout effacer. Mise à jour le 4 octobre 2026.</p></div>
 
 <section class="essentiel"><h2>En bref</h2><ul>
-<li>Sans compte, Relevé ne collecte aucune donnée personnelle : pas de cookie publicitaire, pas de mesure d'audience.</li>
+<li>Sans compte, Relevé ne collecte aucune donnée personnelle : pas de cookie publicitaire, pas de mesure d'audience. Seule exception, si vous activez les notifications : l'abonnement technique de votre appareil.</li>
 <li>Avec un compte : votre adresse e-mail et vos préférences, rien de plus. Jamais revendues, jamais utilisées pour de la publicité.</li>
-<li>La newsletter n'est envoyée que si vous l'avez demandée. Vous supprimez votre compte vous-même, en deux clics.</li></ul></section>
+<li>La newsletter n'est envoyée que si vous l'avez demandée. Vous supprimez votre compte vous-même, en deux clics.</li>
+<li>Les notifications ne sont activées que si vous les demandez, appareil par appareil, et se désactivent à tout moment.</li></ul></section>
 
 <section><h2>Qui est responsable</h2>
 <p>Relevé est un projet personnel, non commercial à ce jour. Son éditeur est responsable du traitement des données décrites ici. Pour le joindre : ${contact}.</p></section>
@@ -30,6 +31,7 @@ export async function privacy() {
 <li><strong>Dates</strong> : inscription, consentement à la newsletter, désinscription.</li>
 <li><strong>Préférences</strong> : newsletter oui ou non, marchés suivis (France, États-Unis), statut de membre fondateur.</li>
 <li><strong>Journaux techniques</strong> de connexion tenus par Supabase (adresse IP, date), pour la sécurité du service.</li></ul>
+<p>Avec ou sans compte, si vous activez les notifications : l'abonnement de l'appareil (détail dans la section <strong>Notifications</strong>).</p>
 <p>Relevé ne collecte ni mot de passe, ni moyen de paiement, ni historique de navigation.</p></section>
 
 <section><h2>Pourquoi (finalités et bases légales)</h2><ul>
@@ -41,7 +43,8 @@ export async function privacy() {
 <li><strong>Supabase</strong> : authentification et base de données des comptes. Société américaine ; les transferts hors de l'Union européenne sont encadrés par son accord de traitement des données (clauses contractuelles types de la Commission européenne).</li>
 <li><strong>Brevo</strong> (France) : envoi des e-mails (liens de connexion et article hebdo).</li>
 <li><strong>GitHub Pages</strong> : hébergement du site. Comme tout hébergeur, GitHub peut journaliser l'adresse IP des visiteurs ; Relevé n'a pas accès à ces journaux.</li>
-<li><strong>Google, GitHub, Microsoft, Discord</strong> : seulement si vous choisissez de vous connecter avec eux ; leur propre politique de confidentialité s'applique à cette étape.</li></ul>
+<li><strong>Google, GitHub, Microsoft, Discord</strong> : seulement si vous choisissez de vous connecter avec eux ; leur propre politique de confidentialité s'applique à cette étape.</li>
+<li><strong>Services push des navigateurs</strong> : seulement si vous activez les notifications (voir plus bas).</li></ul>
 <p>Pour s'afficher, le site charge aussi des ressources de tiers, qui voient votre adresse IP comme pour toute page web : la police Inter (Google Fonts), la bibliothèque de connexion (jsDelivr, uniquement sur les pages de compte ou si vous êtes connecté) et les photos de produits (Amazon, boutiques Shopify, sans transmettre l'adresse de la page consultée).</p></section>
 
 <section><h2>Combien de temps</h2>
@@ -54,8 +57,22 @@ export async function privacy() {
 <li><strong>Portabilité, opposition, limitation</strong> : sur simple demande, ${contact}.</li></ul>
 <p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL : ${extLink('https://www.cnil.fr/fr/adresser-une-plainte', 'cnil.fr, adresser une plainte')}.</p></section>
 
-<section><h2>Cookies et stockage local</h2>
-<p>Relevé ne dépose aucun cookie publicitaire ni traceur. Le site utilise seulement le stockage local de votre navigateur pour vos réglages (thème, marché FR ou US), pour garder votre session ouverte si vous êtes connecté, et, le temps de la connexion, pour retenir que vous avez coché la case newsletter. Ces éléments sont strictement nécessaires et ne quittent pas votre appareil, sauf la session, envoyée à Supabase pour vous identifier.</p></section>
+<section><h2>Notifications</h2>
+<p>Si vous activez les notifications sur un appareil (téléphone, ordinateur, application installée), Relevé conserve, pour cet appareil seulement :</p><ul>
+<li>l'<strong>adresse technique d'abonnement</strong> fournie par votre navigateur (une adresse chez son service push, qui ne révèle ni votre nom ni votre adresse e-mail) et les <strong>clés de chiffrement</strong> qui l'accompagnent, pour que seul votre appareil puisse lire les messages ;</li>
+<li>les <strong>sujets</strong> choisis (article de la semaine, ruées détectées) et les <strong>marchés</strong> (France, États-Unis) ;</li>
+<li>la <strong>date</strong> d'activation, et un compteur d'échecs d'envoi ;</li>
+<li>si vous êtes connecté au moment de l'activation, le lien avec votre compte (l'abonnement est alors effacé avec lui).</li></ul>
+<p>Base légale : votre consentement, donné en autorisant les notifications. Vous les désactivez à tout moment depuis <a href="#/compte">Mon compte</a>, depuis l'encart des articles, ou dans les réglages de votre navigateur ou de votre téléphone. Désactiver efface l'abonnement chez nous ; un abonnement que le navigateur déclare expiré est effacé automatiquement au premier envoi qui échoue.</p>
+<p>Les messages transitent, chiffrés, par le service push de votre navigateur, qui agit comme sous-traitant pour la seule livraison : <strong>Google</strong> pour Chrome, Edge et Android, <strong>Apple</strong> pour Safari sur iPhone, iPad et Mac, <strong>Mozilla</strong> pour Firefox. Ces services ne peuvent pas lire le contenu des messages.</p></section>
+
+<section><h2>Cookies et stockage</h2>
+<p>Relevé n'affiche pas de bannière de cookies, parce qu'il n'utilise que du stockage strictement nécessaire au service que vous demandez, exempté de consentement selon la CNIL : aucun traceur publicitaire, aucune mesure d'audience ou de statistique. Ce stockage, dans votre navigateur, sert à :</p><ul>
+<li>garder votre <strong>session de connexion</strong> ouverte si vous êtes connecté (envoyée à Supabase pour vous identifier) ;</li>
+<li>retenir vos <strong>préférences d'affichage</strong> : thème, marché FR ou US, encart d'installation refermé ;</li>
+<li>retenir, le temps de la connexion, que vous avez coché la case newsletter ;</li>
+<li>gérer votre <strong>abonnement aux notifications</strong> sur cet appareil (sujets et marchés choisis), et garder une copie des pages et des derniers relevés pour que l'application s'ouvre même hors connexion.</li></ul>
+<p>Pour adapter l'écran de connexion (un code à saisir sur téléphone, un lien sur ordinateur) et l'encart d'installation, le site lit localement le type de votre appareil (téléphone ou ordinateur, application installée ou non). Cette information n'est jamais enregistrée ni envoyée.</p></section>
 </div>`,
   };
 }

@@ -151,6 +151,27 @@ export async function signInWithEmail(email) {
   if (error) throw error;
 }
 
+/** Code reçu par e-mail (6 à 8 chiffres selon le réglage Supabase) : ouvre la session dans ce navigateur. */
+export async function verifyEmailCode(email, token) {
+  const c = await getClient();
+  const { data, error } = await c.auth.verifyOtp({ email, token, type: 'email' });
+  if (error) throw error;
+  current = (data && data.session) || current;
+  return current;
+}
+
+/** Erreur de code → phrase française (code faux et code expiré sont indiscernables côté serveur). */
+export function humanizeCode(e) {
+  const m = String((e && (e.message || e.error_description)) || e || '');
+  const code = String((e && e.code) || '');
+  const status = e && e.status;
+  if (status === 429 || /rate limit|only request this after|too many/i.test(m)) return 'Trop de tentatives rapprochées : patientez une minute, puis réessayez.';
+  if (/otp|token|expired|invalid/i.test(m + code) || status === 401 || status === 403 || status === 400) {
+    return "Code incorrect ou expiré. Vérifiez les chiffres, ou demandez un nouveau code (chaque code ne sert qu'une fois et expire au bout d'une heure).";
+  }
+  return humanize(e);
+}
+
 export async function signOut() {
   const c = await getClient();
   const { error } = await c.auth.signOut();
@@ -222,6 +243,6 @@ export function humanize(e) {
   if (/invalid.*email|email.*invalid|validate email/i.test(m)) return "Cette adresse e-mail n'est pas valide.";
   if (/provider is not enabled|unsupported provider/i.test(m)) return "Ce mode de connexion n'est pas encore activé.";
   if (/expired|invalid.*(code|grant|flow)|code verifier|both auth code/i.test(m + code)) return 'Ce lien de connexion a expiré ou a déjà servi. Demandez-en un nouveau.';
-  if (/failed to fetch|networkerror|load failed|retryable|fetch|import/i.test(m + code)) return 'Le serveur ne répond pas. Vérifiez votre connexion, puis réessayez.';
+  if (/failed to fetch|networkerror|load failed|retryable|fetch|import|offline/i.test(m + code)) return 'Le serveur ne répond pas. Vérifiez votre connexion, puis réessayez.';
   return 'Une erreur est survenue. Réessayez dans un instant.';
 }

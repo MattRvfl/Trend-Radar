@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <!-- Favicon = pictogramme de l'en-tête (DESIGN.md §0), inversé en thème sombre comme dans l'en-tête. -->
+  <style>
+    rect { fill: #18181B; } polyline { stroke: #FAFAF9; }
+    @media (prefers-color-scheme: dark) { rect { fill: #EDEDEF; } polyline { stroke: #0E0F11; } }
+  </style>
+  <rect width="20" height="20" rx="6"/>
+  <polyline points="4,14.5 8,10 11,12 16,5.5" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

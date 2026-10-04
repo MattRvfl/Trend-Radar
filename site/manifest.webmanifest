@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Relevé",
+  "short_name": "Relevé",
+  "description": "Les classements du commerce en ligne, relevés chaque matin. France et États-Unis.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FAFAF9",
+  "theme_color": "#FAFAF9",
+  "categories": ["business", "shopping", "news"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

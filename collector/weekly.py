@@ -46,6 +46,20 @@ def brand(title):
     return None if not word or word in NOT_BRANDS or word.isdigit() else word
 
 
+def find_rushes(ranks):
+    """Categories where one name holds at least 5 of the top 10, from {(market, cat, id): item} of one market."""
+    found = []
+    for cat in AMAZON_CATEGORIES:
+        top = sorted((it for k, it in ranks.items() if k[1] == cat), key=lambda i: i["rank"])[:10]
+        counts = Counter(b for b in (brand(i.get("title")) for i in top) if b)
+        if counts:
+            name, n = counts.most_common(1)[0]
+            if n >= 5:
+                lead = next(i for i in top if brand(i.get("title")) == name)
+                found.append({"category": cat, "brand": name, "share": n, "of": len(top), "lead": lead})
+    return found
+
+
 def build(snaps, force=False):
     days = sorted(snaps)
     end = days[-1]
@@ -97,15 +111,8 @@ def build(snaps, force=False):
                          "intro": f"N° 1 de leur catégorie chacun des {len(window)} jours relevés.",
                          "items": leaders})
 
-        rushes = []
-        for cat in AMAZON_CATEGORIES:
-            top = sorted((it for k, it in now.items() if k[1] == cat), key=lambda i: i["rank"])[:10]
-            counts = Counter(b for b in (brand(i.get("title")) for i in top) if b)
-            if counts:
-                name, n = counts.most_common(1)[0]
-                if n >= 5:
-                    lead = next(i for i in top if brand(i.get("title")) == name)
-                    rushes.append(product(lead, market, cat, brand=name, share=n, of=len(top)))
+        rushes = [product(r["lead"], market, r["category"], brand=r["brand"], share=r["share"], of=r["of"])
+                  for r in find_rushes(now)]
         sections.append({"type": "rush", "market": market, "title": "Ruées",
                          "intro": "Catégories dont au moins 5 des 10 premières places reviennent au même nom.",
                          "items": rushes})

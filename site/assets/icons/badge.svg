@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <!-- Badge Android (barre d'état) : glyphe blanc sur fond transparent ; seul le canal alpha compte. -->
+  <g transform="translate(10 10) scale(0.98) translate(-10.8 -9.2)">
+    <polyline points="4,14.5 8,10 11,12 15.2,6.6" fill="none" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="16" cy="5.5" r="2.2" fill="#FFFFFF"/>
+  </g>
+</svg>

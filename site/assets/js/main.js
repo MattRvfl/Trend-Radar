@@ -20,6 +20,8 @@ import { articles } from './views/articles.js';
 import { connexion, compte, desinscription } from './views/account.js';
 import { privacy } from './views/privacy.js';
 import * as auth from './auth.js';
+import { initPWA } from './pwa.js';
+import { refresh as refreshPush } from './push.js';
 
 const $ = (s, r = document) => r.querySelector(s);
 const app = $('#app');
@@ -454,5 +456,7 @@ async function boot() {
     renderAccount();
   }
   route();
+  // Application installable et notifications : en arrière-plan, sans jamais bloquer ni casser le site.
+  initPWA().then((reg) => (reg ? refreshPush() : null)).catch((e) => console.warn(e));
 }
 boot();

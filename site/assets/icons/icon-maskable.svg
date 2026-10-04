@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <!-- Variante « maskable » : fond plein jusqu'aux bords, pictogramme dans la zone sûre (cercle de 80 %). -->
+  <rect width="20" height="20" fill="#18181B"/>
+  <g transform="translate(10 10) scale(0.68) translate(-10.8 -9.2)">
+    <polyline points="4,14.5 8,10 11,12 16,5.5" fill="none" stroke="#FAFAF9" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="16" cy="5.5" r="2.1" fill="#82A7F8" stroke="#18181B" stroke-width="0.8"/>
+  </g>
+</svg>

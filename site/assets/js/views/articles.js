@@ -7,6 +7,7 @@ import { renderEmpty, renderError, renderNote } from '../components/states.js';
 import { renderSource, periodWhen, amazonName } from '../components/source.js';
 import { icon, thumb } from '../components/ui.js';
 import { SHORT_WARNING } from '../components/panel.js';
+import { renderPushCta, mountPushCta } from '../components/push-ui.js';
 
 const MARKET_NAMES = { FR: 'France', US: 'États-Unis' };
 const noYear = (iso) => dFull(iso).replace(/\s\d{4}$/, '');
@@ -33,7 +34,7 @@ const ctaBlock = () => html`<aside class="nl-cta" aria-labelledby="nl-cta-title"
 <a class="btn-primary" href="#/connexion">S'inscrire</a></aside>`;
 
 // ---- Liste ----
-async function list() {
+async function list(ctx) {
   let idx;
   try { idx = await getArticleIndex(); } catch (e) {
     console.error(e);
@@ -54,7 +55,8 @@ ${a.summary ? html`<p class="art-sum">${fr(a.summary)}</p>` : ''}</article></li>
     title: 'Articles',
     html: html`<div class="container page narrow articles"><div class="page-head"><h1 tabindex="-1">Articles</h1>
 <p class="lede">Chaque semaine, ce qui a bougé dans les classements : montées, nouveaux venus, indéboulonnables. Écrit à partir des seuls relevés réels.</p></div>
-${body}${idx.length ? ctaBlock() : ''}</div>`,
+${body}${idx.length ? ctaBlock() : ''}${renderPushCta()}</div>`,
+    after: (root) => mountPushCta(root, ctx.m),
   };
 }
 
@@ -170,8 +172,9 @@ ${sectionSource(s, a.period)}</section>`)
 <p class="art-byline">Édition ${MARKET_NAMES[m]}${switchLink}</p>
 ${renderNote('info', SHORT_WARNING)}</header>
 ${editorial}${toc}${body}</article>
-${ctaBlock()}${pager}`),
+${ctaBlock()}${renderPushCta()}${pager}`),
     after: (root) => {
+      mountPushCta(root, m);
       root.querySelectorAll('[data-jump]').forEach((b) => b.addEventListener('click', () => {
         const h = root.querySelector(`#${b.dataset.jump}`);
         if (!h) return;
