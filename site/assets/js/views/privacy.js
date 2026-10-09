@@ -71,8 +71,12 @@ export async function privacy() {
 <li>garder votre <strong>session de connexion</strong> ouverte si vous êtes connecté (envoyée à Supabase pour vous identifier) ;</li>
 <li>retenir vos <strong>préférences d'affichage</strong> : thème, marché FR ou US, encart d'installation refermé ;</li>
 <li>retenir, le temps de la connexion, que vous avez coché la case newsletter ;</li>
+<li>retenir les <strong>frais saisis dans le calculateur de rentabilité</strong> (commission, frais fixes, livraison, TVA), pour ne pas les retaper. Les prix et coûts de vos produits ne sont ni enregistrés ni envoyés : le calcul se fait dans votre navigateur ;</li>
 <li>gérer votre <strong>abonnement aux notifications</strong> sur cet appareil (sujets et marchés choisis), et garder une copie des pages et des derniers relevés pour que l'application s'ouvre même hors connexion.</li></ul>
 <p>Pour adapter l'écran de connexion (un code à saisir sur téléphone, un lien sur ordinateur) et l'encart d'installation, le site lit localement le type de votre appareil (téléphone ou ordinateur, application installée ou non). Cette information n'est jamais enregistrée ni envoyée.</p></section>
+
+<section><h2>Extension navigateur</h2>
+<p>L'extension Relevé s'active uniquement sur les pages produit d'Amazon (amazon.fr, amazon.com) et des boutiques Shopify. Elle lit sur la page affichée l'identifiant, le titre et le prix du produit, et télécharge les fichiers publics de Relevé pour afficher sa place dans les classements. Elle n'envoie rien : ni les pages visitées, ni votre historique, ni aucun identifiant. Le lien « Calculer la rentabilité » transmet le titre et le prix dans la partie de l'adresse après « # », que le navigateur garde pour lui. Elle conserve sur votre ordinateur une copie des classements, renouvelée toutes les six heures.</p></section>
 </div>`,
   };
 }

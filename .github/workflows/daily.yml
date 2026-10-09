@@ -14,7 +14,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ["site/**", "collector/**", "data/**"]   # bot commits use GITHUB_TOKEN and never re-trigger this
+    paths: ["site/**", "collector/**", "data/**", "extension/**"]   # bot commits use GITHUB_TOKEN and never re-trigger this
 
 permissions:
   contents: write
@@ -71,7 +71,9 @@ jobs:
 
       - name: Build site data
         if: always()
-        run: python -m collector.aggregate
+        run: |
+          python -m collector.aggregate
+          (cd extension && zip -qr ../site/releve-extension.zip . -x README.md)
 
       - uses: actions/configure-pages@v5
         if: always()

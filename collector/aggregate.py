@@ -4,6 +4,7 @@ site/data/meta.json      sources status, coverage, categories, stores
 site/data/latest.json    today's lists with day-over-day movement (new, up, down)
 site/data/rankings/index.json, rankings/<period>.json  top products per period (7d, 30d, YYYY-MM, YYYY)
 site/data/history/<market>-<category>.json  daily Amazon ranks per product (for charts)
+site/data/products.json  compact ASIN lookup for the browser extension (category, rank today, best, days)
 site/data/articles/index.json, articles/<YYYY-Www>.json  weekly articles (copied from data/articles)
 
 Score for a period = sum over days of (N + 1 - rank), N = list length. A product #1 every day of the
@@ -184,6 +185,25 @@ def build_history(snaps, keep_days=400):
     return files
 
 
+def build_products(snaps, keep_days=400):
+    """{market: {asin: [category, rank today or 0, best rank, days in top]}}; one category per ASIN (its best)."""
+    days = sorted(snaps)[-keep_days:]
+    today = amazon_ranks(snaps[days[-1]])
+    seen = {}
+    for d in days:
+        for (market, cat, asin), it in amazon_ranks(snaps[d]).items():
+            s = seen.setdefault((market, asin, cat), {"best": it["rank"], "days": 0})
+            s["best"] = min(s["best"], it["rank"])
+            s["days"] += 1
+    out = {m: {} for m in MARKETS}
+    for (market, asin, cat), s in seen.items():
+        row = [cat, (today.get((market, cat, asin)) or {}).get("rank", 0), s["best"], s["days"]]
+        cur = out[market].get(asin)
+        if cur is None or (row[1] or 999, row[2]) < (cur[1] or 999, cur[2]):
+            out[market][asin] = row
+    return {"date": days[-1], "products": out}
+
+
 def build_meta(snaps):
     days = sorted(snaps)
     last = snaps[days[-1]]["sources"]
@@ -228,6 +248,7 @@ def main():
         write(OUT / "rankings" / f"{key}.json", data)
     for name, data in build_history(snaps).items():
         write(OUT / "history" / f"{name}.json", data)
+    write(OUT / "products.json", build_products(snaps))
     index = []
     for f in sorted((ROOT / "data" / "articles").glob("*.json"), reverse=True):
         art = json.loads(f.read_text(encoding="utf-8"))

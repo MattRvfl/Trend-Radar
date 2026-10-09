@@ -28,7 +28,7 @@ export function renderPanel(d) {
   return html`<div class="panel-head"><button type="button" class="back-btn" data-action="close-panel">${icon('i-back')}Retour</button><p class="panel-src"><span class="dot dot-amazon" aria-hidden="true"></span>${shop} · ${d.catLabel}</p><button type="button" class="icon-btn" data-action="close-panel" aria-label="Fermer">${icon('i-close')}</button></div>
 <div class="panel-body">
 <div class="panel-id">${thumb(d.image, 120, d.catLabel, { cls: 'panel-img' })}<div><h2 id="panel-title" tabindex="-1"${d.m === 'US' ? html` lang="en"` : ''}>${t}</h2><p class="muted">${d.catLabel} · ${d.m}</p>${
-  extLink(d.url, `Voir sur ${shop}`, '', 'btn-primary')}</div></div>
+  extLink(d.url, `Voir sur ${shop}`, '', 'btn-primary')}<a class="btn pf-link" href="#/rentabilite?m=${d.m}&c=${encodeURIComponent(d.c)}&id=${encodeURIComponent(d.id)}">Calculer la rentabilité</a></div></div>
 <div class="kpis">
 ${kpi("Rang aujourd'hui", it ? html`${no(it.rank)}${it.new === true || typeof it.change === 'number' ? html` ${renderDelta(it)}` : ''}` : DASH,
     it ? (it.new === true || typeof it.change === 'number' ? '' : 'pas encore de comparaison') : "absent du top 30 aujourd'hui")}

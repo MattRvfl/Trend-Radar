@@ -17,6 +17,9 @@ l'historique jour après jour : jour, 7 jours, 30 jours, mois, année.
 - `collector/weekly.py` : article hebdo du lundi (`data/articles/`), avec ton édito facultatif
   (`editorial/README.md`); `collector/newsletter.py` : envoi aux inscrits via Brevo.
 - `site/` : le site statique (HTML/CSS/JS sans build). Charte : `design/DESIGN.md`.
+- `#/rentabilite` : calculateur de rentabilité (marge par vente, pub maximale, ROAS, prix conseillé), ouvert depuis
+  chaque fiche produit ; exporte une fiche brouillon au format d'import CSV de Shopify.
+- `extension/` : extension Chrome/Edge, encart Relevé sur les pages produit Amazon et Shopify (`extension/README.md`).
 - `supabase/schema.sql` : comptes (Google, GitHub, Microsoft, Discord, lien e-mail), newsletter,
   membres fondateurs. Mise en route : `docs/MISE-EN-ROUTE-COMPTES.md`.
 - `.github/workflows/daily.yml` : chaque jour vers 7 h (Paris), collecte, enregistre le relevé dans le dépôt,

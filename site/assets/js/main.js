@@ -19,6 +19,7 @@ import { method } from './views/method.js';
 import { articles } from './views/articles.js';
 import { connexion, compte, desinscription } from './views/account.js';
 import { privacy } from './views/privacy.js';
+import { profit } from './views/profit.js';
 import * as auth from './auth.js';
 import { initPWA } from './pwa.js';
 import { refresh as refreshPush } from './push.js';
@@ -30,7 +31,7 @@ const sheet = $('#sheet');
 const live = $('#live');
 const VIEWS = {
   aujourdhui: today, classements: rankings, boutiques: stores, tiktok, buzz, methode: method,
-  articles, connexion, compte, confidentialite: privacy, desinscription,
+  articles, rentabilite: profit, connexion, compte, confidentialite: privacy, desinscription,
 };
 // Vues qui ont besoin de meta.json + latest.json avant de s'afficher ; les autres s'en passent.
 const DATA_VIEWS = new Set(['aujourdhui', 'classements', 'boutiques', 'tiktok', 'buzz', 'methode']);

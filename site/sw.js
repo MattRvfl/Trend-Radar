@@ -7,7 +7,7 @@
    - Icônes et polices : cache d'abord (fichiers stables).
    - Tout le reste (Supabase, bibliothèque de connexion, images produits) : jamais intercepté ni mis en cache.
    Changer VERSION purge les anciens caches à l'activation. */
-const VERSION = '2026-10-04.1';
+const VERSION = '2026-10-09.1';
 const CACHE = `releve-${VERSION}`;
 const SCOPE = self.registration.scope; // ex. https://mattrvfl.github.io/Trend-Radar/
 const ORIGIN = self.location.origin;
@@ -22,7 +22,7 @@ const SHELL = [
   'assets/js/escape.js', 'assets/js/auth.js', 'assets/js/config.js', 'assets/js/device.js', 'assets/js/pwa.js', 'assets/js/push.js',
   'assets/js/views/today.js', 'assets/js/views/rankings.js', 'assets/js/views/stores.js', 'assets/js/views/tiktok.js',
   'assets/js/views/buzz.js', 'assets/js/views/method.js', 'assets/js/views/articles.js', 'assets/js/views/account.js',
-  'assets/js/views/privacy.js',
+  'assets/js/views/privacy.js', 'assets/js/views/profit.js',
   'assets/js/components/ui.js', 'assets/js/components/delta.js', 'assets/js/components/score.js', 'assets/js/components/coverage.js',
   'assets/js/components/source.js', 'assets/js/components/segmented.js', 'assets/js/components/period.js',
   'assets/js/components/status.js', 'assets/js/components/row.js', 'assets/js/components/card.js', 'assets/js/components/tip.js',
