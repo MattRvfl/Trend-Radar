@@ -5,7 +5,8 @@ the latest snapshot (present today, absent from the previous snapshot). Subscrip
 Supabase (push_subscriptions); a subscription the push service reports gone (404/410) is deleted, one
 that keeps failing is dropped after MAX_FAILURES.
 
-Env: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, VAPID_PRIVATE_KEY (raw P-256 key, base64url), SITE_URL.
+Env: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, VAPID_PRIVATE_KEY (raw P-256 key, base64url), SITE_URL,
+optional VAPID_SUB (mailto: or https origin; defaults to the origin of SITE_URL).
 Needs `pywebpush` (installed by the workflow); --dry-run needs neither it nor the secrets.
 """
 import argparse
@@ -22,6 +23,9 @@ from .weekly import find_rushes
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MAX_FAILURES = 5
 TTL = 24 * 3600   # a notification nobody could receive within a day is dropped
+# VAPID "sub" must be a mailto: or a bare https origin (py_vapid and Apple reject a URL with a path).
+_site = urllib.parse.urlsplit(SITE_URL)
+VAPID_SUB = os.environ.get("VAPID_SUB") or f"{_site.scheme}://{_site.netloc}"
 
 
 def article_event():
@@ -78,7 +82,7 @@ def send(event, subs, key):
         try:
             webpush({"endpoint": s["endpoint"], "keys": {"p256dh": s["p256dh"], "auth": s["auth"]}},
                     data=json.dumps(event["payload"], ensure_ascii=False), ttl=TTL,
-                    vapid_private_key=key, vapid_claims={"sub": SITE_URL})
+                    vapid_private_key=key, vapid_claims={"sub": VAPID_SUB})
             sent += 1
             if s.get("failures"):
                 supabase("PATCH", f"push_subscriptions?endpoint=eq.{ep}", {"failures": 0})
