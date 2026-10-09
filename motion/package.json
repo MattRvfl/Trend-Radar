@@ -7,7 +7,13 @@
     "cues": "node tools/export_cues.mjs",
     "music": "python3 audio/compose.py",
     "render": "node tools/render.mjs --fps 60 --sub 4 --workers 4 --name final",
-    "encode": "bash tools/encode.sh final"
+    "encode": "bash tools/encode.sh final",
+    "v2:data": "cd .. && python3 motion/v2/tools/extract_v2.py && cd motion && node v2/tools/build_icons.mjs",
+    "v2:cues": "node v2/tools/export_cues.mjs",
+    "v2:mix": "python3 v2/audio/compose2.py",
+    "v2:render": "node v2/tools/render.mjs --fps 60 --sub 4 --workers 4 --name final",
+    "v2:encode": "bash v2/tools/encode.sh final",
+    "v2:cover": "node v2/tools/cover.mjs"
   },
   "license": "UNLICENSED",
   "dependencies": {

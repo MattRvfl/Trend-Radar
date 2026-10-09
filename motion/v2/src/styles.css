@@ -1,0 +1,103 @@
+/* ==========================================================================
+   Relevé : film vertical 1080×1920 (v2, voix off). Tokens repris tels quels de design/DESIGN.md §3.1.
+   Zones sûres TikTok / Reels / Shorts : rien d'essentiel au-dessus de y = 220, sous y = 1500,
+   ni à droite de x = 950 (colonne des boutons).
+   ========================================================================== */
+:root {
+  --bg: #0E0F11; --surface: #17181B; --surface-2: #1F2024; --surface-3: #26282D;
+  --border: #2B2D32; --border-strong: #686B74;
+  --text: #EDEDEF; --text-2: #A8A8B0; --text-3: #8B8B94;
+  --accent: #82A7F8; --accent-hover: #A1BEFA; --accent-soft: #1A2540; --on-accent: #0E0F11;
+  --up: #3CCB9B; --up-soft: #10291F; --down: #FF925A; --down-soft: #33190D;
+  --new: #EE93CF; --new-soft: #2E1726; --neutral: #8B8B94; --neutral-soft: #222327;
+  --ok: #3CCB9B; --warn: #F0C04A; --danger: #FF8078;
+  --src-amazon: #F0A23B; --src-shopify: #8CC265; --src-google: #8BA0F2;
+  --chart-grid: #24262A; --image-tile: #FFFFFF;
+  --font: "Inter Variable", "Inter", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+}
+.light {
+  color: var(--text);
+  --bg: #FAFAF9; --surface: #FFFFFF; --surface-2: #F4F4F2; --surface-3: #EBEBE8;
+  --border: #E4E4E0; --border-strong: #8F8F96;
+  --text: #18181B; --text-2: #52525B; --text-3: #6B6B73;
+  --accent: #2453C2; --accent-soft: #EBF0FB; --on-accent: #FFFFFF;
+  --up: #00704F; --up-soft: #E2F3EC; --down: #B03A06; --down-soft: #FBEAE0;
+  --new: #8A3373; --new-soft: #F6E7F1; --neutral: #6B6B73; --neutral-soft: #F1F1EF;
+  --src-amazon: #9E5F00; --src-shopify: #4E7F2A; --src-google: #4A64D0;
+  --chart-grid: #EDEDEA;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+body {
+  font-family: var(--font); font-optical-sizing: auto; color: var(--text);
+  -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision;
+  font-feature-settings: "cv11", "ss01";
+}
+#stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--bg); isolation: isolate; }
+.scene { position: absolute; inset: 0; display: none; overflow: hidden; }
+.num { font-variant-numeric: tabular-nums lining-nums; }
+svg { display: block; }
+.lu { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.abs { position: absolute; }
+.center-x { left: 50%; translate: -50% 0; }
+
+/* Masques de texte */
+.m { display: inline-block; overflow: hidden; vertical-align: top; padding: 0.06em 0.04em 0.12em; margin: -0.06em -0.04em -0.12em; }
+.mi { display: inline-block; will-change: transform; }
+.ch { display: inline-block; will-change: transform; }
+.caret { display: inline-block; width: 0.08em; height: 1em; margin-left: 0.04em; vertical-align: -0.12em; background: var(--accent); border-radius: 2px; }
+
+/* Fond d'ambiance : halos de couleur pilotés par la timeline */
+.amb { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+.amb i { position: absolute; left: 50%; top: 42%; width: 1500px; height: 1500px; margin: -750px 0 0 -750px; border-radius: 50%; opacity: 0;
+  background: radial-gradient(closest-side, var(--c) 0%, transparent 100%); filter: blur(10px); }
+.grid-bg { position: absolute; inset: -240px; opacity: .5;
+  background-image: linear-gradient(to right, var(--chart-grid) 1px, transparent 1px), linear-gradient(to bottom, var(--chart-grid) 1px, transparent 1px);
+  background-size: 90px 90px; }
+.vignette { position: absolute; inset: 0; pointer-events: none; z-index: 40;
+  background: radial-gradient(ellipse 85% 62% at 50% 46%, transparent 52%, rgb(0 0 0 / .62) 100%); }
+.flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; z-index: 45; }
+
+/* ---- Badge de variation (§7.3), agrandi via --s ---- */
+.c-delta {
+  --s: 1;
+  display: inline-flex; align-items: center; gap: calc(3px * var(--s)); height: calc(20px * var(--s));
+  padding: 0 calc(6px * var(--s)); border-radius: calc(4px * var(--s));
+  font-size: calc(13px * var(--s)); line-height: 1; font-weight: 650; white-space: nowrap;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+.c-delta svg { width: calc(8px * var(--s)); height: calc(8px * var(--s)); }
+.c-delta.is-up { color: var(--up); background: var(--up-soft); }
+.c-delta.is-down { color: var(--down); background: var(--down-soft); }
+.c-delta.is-new { color: var(--new); background: var(--new-soft); }
+
+/* ---- Vignette produit : tuile blanche + icône de catégorie (aucune photo produit téléchargée) ---- */
+.thumb { display: grid; place-items: center; flex: none; background: var(--image-tile); border-radius: 14px; color: #3F3F46; }
+.thumb svg { width: 56%; height: 56%; stroke-width: 1.7; }
+
+/* ---- Pastilles ---- */
+.pill { display: inline-flex; align-items: center; gap: 14px; height: 68px; padding: 0 26px; border-radius: 34px;
+  background: rgb(23 24 27 / .86); box-shadow: 0 0 0 1.5px var(--border), 0 12px 40px rgb(0 0 0 / .45);
+  font-size: 30px; font-weight: 600; letter-spacing: -0.01em; color: var(--text); white-space: nowrap; }
+.pill .sep { color: var(--text-3); font-weight: 500; }
+.pill .brand { width: 40px; height: 40px; }
+.pill .flag { width: 40px; height: 30px; border-radius: 5px; }
+.pill .lu { width: 34px; height: 34px; stroke-width: 2.2; }
+.dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; flex: none; }
+.dot.amazon { background: var(--src-amazon); } .dot.shopify { background: var(--src-shopify); } .dot.google { background: var(--src-google); }
+
+/* ---- Sous-titres (karaoké mot à mot) ---- */
+.caps { position: absolute; left: 90px; right: 130px; top: 1240px; height: 210px; z-index: 30; display: flex; align-items: center; justify-content: center; pointer-events: none; }
+.caps { --ct: #FFFFFF; --acc: #82A7F8; --up: #3CCB9B; --down: #FF925A; --new: #EE93CF; --amz: #F0A23B; --shp: #8CC265; --ggl: #A9B8F7; --strike: #B9B9C0;
+  --cs: 0 3px 0 rgb(0 0 0 / .35), 0 6px 28px rgb(0 0 0 / .7); }
+.caps[data-theme="light"] { --ct: #18181B; --acc: #2453C2; --up: #00704F; --down: #B03A06; --new: #8A3373; --amz: #9E5F00; --shp: #4E7F2A; --ggl: #4A64D0; --strike: #6B6B73;
+  --cs: 0 2px 0 rgb(255 255 255 / .6), 0 4px 22px rgb(255 255 255 / .9); }
+.cap-page { position: absolute; inset: 0; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; column-gap: 0.26em; row-gap: 0;
+  font-size: 78px; font-weight: 800; line-height: 1.12; letter-spacing: -0.028em; text-align: center; color: var(--ct); opacity: 0; }
+.cap-w { position: relative; display: inline-block; white-space: nowrap; will-change: transform; text-shadow: var(--cs); }
+.cap-w sup { font-size: 0.5em; vertical-align: 0.82em; letter-spacing: 0; margin-left: 0.03em; }
+.cap-hl { position: absolute; z-index: -1; left: -0.14em; right: -0.14em; top: 0.06em; bottom: 0.02em; border-radius: 0.2em; background: var(--hl, var(--accent)); opacity: 0; }
+.cap-strike { color: var(--strike); }
+.cap-x { position: absolute; left: -0.04em; right: -0.04em; top: 54%; height: 0.09em; border-radius: 0.05em; background: #FF925A; transform-origin: 0 50%; box-shadow: 0 2px 10px rgb(0 0 0 / .5); }

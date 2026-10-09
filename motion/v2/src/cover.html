@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Relevé · couverture</title>
+<link rel="stylesheet" href="../../node_modules/@fontsource-variable/inter/opsz.css">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="scenes.css">
+<script src="../../node_modules/gsap/dist/gsap.min.js"></script>
+<style>
+  .cv { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 55% at 50% 48%, #12261F 0%, #0E0F11 70%); }
+  .cv .pill { position: absolute; top: 300px; left: 0; right: 0; margin: 0 auto; width: max-content; }
+  .cv-from { position: absolute; top: 420px; left: 0; right: 0; text-align: center; font-size: 230px; font-weight: 800; letter-spacing: -0.06em; color: #686B74; line-height: 1; }
+  .cv-from s { text-decoration-thickness: 14px; text-decoration-color: #FF925A; }
+  .cv-arrow { position: absolute; top: 690px; left: 0; right: 0; margin: 0 auto; width: 150px; height: 150px; color: #3CCB9B; }
+  .cv-arrow svg { width: 100%; height: 100%; stroke-width: 2.6; }
+  .cv-to { position: absolute; top: 820px; left: 0; right: 0; text-align: center; font-size: 520px; font-weight: 800; letter-spacing: -0.065em; color: #3CCB9B; line-height: 0.9;
+    text-shadow: 0 30px 120px rgb(60 203 155 / .35); }
+  .cv-to small { font-size: 0.32em; letter-spacing: -0.03em; vertical-align: 1.45em; margin-right: 0.04em; }
+  .cv-sub { position: absolute; top: 1300px; left: 0; right: 0; text-align: center; font-size: 96px; font-weight: 800; letter-spacing: -0.035em; color: #EDEDEF; }
+  .cv .s1-card { top: 1450px; }
+  .cv-brand { position: absolute; top: 1660px; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 22px; font-size: 64px; font-weight: 750; letter-spacing: -0.04em; }
+  .cv-brand .logo-svg { width: 76px; height: 76px; }
+  .cv .lm-v, .cv .lm-ring { display: none; }
+</style>
+<script type="module">
+  import { icon, fr } from './core.js';
+  import { thumb } from './ui.js';
+  import { logoSVG } from './scenes/s3-drop.js';
+  await document.fonts.load('800 300px "Inter Variable"');
+  document.getElementById('stage').innerHTML = `<div class="cv">
+    <div class="pill">${icon('amazon')}<span>Meilleures ventes</span><span class="sep">·</span><span>Hygiène et Santé</span>${icon('flag-fr')}</div>
+    <div class="cv-from num"><s>n° 25</s></div>
+    <div class="cv-arrow">${icon('arrow-up')}</div>
+    <div class="cv-to num"><small>n°</small>2</div>
+    <div class="cv-sub">${fr('en 5 jours')}</div>
+    <div class="s1-card">${thumb('sante', 112)}<div class="s1-ct"><div class="s1-title">Philips OneBlade 360</div><div class="s1-sub">${fr('Amazon.fr · du 3 au 8 oct. 2026')}</div></div></div>
+    <div class="cv-brand">${logoSVG()}<span>Relevé</span></div>
+  </div>`;
+  document.querySelectorAll('.lm-line').forEach((l) => l.setAttribute('stroke', '#82A7F8'));
+  window.READY = true;
+</script>
+</head>
+<body><div id="stage"></div></body>
+</html>

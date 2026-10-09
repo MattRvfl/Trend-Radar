@@ -1,0 +1,180 @@
+/* ============================== Scènes 1-2 : crochet et problème ============================== */
+.cam { position: absolute; inset: 0; }
+.s1-bg { position: absolute; inset: 0; opacity: .085; filter: blur(1.8px);
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 14%, #000 80%, transparent 100%); }
+.s1-bgstrip { position: absolute; left: 40px; right: 40px; top: 0; }
+.s1-br { height: 96px; display: flex; align-items: center; gap: 28px; border-bottom: 1px solid #2B2D32; font-size: 34px; color: var(--text-2); white-space: nowrap; overflow: hidden; }
+.s1-br b { width: 70px; text-align: right; color: var(--text); font-weight: 700; flex: none; }
+.s1-head { position: absolute; top: 232px; left: 0; right: 0; margin: 0 auto; width: max-content; }
+.s1-head .brand { color: var(--text); }
+.s1-num { position: absolute; top: 340px; left: 0; width: 1080px; height: 450px; }
+.s1-no { position: absolute; top: 22px; left: 0; font-size: 120px; font-weight: 700; line-height: 120px; color: var(--text-3); letter-spacing: -0.04em; }
+.s1-mask { position: absolute; top: 0; left: 0; width: 760px; height: 450px; overflow: hidden; }
+.s1-strip { display: block; }
+.s1-v { display: block; width: max-content; height: 450px; font-size: 520px; font-weight: 800; line-height: 450px; letter-spacing: -0.065em; }
+.s1-q { position: absolute; top: 340px; left: 0; width: 1080px; height: 450px; text-align: center; font-size: 520px; font-weight: 800; line-height: 450px; color: var(--down); letter-spacing: -0.04em; }
+.s1-badge { position: absolute; top: 410px; left: 786px; }
+.s1-card { position: absolute; left: 90px; width: 900px; top: 828px; height: 146px; display: flex; align-items: center; gap: 28px; padding: 0 28px;
+  background: #1A2540; border-radius: 24px; box-shadow: 0 0 0 3px var(--accent), 0 24px 70px rgb(0 0 0 / .55); }
+.s1-ct { min-width: 0; }
+.s1-title { font-size: 46px; font-weight: 750; letter-spacing: -0.025em; white-space: nowrap; }
+.s1-sub { font-size: 28px; font-weight: 500; color: var(--text-2); margin-top: 6px; white-space: nowrap; }
+.s1-tl { position: absolute; left: 120px; top: 996px; overflow: visible; }
+.s1-line { fill: none; stroke: var(--accent); stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.s1-pt { fill: var(--text); }
+.s1-dl { font: 650 28px var(--font); fill: var(--text-3); text-anchor: middle; }
+
+.s2-clock { position: absolute; top: 330px; left: 0; right: 0; margin: 0 auto; width: 150px; height: 150px; color: var(--down); }
+.s2-clock svg { width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; overflow: visible; }
+.s2-list { position: absolute; left: 50px; width: 980px; top: 528px; height: 624px; }
+.s2-ranks { position: absolute; left: 0; top: 0; width: 64px; }
+.s2-ranks b { display: block; height: 104px; line-height: 92px; font-size: 46px; font-weight: 800; text-align: right; color: var(--text-3); }
+.s2-row { position: absolute; left: 86px; right: 0; top: 0; height: 92px; display: flex; align-items: center; gap: 22px; padding: 0 22px;
+  background: var(--surface); border-radius: 18px; box-shadow: 0 0 0 1.5px var(--border); font-size: 34px; font-weight: 600; letter-spacing: -0.015em; }
+.s2-row .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.s2-row .thumb { border-radius: 12px; }
+.s2-row.is-hero { background: #1A2540; box-shadow: 0 0 0 3px var(--accent); }
+.s2-chart { position: absolute; left: 90px; top: 560px; width: 900px; height: 520px; }
+.s2-chart svg { overflow: visible; }
+.s2-chart .g { stroke: var(--chart-grid); stroke-width: 2; }
+.s2-chart .gl { font: 600 22px var(--font); fill: var(--text-3); text-anchor: end; }
+.s2-chart .cl { fill: none; stroke: var(--accent); stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+.s2-chart .cp { fill: var(--text); }
+.s2-chart .cd { font: 650 28px var(--font); fill: var(--text-2); text-anchor: middle; }
+.s2-eraser { position: absolute; left: 0; top: 0; width: 84px; height: 84px; color: var(--down); filter: drop-shadow(0 6px 18px rgb(0 0 0 / .6)); }
+.s2-eraser svg { width: 100%; height: 100%; stroke-width: 2; }
+
+/* ============================== Scène 3 : drop et logo ============================== */
+.s3-glow { position: absolute; left: 540px; top: 720px; width: 1300px; height: 1300px; margin: -650px 0 0 -650px; border-radius: 50%;
+  background: radial-gradient(closest-side, rgb(130 167 248 / .34), rgb(130 167 248 / .08) 55%, transparent 100%); }
+.s3-fx { position: absolute; inset: 0; overflow: visible; }
+.s3-fx .rg { fill: none; stroke: var(--accent); stroke-width: 3; }
+.s3-ball { fill: var(--accent); }
+.s3-dl { fill: none; stroke: var(--accent); stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+.s3-dp { fill: var(--text); }
+.s3-dt { font: 650 30px var(--font); fill: var(--text-2); text-anchor: middle; }
+.s3-parts { position: absolute; inset: 0; }
+.s3-lock { position: absolute; left: 0; right: 0; top: 520px; display: flex; flex-direction: column; align-items: center; gap: 46px; }
+.s3-mark { width: 330px; height: 330px; }
+.logo-svg { width: 100%; height: 100%; overflow: visible; }
+.lm-sq { fill: #1A2540; stroke: #2E3B5E; stroke-width: 0.35; }
+.lm-line { stroke: #82A7F8; }
+.lm-v { fill: #EDEDEF; }
+.lm-dot { fill: #82A7F8; stroke: #0E0F11; }
+.lm-ring { fill: none; stroke: #82A7F8; stroke-width: 0.5; }
+.s3-word { font-size: 170px; font-weight: 750; letter-spacing: -0.05em; line-height: 1; color: var(--text); display: flex; }
+.w-e { position: relative; display: inline-block; }
+.w-e .e0 { display: inline-block; }
+.w-e .e1 { position: absolute; left: 0; top: 0; color: var(--accent); clip-path: polygon(-20% -60%, 120% -60%, 120% 24%, -20% 24%); }
+.s3-word .m { padding-bottom: 0.14em; margin-bottom: -0.14em; }
+
+/* ============================== Scène 4 : sources, catégories, marchés ============================== */
+.s4-tiles { position: absolute; left: 90px; width: 900px; top: 318px; display: flex; flex-direction: column; gap: 46px; }
+.s4-tile { position: relative; height: 240px; display: flex; align-items: center; gap: 34px; padding: 0 36px; border-radius: 30px;
+  background: linear-gradient(100deg, color-mix(in srgb, var(--c) 16%, #17181B) 0%, #17181B 62%);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--c) 55%, transparent), 0 26px 70px rgb(0 0 0 / .55); }
+.s4-logo { width: 150px; height: 150px; flex: none; display: grid; place-items: center; border-radius: 32px; background: #0E0F11;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--c) 70%, transparent), 0 0 60px color-mix(in srgb, var(--c) 45%, transparent); color: #fff; }
+.s4-logo svg { width: 84px; height: 84px; }
+.s4-tile.amazon .s4-logo svg { color: #fff; }
+.s4-tile.shopify .s4-logo svg { color: #95BF47; }
+.s4-name { font-size: 70px; font-weight: 800; letter-spacing: -0.035em; line-height: 1; }
+.s4-sub { font-size: 31px; font-weight: 500; color: var(--text-2); margin-top: 14px; letter-spacing: -0.01em; }
+.s4-ring { position: absolute; inset: 0; }
+.s4-cat { position: absolute; width: 120px; height: 120px; margin: -60px 0 0 -60px; display: grid; place-items: center; border-radius: 30px;
+  background: #17181B; box-shadow: 0 0 0 2px #2B2D32, 0 14px 34px rgb(0 0 0 / .5); color: var(--text); }
+.s4-cat svg { width: 60px; height: 60px; stroke-width: 1.8; }
+.s4-mid { position: absolute; left: 0; right: 0; top: 590px; display: flex; flex-direction: column; align-items: center; }
+.s4-17 { font-size: 290px; font-weight: 800; letter-spacing: -0.06em; line-height: 0.86; color: var(--accent); }
+.s4-cl { font-size: 46px; font-weight: 700; letter-spacing: -0.02em; color: var(--text); margin-top: 18px; }
+.s4-flags { position: absolute; left: 0; right: 0; top: 735px; display: flex; justify-content: center; gap: 46px; }
+.s4-flag { display: flex; flex-direction: column; align-items: center; gap: 16px; font-size: 34px; font-weight: 700; }
+.s4-flag svg { width: 176px; height: 132px; border-radius: 20px; box-shadow: 0 0 0 2px rgb(255 255 255 / .12), 0 16px 40px rgb(0 0 0 / .55); }
+
+/* ============================== Scène 5 : qui monte, qui chute, qui débarque ============================== */
+.s5-cards { position: absolute; left: 90px; width: 900px; top: 300px; display: flex; flex-direction: column; gap: 40px; }
+.s5-card { height: 268px; padding: 30px 34px; border-radius: 32px; background: #17181B; display: flex; flex-direction: column; justify-content: space-between;
+  box-shadow: 0 0 0 2px var(--b), 0 26px 70px rgb(0 0 0 / .55); }
+.s5-card.up { --b: #1E5C46; position: relative; z-index: 2; } .s5-card.down { --b: #6B3A20; } .s5-card.new { --b: #6A3A5B; }
+.s5-top { display: flex; align-items: center; gap: 26px; }
+.s5-rk { font-size: 40px; font-weight: 650; color: var(--text-2); letter-spacing: -0.02em; }
+.s5-rk i { font-style: normal; color: var(--text-3); margin: 0 4px; }
+.s5-rk b { color: var(--text); font-weight: 800; }
+.s5-bot { display: flex; align-items: center; gap: 26px; }
+.s5-bot .thumb { border-radius: 22px; }
+.s5-tx { min-width: 0; }
+.s5-t { font-size: 44px; font-weight: 750; letter-spacing: -0.025em; line-height: 1.08; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.s5-c { font-size: 29px; font-weight: 500; color: var(--text-2); margin-top: 8px; }
+.s5-big { position: absolute; left: 50%; top: 760px; width: 900px; height: 900px; margin: -450px 0 0 -450px; opacity: 0; }
+.s5-big svg { width: 100%; height: 100%; }
+.s5-big.up { color: var(--up); } .s5-big.down { color: var(--down); } .s5-big.new { color: var(--new); }
+
+/* ============================== Scènes 6-7 : Medicube, puis l'alerte ============================== */
+.s6-in { position: absolute; inset: 0; }
+.s6-pill { position: absolute; top: 232px; left: 0; right: 0; margin: 0 auto; width: max-content; }
+.s6-pill .lu { color: var(--text-2); }
+.s6-hd { position: absolute; left: 90px; right: 90px; top: 340px; height: 150px; display: flex; align-items: flex-end; justify-content: space-between; }
+.s6-brand { font-size: 112px; font-weight: 800; letter-spacing: -0.045em; line-height: 1; color: var(--new); }
+.s6-stat { font-size: 150px; font-weight: 800; letter-spacing: -0.05em; line-height: 0.86; color: var(--new); display: flex; align-items: flex-end; }
+.s6-10 { font-size: 92px; color: var(--text-2); margin-left: 6px; }
+.s6-7 { display: inline-block; transform-origin: 50% 80%; }
+.s6-list { position: absolute; left: 90px; width: 900px; top: 528px; height: 760px; }
+.s6-row { --on: 0; --gap: 1; position: absolute; left: 0; right: 0; height: 70px; display: flex; align-items: center; gap: 22px; padding: 0 26px;
+  border-radius: calc(16px * var(--gap)); background: color-mix(in srgb, #3A1D31 calc(var(--on) * 100%), #17181B);
+  box-shadow: inset calc(6px * var(--on)) 0 0 var(--new), 0 0 0 1.5px color-mix(in srgb, #6A3A5B calc(var(--on) * 100%), #2B2D32); font-size: 32px; white-space: nowrap; }
+.s6-row b { width: 46px; text-align: right; font-weight: 800; color: var(--text-3); flex: none; }
+.s6-row .br { font-weight: 800; letter-spacing: -0.02em; flex: none; color: color-mix(in srgb, var(--new) calc(var(--on) * 100%), var(--text)); }
+.s6-row .pd { color: var(--text-2); font-weight: 500; overflow: hidden; text-overflow: ellipsis; min-width: 0; font-size: 28px; }
+.notif { position: absolute; left: 50px; right: 50px; top: 236px; display: flex; gap: 26px; padding: 30px 32px; border-radius: 44px;
+  background: rgb(44 46 52 / .9); backdrop-filter: blur(26px); box-shadow: 0 0 0 1.5px rgb(255 255 255 / .1), 0 30px 90px rgb(0 0 0 / .65); opacity: 0; }
+.n-ic { width: 96px; height: 96px; flex: none; border-radius: 24px; overflow: hidden; }
+.n-ic svg { width: 100%; height: 100%; }
+.n-tx { min-width: 0; }
+.n-hd { display: flex; justify-content: space-between; font-size: 27px; color: var(--text-2); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+.n-hd b { color: var(--text); font-weight: 700; }
+.n-hd span { text-transform: none; letter-spacing: 0; font-weight: 500; }
+.n-t { font-size: 35px; font-weight: 750; letter-spacing: -0.02em; margin-top: 10px; }
+.n-b { font-size: 32px; font-weight: 500; line-height: 1.28; color: #D6D6DB; margin-top: 6px; }
+
+/* ============================== Scène 8 : méthode (thème clair) ============================== */
+.s8 { background: var(--bg); }
+.s8 .grid-bg { opacity: .9; }
+.s8-k { position: absolute; top: 300px; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 14px;
+  font-size: 30px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-3); }
+.s8-k .lu { width: 38px; height: 38px; color: var(--accent); }
+.s8-no { position: absolute; left: 90px; width: 900px; top: 420px; display: flex; flex-direction: column; gap: 40px; }
+.s8-card { position: relative; height: 190px; display: flex; align-items: center; gap: 30px; padding: 0 40px; border-radius: 32px; background: var(--surface);
+  box-shadow: 0 0 0 2px var(--border), 0 18px 50px rgb(24 24 27 / .1); font-size: 62px; font-weight: 800; letter-spacing: -0.035em; color: var(--text); }
+.s8-card > .lu { width: 76px; height: 76px; color: var(--text-3); stroke-width: 1.8; flex: none; }
+.s8-card .tx { white-space: nowrap; }
+.s8-spark { width: 200px; height: 80px; margin-left: auto; overflow: visible; }
+.s8-spark polyline { fill: none; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+.s8-spark .past { stroke: var(--text-3); }
+.s8-spark .fut { stroke: var(--accent); stroke-dasharray: 2 12; }
+.s8 .strike { position: absolute; left: 30px; right: 30px; top: 50%; height: 8px; margin-top: -4px; border-radius: 4px; background: var(--down); transform-origin: 0 50%; }
+.s8-yes { position: absolute; left: 90px; width: 900px; top: 470px; }
+.s8-rows { display: flex; flex-direction: column; gap: 18px; }
+.s8-row { height: 132px; display: flex; align-items: center; gap: 24px; padding: 0 30px; border-radius: 26px; background: var(--surface);
+  box-shadow: 0 0 0 2px var(--border), 0 14px 40px rgb(24 24 27 / .08); font-size: 38px; font-weight: 650; letter-spacing: -0.02em; }
+.s8-row b { width: 44px; text-align: right; font-size: 46px; font-weight: 800; color: var(--text-3); flex: none; }
+.s8-row .thumb { box-shadow: 0 0 0 1.5px var(--border); }
+.s8-row .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 1; }
+.s8-row.hero { background: var(--accent-soft); box-shadow: 0 0 0 3px var(--accent), 0 18px 50px rgb(36 83 194 / .16); font-weight: 750; }
+.s8-row.hero b { color: var(--accent); }
+.s8-src { margin-top: 36px; display: flex; align-items: center; gap: 14px; font-size: 29px; font-weight: 550; color: var(--text-2); }
+.s8-src .dot { width: 16px; height: 16px; }
+.s8-src .site-ic { width: 30px; height: 30px; color: var(--accent); flex: none; }
+
+/* ============================== Scène 9 : fin ============================== */
+.s9-glow { position: absolute; left: 540px; top: 560px; width: 1300px; height: 1300px; margin: -650px 0 0 -650px; border-radius: 50%;
+  background: radial-gradient(closest-side, rgb(130 167 248 / .3), rgb(130 167 248 / .07) 55%, transparent 100%); }
+.s9-lock { position: absolute; left: 0; right: 0; top: 400px; display: flex; flex-direction: column; align-items: center; gap: 40px; }
+.s9-mark { width: 300px; height: 300px; }
+.s9-word { font-size: 170px; font-weight: 750; letter-spacing: -0.05em; line-height: 1; color: var(--text); display: flex; }
+.s9-word .m { padding-bottom: 0.14em; margin-bottom: -0.14em; }
+.s9-free { position: absolute; top: 966px; left: 0; right: 0; margin: 0 auto; width: max-content; height: 72px; font-size: 32px; }
+.s9-free .lu { color: var(--up); }
+.s9-url { position: absolute; top: 1066px; left: 0; right: 0; margin: 0 auto; width: max-content; height: 92px; display: flex; align-items: center; gap: 18px;
+  padding: 0 34px; border-radius: 46px; background: var(--accent); color: #0E0F11; font-size: 40px; font-weight: 750; letter-spacing: -0.02em;
+  box-shadow: 0 18px 60px rgb(130 167 248 / .35); }
+.s9-url .lu { width: 40px; height: 40px; stroke-width: 2.4; }

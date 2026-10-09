@@ -4,3 +4,7 @@ out/chunks-*/
 out/preview.mp4
 out/releve-motion-1080p60.mp4
 out/releve-musique.wav
+# v2 (film vertical) : rendus intermédiaires, mixages et version légère régénérables (le master est versionné)
+v2/out/chunks-*/
+v2/out/*.wav
+v2/out/releve-vertical-web.mp4
