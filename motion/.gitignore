@@ -1,0 +1,6 @@
+node_modules/
+# Rendus intermédiaires et fichiers lourds régénérables (tools/render.mjs, tools/encode.sh, audio/compose.py)
+out/chunks-*/
+out/preview.mp4
+out/releve-motion-1080p60.mp4
+out/releve-musique.wav
