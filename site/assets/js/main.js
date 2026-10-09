@@ -300,9 +300,12 @@ async function route() {
     await openPanel(r, wasOpen);
     return;
   }
-  if (panel.open) panel.close();
-  if (sheet.open) sheet.close();
   const h = location.hash || '#/';
+  if (panel.open) {
+    if (h !== S.viewHash) S.openHash = null; // la vue suivante place elle-même le focus
+    panel.close();
+  }
+  if (sheet.open) sheet.close();
   if (h !== S.viewHash) await renderView(r, h);
 }
 
@@ -322,7 +325,10 @@ document.addEventListener('change', (e) => {
   if (t.name === 'market') {
     store.set('releve.market', t.value);
     const r = parse(S.viewHash || location.hash);
-    location.hash = build(r.view, { ...r.params, m: t.value }, r.sub);
+    const params = { ...r.params, m: t.value };
+    // Calculateur : le produit et son prix appartiennent à l'autre marché (identifiant, devise).
+    if (r.view === 'rentabilite') ['c', 'id', 't', 'p'].forEach((k) => delete params[k]);
+    location.hash = build(r.view, params, r.sub);
     return;
   }
   if (t.name === 'plage' && S.pd) {

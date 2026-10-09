@@ -76,7 +76,8 @@ export async function privacy() {
 <p>Pour adapter l'écran de connexion (un code à saisir sur téléphone, un lien sur ordinateur) et l'encart d'installation, le site lit localement le type de votre appareil (téléphone ou ordinateur, application installée ou non). Cette information n'est jamais enregistrée ni envoyée.</p></section>
 
 <section><h2>Extension navigateur</h2>
-<p>L'extension Relevé s'active uniquement sur les pages produit d'Amazon (amazon.fr, amazon.com) et des boutiques Shopify. Elle lit sur la page affichée l'identifiant, le titre et le prix du produit, et télécharge les fichiers publics de Relevé pour afficher sa place dans les classements. Elle n'envoie rien : ni les pages visitées, ni votre historique, ni aucun identifiant. Le lien « Calculer la rentabilité » transmet le titre et le prix dans la partie de l'adresse après « # », que le navigateur garde pour lui. Elle conserve sur votre ordinateur une copie des classements, renouvelée toutes les six heures.</p></section>
+<p>L'extension Relevé s'affiche d'elle-même sur les pages d'Amazon (amazon.fr, amazon.com). Sur un autre site, par exemple une boutique Shopify, elle ne fait rien tant que vous ne cliquez pas sur son icône. Elle lit sur la page affichée l'identifiant, le titre et le prix du produit ; dans une boutique Shopify, elle demande pour cela à la boutique la fiche publique du produit (l'adresse de la page suivie de « .js »), comme le fait la page elle-même.</p>
+<p>Pour afficher la place du produit dans les classements, elle télécharge les fichiers publics de Relevé, au plus une fois toutes les six heures, et en garde une copie sur votre ordinateur. Elle n'envoie ni les pages visitées, ni votre historique, ni aucun identifiant : le lien « Calculer la rentabilité » transmet le titre et le prix dans la partie de l'adresse après « # », que le navigateur garde pour lui, et ses liens n'indiquent pas la page d'où vous venez.</p></section>
 </div>`,
   };
 }

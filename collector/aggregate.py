@@ -186,9 +186,15 @@ def build_history(snaps, keep_days=400):
 
 
 def build_products(snaps, keep_days=400):
-    """{market: {asin: [category, rank today or 0, best rank, days in top]}}; one category per ASIN (its best)."""
+    """{market: {asin: [category, rank today, best rank, days in top]}}; one category per ASIN (its best).
+
+    rank today: the rank on the last day, 0 if the list was read but the product is absent from it,
+    None (null) if that list was not read on the last day (captcha, failed run): absence is then unknown.
+    """
     days = sorted(snaps)[-keep_days:]
     today = amazon_ranks(snaps[days[-1]])
+    read_today = {(lst["market"], lst["category"])
+                  for lst in snaps[days[-1]]["sources"].get("amazon", {}).get("lists", []) if lst.get("items")}
     seen = {}
     for d in days:
         for (market, cat, asin), it in amazon_ranks(snaps[d]).items():
@@ -197,7 +203,10 @@ def build_products(snaps, keep_days=400):
             s["days"] += 1
     out = {m: {} for m in MARKETS}
     for (market, asin, cat), s in seen.items():
-        row = [cat, (today.get((market, cat, asin)) or {}).get("rank", 0), s["best"], s["days"]]
+        if market not in out:      # market dropped from config but still in old snapshots
+            continue
+        rank = (today.get((market, cat, asin)) or {}).get("rank", 0) if (market, cat) in read_today else None
+        row = [cat, rank, s["best"], s["days"]]
         cur = out[market].get(asin)
         if cur is None or (row[1] or 999, row[2]) < (cur[1] or 999, cur[2]):
             out[market][asin] = row

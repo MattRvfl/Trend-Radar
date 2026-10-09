@@ -7,7 +7,7 @@
    - Icônes et polices : cache d'abord (fichiers stables).
    - Tout le reste (Supabase, bibliothèque de connexion, images produits) : jamais intercepté ni mis en cache.
    Changer VERSION purge les anciens caches à l'activation. */
-const VERSION = '2026-10-09.1';
+const VERSION = '2026-10-09.2';
 const CACHE = `releve-${VERSION}`;
 const SCOPE = self.registration.scope; // ex. https://mattrvfl.github.io/Trend-Radar/
 const ORIGIN = self.location.origin;
@@ -71,7 +71,9 @@ async function networkFirst(request, key) {
     const fresh = request.mode === 'navigate'
       ? await fetch(request.url, { cache: 'no-cache', credentials: 'same-origin' })
       : await fetch(new Request(request, { cache: 'no-cache' }));
-    if (fresh.ok && fresh.type === 'basic') {
+    // Une navigation ne met en cache que de l'HTML : un fichier téléchargé (.zip…) ne remplace jamais la page.
+    const isHTML = /text\/html/.test(fresh.headers.get('content-type') || '');
+    if (fresh.ok && fresh.type === 'basic' && (request.mode !== 'navigate' || isHTML)) {
       const res = await clean(fresh);
       await cache.put(key, res.clone());
       return res;
@@ -105,6 +107,8 @@ self.addEventListener('fetch', (event) => {
     if (!inScope(req.url)) return;
     if (req.mode === 'navigate') {
       // Toutes les vues sont des routes hash de la même page : une seule entrée de cache (sans ?code=…).
+      // Les autres adresses (releve-extension.zip…) vont directement au réseau.
+      if (url.href.split(/[?#]/)[0] !== SCOPE && !url.pathname.endsWith('/index.html')) return;
       event.respondWith(networkFirst(req, SCOPE));
       return;
     }

@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "Relevé",
   "short_name": "Relevé",
-  "version": "0.1.0",
-  "description": "Sur une page produit Amazon ou Shopify : sa place dans les meilleures ventes relevées par Relevé, et sa rentabilité en un clic.",
+  "version": "0.2.0",
+  "description": "Sur une page produit Amazon, sa place dans les meilleures ventes relevées par Relevé ; sur une boutique Shopify, d'un clic sur l'icône. Et sa rentabilité en un clic.",
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
@@ -11,7 +11,7 @@
     "128": "icons/icon-128.png"
   },
   "action": {
-    "default_title": "Ouvrir Relevé",
+    "default_title": "Relevé : afficher l'encart sur cette page",
     "default_icon": {
       "16": "icons/icon-16.png",
       "32": "icons/icon-32.png"
@@ -21,7 +21,9 @@
     "service_worker": "background.js"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "activeTab",
+    "scripting"
   ],
   "host_permissions": [
     "https://mattrvfl.github.io/*"
@@ -30,26 +32,12 @@
     {
       "matches": [
         "https://www.amazon.fr/*",
-        "https://www.amazon.com/*",
-        "https://*/products/*",
-        "https://*/*/products/*"
+        "https://www.amazon.com/*"
       ],
       "js": [
         "content.js"
       ],
       "run_at": "document_idle"
-    }
-  ],
-  "web_accessible_resources": [
-    {
-      "resources": [
-        "icons/icon-48.png"
-      ],
-      "matches": [
-        "https://www.amazon.fr/*",
-        "https://www.amazon.com/*",
-        "https://*/*"
-      ]
     }
   ]
 }
