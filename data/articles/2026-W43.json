@@ -1,0 +1,1006 @@
+{
+ "id": "2026-W43",
+ "title": "La semaine du 13 octobre au 19 octobre",
+ "published": "2026-10-19T11:05:00+00:00",
+ "period": {
+  "from": "2026-10-13",
+  "to": "2026-10-19",
+  "days": 7
+ },
+ "editorial": null,
+ "summary": "plus forte montée : +24 places en Hygiène et Santé · Pokémon occupe 5 des 10 premières places en Jeux et Jouets (FR)",
+ "sections": [
+  {
+   "type": "climbers",
+   "market": "FR",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 19 octobre comparé à celui du 13 octobre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B0FB9M1GWY",
+     "title": "PHILIPS Philips OneBlade Replacement Blades for Face/Body Kit (Pack of 2/Anti-Friction)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71sVk97+AUL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0FB9M1GWY",
+     "price": 15.57,
+     "rating": 4.7,
+     "reviews": 7454,
+     "market": "FR",
+     "category": "sante",
+     "rank_now": 4,
+     "rank_before": 28,
+     "change": 24
+    },
+    {
+     "id": "B00919TH9Q",
+     "title": "HARRIS 40 Cubes Allume-Feu 100% Végétal FSC®, x40 | Bois certifié FSC®, sans odeur désagréable, allumage rapide et efficace, petit format 40 cubes pré-découpés",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81r5RhVECbL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B00919TH9Q",
+     "price": 1.54,
+     "rating": 4.5,
+     "reviews": 2106,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 8,
+     "rank_before": 29,
+     "change": 21
+    },
+    {
+     "id": "B0B29N9D96",
+     "title": "Mattel Disney Princess Poupée Raiponce | Ensemble scintillant avec jupe amovible, diadème, chaussures, poupée articulée, inspirée par Disney Raiponce, HLW03",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61797m2bklL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0B29N9D96",
+     "price": 16.2,
+     "rating": 4.7,
+     "reviews": 24191,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 12,
+     "rank_before": 29,
+     "change": 17
+    },
+    {
+     "id": "B09FDYBVB7",
+     "title": "ENUODA Clé USB 32 Go Clef USB 2.0 Flash Drive Mini Portable Grande Capacité Mémoire Stick avec Lumière LED pour Le Stockage et la Sauvegarde (Bleu)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/516J-fvCK+L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B09FDYBVB7",
+     "price": 8.57,
+     "rating": 4.4,
+     "reviews": 17220,
+     "market": "FR",
+     "category": "informatique",
+     "rank_now": 15,
+     "rank_before": 30,
+     "change": 15
+    },
+    {
+     "id": "B0DGH2GWDK",
+     "title": "HOVVIDA Gonfleur Pneus Voiture, Compresseur à Air Portatif sans Fil, 150 PSI (10,3 Bar), Gonfleur Electrique, Pompe a Velo, Inflation Rapide, Arrêt Automatique, LED, pour Voiture, Moto, Vélo, Ballon",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71Ln35YKdXL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0DGH2GWDK",
+     "price": 26.07,
+     "rating": 4.4,
+     "reviews": 3854,
+     "market": "FR",
+     "category": "auto",
+     "rank_now": 9,
+     "rank_before": 23,
+     "change": 14
+    },
+    {
+     "id": "B0C8TNGR3V",
+     "title": "Le Petit Marseillais Recharge Crème Lavante Mains Lait, berlingot 250 ml | Recharge de savon liquide composé de 92 % d'ingrédients d'origine naturelle, Savon mains au pH neutre pour la peau",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/612nqYBPogL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0C8TNGR3V",
+     "price": 0.67,
+     "rating": 4.8,
+     "reviews": 1323,
+     "market": "FR",
+     "category": "beaute",
+     "rank_now": 13,
+     "rank_before": 27,
+     "change": 14
+    },
+    {
+     "id": "B0FX28W23H",
+     "title": "LONTEK 3.0HP Tapis de Marche Pliable Inclinable,Accoudoirs Réglables | 10km/h Tapis de Course Pliable Inclinable, Télécommande, Treadmill Walking Pad, Tapis de Marche Bureau, 159KG Max Charge",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71sG87w2lZL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0FX28W23H",
+     "price": 94.99,
+     "rating": 4.2,
+     "reviews": 689,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 17,
+     "rank_before": 30,
+     "change": 13
+    },
+    {
+     "id": "B07DFTD7BW",
+     "title": "NOVOMA Magnesium Bisglycinate 300 mg + Vitamine B6, 120 gélules | Pour 40 jours - Avec Taurine - Magnésium Chélaté à la Glycine - Fabriqué en France",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61C6kk1py1L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B07DFTD7BW",
+     "price": 20.9,
+     "rating": null,
+     "reviews": null,
+     "market": "FR",
+     "category": "sante",
+     "rank_now": 8,
+     "rank_before": 19,
+     "change": 11
+    },
+    {
+     "id": "B08TSNMJZQ",
+     "title": "Granions - Magnesium Bisglycinate 360mg - Vitamine B6 - Anti Stress - 60 Cp | Libération Prolongée 24h, Absorption Optimale, Anti Fatigue & Sommeil, Energie, Magnesium, Anti Stress Adulte, Format 1 Mois",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/51Wq6OxOpUL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B08TSNMJZQ",
+     "price": 10.99,
+     "rating": 4.5,
+     "reviews": 1438,
+     "market": "FR",
+     "category": "sante",
+     "rank_now": 13,
+     "rank_before": 24,
+     "change": 11
+    },
+    {
+     "id": "B0DQWGJPLT",
+     "title": "Housses de Meubles de Jardin 180x100x74cm, Tissu Oxford 520D | Tissu Oxford 520D, Imperméable, Résistante Et Durable, Housse Transparente Pour Table, Mobilier En Rotin, Coupe-Vent",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71cwKivY0KL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0DQWGJPLT",
+     "price": 26.99,
+     "rating": 4.5,
+     "reviews": 67,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 15,
+     "rank_before": 26,
+     "change": 11
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "FR",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B0BLVT2Y9N",
+     "title": "Blukar Lampe Frontale Rechargeable 2 Pack 2000L Super Lumineux IPX5 Étanche | Léger Torche Frontale LED Puissante avec Voyant Rouge, 8 Modes d'éclairage, Capteur Mouvement, 30H d'autonomie pour Course",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71cXxSbw7LL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0BLVT2Y9N",
+     "price": 19.85,
+     "rating": 4.6,
+     "reviews": 21508,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0H8T8M5WW",
+     "title": "Pokémon : Blister de 2 boosters 30ᵉ Anniversaire du JCC Pokémon (1 Carte Brillante, 1 pièce et 2 boosters)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81q47z6oTlL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H8T8M5WW",
+     "price": 13.99,
+     "rating": 4.7,
+     "reviews": 142,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 2,
+     "best_rank": 1
+    },
+    {
+     "id": "B0BKT9L62Y",
+     "title": "Protege Matelas Impermeable, 140 x 190 cm, pour Matelas de 30cm d'épaisseur",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/91X5cbz82wL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0BKT9L62Y",
+     "price": 12.34,
+     "rating": 4.6,
+     "reviews": 105073,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B0H8T2SB33",
+     "title": "Pokémon : Coffret 30ᵉ Anniversaire – Amphinobi-ex du JCC Pokémon (1 Carte Promo Brillante, 1 Carte Grand Format Brillante et 4 boosters)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/91UfnsdBwdL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H8T2SB33",
+     "price": 109.99,
+     "rating": 4.1,
+     "reviews": 161,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 6,
+     "best_rank": 3
+    },
+    {
+     "id": "B0FPXGRFLV",
+     "title": "LEGO Speed Champions Voiture de Course Audi Revolut F1 Team R26-77259 | Jeu de construction pour garçon dès 10 ans, maquette, minifigurine collector de pilote, cadeau d’anniversaire, 216 pièces",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81530-vdpWL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0FPXGRFLV",
+     "price": 27.99,
+     "rating": 4.7,
+     "reviews": 816,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 4,
+     "best_rank": 4
+    },
+    {
+     "id": "B0H8SVJL9F",
+     "title": "Pokémon : Coffret Dresseur d’élite 30ᵉ Anniversaire du JCC Pokémon (1 Carte Promo entièrement illustrée, 9 boosters et des Accessoires de Jeu Premium)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81aFFij3IHL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H8SVJL9F",
+     "price": 289.99,
+     "rating": 4.7,
+     "reviews": 747,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 9,
+     "best_rank": 4
+    },
+    {
+     "id": "B0DJSYX4JG",
+     "title": "NEW'C Verre Trempé pour iPhone 16, Protection Écran + Caméra | Outil d'installation inclus, Lot de 4, 2x vitres trempées + 2x protections caméra, Transparent, 6,1 pouces, Dureté 9H",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71V5ZsC5VQL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0DJSYX4JG",
+     "price": 8.37,
+     "rating": 4.4,
+     "reviews": 61904,
+     "market": "FR",
+     "category": "high-tech",
+     "rank_now": 6,
+     "best_rank": 5
+    },
+    {
+     "id": "B0DNHRW9CR",
+     "title": "Amazon Basics Paire d'haltères en néoprène",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/718b0A68-EL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0DNHRW9CR",
+     "price": 23.32,
+     "rating": 4.7,
+     "reviews": 31409,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 6,
+     "best_rank": 5
+    },
+    {
+     "id": "B0HHRFWL6T",
+     "title": "Générique Veste Polaire Femme Chaud Hiver - Manteau Manteaux Sans Capuche - Teddy Sweat Zippé Manches Longues - avec Col Revers et Poches - Couleur Unie Confortable - Pour Quotidien Maison",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71HJDdMHk0L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0HHRFWL6T",
+     "price": 22.98,
+     "rating": null,
+     "reviews": null,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 6,
+     "best_rank": 6
+    },
+    {
+     "id": "B0H8T2L8BL",
+     "title": "Pokémon : Collection Poster 30ᵉ Anniversaire du JCC Pokémon (3 Cartes Promo, 1 Poster et 3 boosters)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/91y-kK24rML._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H8T2L8BL",
+     "price": 83.94,
+     "rating": 4.5,
+     "reviews": 210,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 10,
+     "best_rank": 6
+    }
+   ]
+  },
+  {
+   "type": "leaders",
+   "market": "FR",
+   "title": "Indéboulonnables",
+   "intro": "N° 1 de leur catégorie chacun des 7 jours relevés.",
+   "items": [
+    {
+     "id": "B06VW5BH2K",
+     "title": "DURACELL 2032 Piles Boutons au Lithium (Lot de 8) 3V, CR2032 | Jusqu'à +70% De Longévité - Technologie Sécurité Enfant - Pour AirTag Apple, Clés, Appareils Maison et Accessoires Médicaux",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81xgarmcG2L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B06VW5BH2K",
+     "price": 11.4,
+     "rating": 4.7,
+     "reviews": 142117,
+     "market": "FR",
+     "category": "high-tech",
+     "days": 7
+    },
+    {
+     "id": "B08T1HR5CS",
+     "title": "HP 305 Noir et Trois Couleurs, Lot de 2 Cartouches Encre Originales | Compatible avec la gamme DeskJet 2700, 4100, Envy 6020, 6030, 6420, 6430, 120 pages (6ZD17AE)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71NAG9xjTdL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B08T1HR5CS",
+     "price": 31.06,
+     "rating": 4.6,
+     "reviews": 85517,
+     "market": "FR",
+     "category": "informatique",
+     "days": 7
+    }
+   ]
+  },
+  {
+   "type": "rush",
+   "market": "FR",
+   "title": "Ruées",
+   "intro": "Catégories dont au moins 5 des 10 premières places reviennent au même nom.",
+   "items": [
+    {
+     "id": "B0H8T8M5WW",
+     "title": "Pokémon : Blister de 2 boosters 30ᵉ Anniversaire du JCC Pokémon (1 Carte Brillante, 1 pièce et 2 boosters)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81q47z6oTlL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H8T8M5WW",
+     "price": 13.99,
+     "rating": 4.7,
+     "reviews": 142,
+     "market": "FR",
+     "category": "jouets",
+     "brand": "pokémon",
+     "share": 5,
+     "of": 10
+    }
+   ]
+  },
+  {
+   "type": "shopify",
+   "market": "FR",
+   "title": "Entrées dans les boutiques",
+   "intro": "Produits arrivés cette semaine dans le top 12 « meilleures ventes » des boutiques suivies.",
+   "items": [
+    {
+     "id": "www.jimmyfairly.com/tote-perm-grn-tote-bag-permanent-green",
+     "title": "Tote bag",
+     "image": "https://cdn.shopify.com/s/files/1/0099/7241/6563/files/TOTE-PERM-GRN.jpg?v=1792396882",
+     "url": "https://www.jimmyfairly.com/products/tote-perm-grn-tote-bag-permanent-green",
+     "price": 20.0,
+     "rating": null,
+     "reviews": null,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 5,
+     "store": "Jimmy Fairly"
+    },
+    {
+     "id": "www.jimmyfairly.com/tote-perm-bgn-tote-bag-permanent-beigevert",
+     "title": "Tote bag",
+     "image": "https://cdn.shopify.com/s/files/1/0099/7241/6563/files/TOTE-PERM-BGN.jpg?v=1792397105",
+     "url": "https://www.jimmyfairly.com/products/tote-perm-bgn-tote-bag-permanent-beigevert",
+     "price": 20.0,
+     "rating": null,
+     "reviews": null,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 6,
+     "store": "Jimmy Fairly"
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "FR",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "meteo marseille",
+     "traffic": 100000,
+     "traffic_label": "100000+",
+     "day": "2026-10-19"
+    },
+    {
+     "title": "zverev",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-13"
+    },
+    {
+     "title": "2027",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-13"
+    },
+    {
+     "title": "grand requin blanc",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-15"
+    },
+    {
+     "title": "psg barcelone",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-19"
+    },
+    {
+     "title": "fff",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-13"
+    },
+    {
+     "title": "zinédine zidane",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-15"
+    },
+    {
+     "title": "beka gigashvili",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-15"
+    },
+    {
+     "title": "barcelone",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-15"
+    },
+    {
+     "title": "normandie",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-17"
+    }
+   ]
+  },
+  {
+   "type": "climbers",
+   "market": "US",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 19 octobre comparé à celui du 13 octobre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B0F7Z4QZTT",
+     "title": "Amazon Fire TV Stick 4K Plus with AI-powered Fire TV Search, Wi-Fi 6, stream hundreds of thousands of movies and shows, free & live TV, find shows faster with Alexa+",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/51WtNy0OxLL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0F7Z4QZTT",
+     "price": 69.99,
+     "rating": 4.6,
+     "reviews": 115518,
+     "market": "US",
+     "category": "high-tech",
+     "rank_now": 5,
+     "rank_before": 23,
+     "change": 18
+    },
+    {
+     "id": "B0007ZF4OA",
+     "title": "HotHands Hand Warmers Bulk Pack, 40 Pairs - America's Favorite Warmer",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81LIVrFpRqL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0007ZF4OA",
+     "price": 24.49,
+     "rating": 4.8,
+     "reviews": 52699,
+     "market": "US",
+     "category": "sport",
+     "rank_now": 4,
+     "rank_before": 21,
+     "change": 17
+    },
+    {
+     "id": "B0CBM682SQ",
+     "title": "Pureegg Plastic Table Cloth Disposable 54x108 Inch 10 Pack, White | Picnic, Wedding, Party Supplies, Leakproof & Sturdy, Tablecloth, Table Cover",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71eAr9iJ0KL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CBM682SQ",
+     "price": 9.97,
+     "rating": 4.5,
+     "reviews": 7604,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 10,
+     "rank_before": 27,
+     "change": 17
+    },
+    {
+     "id": "B0BJ1SWDNB",
+     "title": "Olcorife Flat Plug Power Strip with 5 FT Extension Cord, 6 Outlets 3 USB Ports(1 USB C), 3 Sided Outlet Extender for Home Office Travel Dorm Room Essentials, White",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/6103UT0KiyL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0BJ1SWDNB",
+     "price": 9.99,
+     "rating": 4.7,
+     "reviews": 6695,
+     "market": "US",
+     "category": "high-tech",
+     "rank_now": 14,
+     "rank_before": 30,
+     "change": 16
+    },
+    {
+     "id": "B07S2TDDCK",
+     "title": "Greenies Pill Pockets Large Size Dog Treats, Peanut Butter, 15.8 oz | Vet-recommended, masks pill smell & taste, moldable texture, capsule size, natural ingredients, no fillers, 15.8 oz. pouch",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71CpIliNxhL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07S2TDDCK",
+     "price": 19.96,
+     "rating": 4.8,
+     "reviews": 22875,
+     "market": "US",
+     "category": "animaux",
+     "rank_now": 10,
+     "rank_before": 23,
+     "change": 13
+    },
+    {
+     "id": "B0GPY41JGK",
+     "title": "Schylling NeeDoh Squishmas Advent Calendar (Pack of 1) | Christmas Countdown with 24 Mini Squeeze Toys",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81I08gnesHL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GPY41JGK",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 127,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 12,
+     "rank_before": 25,
+     "change": 13
+    },
+    {
+     "id": "B0GLNPDCHL",
+     "title": "Frostorm 3.2 Cu Ft Mini Fridge with Freezer, Single Door Upright Freezer | Energy Efficient, Large Capacity, Reversible Door, ETL Certified, Small Refrigerator for Bedroom, Office & Dorm, Black",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71OV+mMofgL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GLNPDCHL",
+     "price": 159.97,
+     "rating": 4.4,
+     "reviews": 579,
+     "market": "US",
+     "category": "electromenager",
+     "rank_now": 16,
+     "rank_before": 29,
+     "change": 13
+    },
+    {
+     "id": "B00T0C9XRK",
+     "title": "essence Lash Princess False Lash Effect Mascara, Black (Pack of 1) | Volumizing & Lengthening, Clump-Free Fiber Brush, Defines and Separates; Vegan, Cruelty Free, Paraben Free, Oil Free",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61K6cQhw4EL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00T0C9XRK",
+     "price": 4.97,
+     "rating": 4.3,
+     "reviews": 419224,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 17,
+     "rank_before": 30,
+     "change": 13
+    },
+    {
+     "id": "B0CPLVLFK2",
+     "title": "Turelar Immersion Blender Handheld Corded, 1100W 5 in 1 Hand Blender Set | Trigger Variable Speed, Emulsion Stick Mixer with Food Processor, Whisk, Frother, for Soup, Puree, Baby Food, Anti-scratch",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61XRVcpkxxL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CPLVLFK2",
+     "price": 35.95,
+     "rating": 4.5,
+     "reviews": 8230,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 12,
+     "rank_before": 22,
+     "change": 10
+    },
+    {
+     "id": "B0B4KJ3MWK",
+     "title": "Headlamp Rechargeable, 230° Wide Beam Head Lamp LED with Motion Sensor for Adults - Camping Accessories Gear, Waterproof Head Light Flashlight for Hiking, Running, Repairing, Fishing, Cycling",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61EnxbzssKL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0B4KJ3MWK",
+     "price": 13.99,
+     "rating": 4.4,
+     "reviews": 17371,
+     "market": "US",
+     "category": "sport",
+     "rank_now": 14,
+     "rank_before": 24,
+     "change": 10
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "US",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B00HB6MCSO",
+     "title": "SZIVYSHI 14-Bone Overbust Corset Top",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81hbs7D00gL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00HB6MCSO",
+     "price": 23.99,
+     "rating": 4.4,
+     "reviews": 10532,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0G1YCQT5Q",
+     "title": "EUHOMY Countertop Ice Maker Machine with Handle, 26.5lbs Per Day, 9 Ice Cubes Ready in 6 Mins, Auto-Cleaning Portable Ice Maker with Basket and Scoop, for Home/Kitchen/Camping/RV (Black)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61v0kBhe+LL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0G1YCQT5Q",
+     "price": 59.53,
+     "rating": 4.2,
+     "reviews": 16751,
+     "market": "US",
+     "category": "electromenager",
+     "rank_now": 2,
+     "best_rank": 1
+    },
+    {
+     "id": "B0CKWK2KJD",
+     "title": "Inspire Black Nitrile Disposable Gloves | 4.5 Nitrile Disposable Safety Medical Cooking Cleaning Gloves",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81f5mC18CmL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CKWK2KJD",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 10563,
+     "market": "US",
+     "category": "bricolage",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B0007ZF4OA",
+     "title": "HotHands Hand Warmers Bulk Pack, 40 Pairs - America's Favorite Warmer",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81LIVrFpRqL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0007ZF4OA",
+     "price": 24.49,
+     "rating": 4.8,
+     "reviews": 52699,
+     "market": "US",
+     "category": "sport",
+     "rank_now": 4,
+     "best_rank": 4
+    },
+    {
+     "id": "B01EDKGFGU",
+     "title": "Homemory 12Pcs Flickering Flameless Candle Battery Operated, 200+Hours Fake Electric LED Tea Lights for Votive, Centerpiece Table Decorations, Wedding, Aniversary, Halloween, Christmas",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61l7VLu78ZL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01EDKGFGU",
+     "price": 7.99,
+     "rating": 4.7,
+     "reviews": 77955,
+     "market": "US",
+     "category": "bricolage",
+     "rank_now": 4,
+     "best_rank": 4
+    },
+    {
+     "id": "B0DHCYHJW4",
+     "title": "Electactic Mini Fridge 130 Can Beverage Refrigerator Cooler, 3.2 Cu.Ft Drink Fridge forSoda Wine Beer, Digital Temperature Control Cooler for Home, Dorm, Bar",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71eSsQ0UGRL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DHCYHJW4",
+     "price": 187.96,
+     "rating": 4.2,
+     "reviews": 1932,
+     "market": "US",
+     "category": "electromenager",
+     "rank_now": 5,
+     "best_rank": 4
+    },
+    {
+     "id": "B07XYYBHFT",
+     "title": "Gaiam Yoga Block - Supportive Latex-Free Eva Foam - Soft Non-Slip Surface with Beveled Edges for Yoga, Pilates, Meditation",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Qh8kYIn+L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07XYYBHFT",
+     "price": 10.99,
+     "rating": 4.7,
+     "reviews": 10311,
+     "market": "US",
+     "category": "sport",
+     "rank_now": 9,
+     "best_rank": 4
+    },
+    {
+     "id": "B0D8D6RBHN",
+     "title": "OEAK Womens Jelly Bras Wireless Deep V Bralette Comfy Push Up Tshirt Bras | Comfortable,support and lift,no underwire,bralettes,plunge,full coverage,invisible,balconette,minimizer,no show,soft",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81nwWOiq5sL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0D8D6RBHN",
+     "price": 18.99,
+     "rating": 3.9,
+     "reviews": 16536,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 6,
+     "best_rank": 6
+    },
+    {
+     "id": "B07M6FL57T",
+     "title": "Huggies Little Snugglers Newborn Diapers, 31 Count | Newborn Essentials, Blowout Protection, Leakproof Protection, Luxury Softness, FastAbsorb System, Hypoallergenic",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81Clp2-8YNL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07M6FL57T",
+     "price": 9.94,
+     "rating": 4.8,
+     "reviews": 103109,
+     "market": "US",
+     "category": "bebe",
+     "rank_now": 6,
+     "best_rank": 6
+    },
+    {
+     "id": "B0DV4BD3H2",
+     "title": "Schylling NeeDoh Nice Cube Swirl - Color May Vary (1 Per Pack) | Sensory Toy with a Super Solid Squish - Unique, Swirling Color Blend",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61NXrRzvlaL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DV4BD3H2",
+     "price": 59.99,
+     "rating": 4.4,
+     "reviews": 875,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 21,
+     "best_rank": 6
+    }
+   ]
+  },
+  {
+   "type": "leaders",
+   "market": "US",
+   "title": "Indéboulonnables",
+   "intro": "N° 1 de leur catégorie chacun des 7 jours relevés.",
+   "items": [
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 281266,
+     "market": "US",
+     "category": "high-tech",
+     "days": 7
+    },
+    {
+     "id": "B0GVTPKJVT",
+     "title": "Amazon Fire HD 10 tablet, built for relaxation, 10.1\" vibrant Full HD screen, octa-core processor, 4 GB RAM, 32 GB, Black",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71ZvPIpKktL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GVTPKJVT",
+     "price": 72.99,
+     "rating": 4.5,
+     "reviews": 44886,
+     "market": "US",
+     "category": "informatique",
+     "days": 7
+    },
+    {
+     "id": "B0BZYCJK89",
+     "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/51VU5d5ySHL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0BZYCJK89",
+     "price": 29.99,
+     "rating": 4.6,
+     "reviews": 142246,
+     "market": "US",
+     "category": "cuisine-maison",
+     "days": 7
+    },
+    {
+     "id": "B09V7Z4TJG",
+     "title": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Mcspt-6AL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B09V7Z4TJG",
+     "price": 18.9,
+     "rating": 4.6,
+     "reviews": 34681,
+     "market": "US",
+     "category": "beaute",
+     "days": 7
+    },
+    {
+     "id": "B0FJN3BTPV",
+     "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Black Cherry",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/41ZPiDU6woL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0FJN3BTPV",
+     "price": 29.99,
+     "rating": 4.6,
+     "reviews": 142246,
+     "market": "US",
+     "category": "sport",
+     "days": 7
+    },
+    {
+     "id": "B07RZ74VLR",
+     "title": "Roblox Digital Gift Card - 1,000 Robux [Includes Exclusive Virtual Item] [Digital Code]",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61s70-2HoBL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07RZ74VLR",
+     "price": 10.0,
+     "rating": 4.5,
+     "reviews": 84827,
+     "market": "US",
+     "category": "jeux-video",
+     "days": 7
+    },
+    {
+     "id": "B0009X29WK",
+     "title": "Dr. Elsey's Ultra UnScented Clumping Clay Cat Litter 40 lb. Bag",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61eb-cX2wrL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0009X29WK",
+     "price": 22.99,
+     "rating": 4.4,
+     "reviews": 70401,
+     "market": "US",
+     "category": "animaux",
+     "days": 7
+    },
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 281266,
+     "market": "US",
+     "category": "bricolage",
+     "days": 7
+    },
+    {
+     "id": "B0C3FTCYZL",
+     "title": "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats, 4 Count | Fits Zevo MAX & Zevo Flying Insect Trap, Catches House Flies, Gnats & Fruit Flies 24/7, No Added Fragrance or Dyes",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81-MlCMPFSL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0C3FTCYZL",
+     "price": 14.97,
+     "rating": 4.8,
+     "reviews": 38134,
+     "market": "US",
+     "category": "jardin",
+     "days": 7
+    },
+    {
+     "id": "B0C1HJV7BJ",
+     "title": "Drift Car Air Freshener - The Original Wood Air Freshener - Car Odor Eliminator - Long Lasting Scent - Auto Accessories - Metal Clip - Essential Oils - Clean Ingredients - Teak Scent Starter Kit",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/717n+0jibbL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0C1HJV7BJ",
+     "price": 12.95,
+     "rating": 3.7,
+     "reviews": 24804,
+     "market": "US",
+     "category": "auto",
+     "days": 7
+    },
+    {
+     "id": "B01FV0F8H8",
+     "title": "Amazon Basics Multipurpose Copy Printer Paper, 8.5 x 11 Inches, 20 lb, 92 Bright, White, 1 Ream (500 Sheets), Jam-Free",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71gOCTFCCwL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01FV0F8H8",
+     "price": 6.97,
+     "rating": 4.8,
+     "reviews": 231212,
+     "market": "US",
+     "category": "bureau",
+     "days": 7
+    }
+   ]
+  },
+  {
+   "type": "rush",
+   "market": "US",
+   "title": "Ruées",
+   "intro": "Catégories dont au moins 5 des 10 premières places reviennent au même nom.",
+   "items": [
+    {
+     "id": "B0DCH8VDXF",
+     "title": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/513OSdW4elL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DCH8VDXF",
+     "price": 19.0,
+     "rating": 4.5,
+     "reviews": 19203,
+     "market": "US",
+     "category": "high-tech",
+     "brand": "apple",
+     "share": 5,
+     "of": 10
+    }
+   ]
+  },
+  {
+   "type": "shopify",
+   "market": "US",
+   "title": "Entrées dans les boutiques",
+   "intro": "Produits arrivés cette semaine dans le top 12 « meilleures ventes » des boutiques suivies.",
+   "items": [
+    {
+     "id": "www.puravidabracelets.com/24-day-advent-calendar-2026",
+     "title": "24 Day Advent Calendar",
+     "image": "https://cdn.shopify.com/s/files/1/0297/6313/files/advent-1_1.jpg?v=1791824795",
+     "url": "https://www.puravidabracelets.com/products/24-day-advent-calendar-2026",
+     "price": 138.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 1,
+     "store": "Pura Vida"
+    },
+    {
+     "id": "www.puravidabracelets.com/pura-vida-ornaments",
+     "title": "Pura Vida Ornaments",
+     "image": "https://cdn.shopify.com/s/files/1/0297/6313/files/38090PVFA_1-min_12863f93-c7cf-47d3-bab0-bc37090fe898.jpg?v=1704231191",
+     "url": "https://www.puravidabracelets.com/products/pura-vida-ornaments",
+     "price": 20.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 2,
+     "store": "Pura Vida"
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "US",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "football scores",
+     "traffic": 50000,
+     "traffic_label": "50000+",
+     "day": "2026-10-19"
+    },
+    {
+     "title": "guardians game",
+     "traffic": 20000,
+     "traffic_label": "20000+",
+     "day": "2026-10-14"
+    },
+    {
+     "title": "bank",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-10-13"
+    },
+    {
+     "title": "weather houston",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-17"
+    },
+    {
+     "title": "pak vs sl",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-13"
+    },
+    {
+     "title": "tatiana prozorova",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-17"
+    },
+    {
+     "title": "did the guardians win last night",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-18"
+    },
+    {
+     "title": "pickleball",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-10-13"
+    },
+    {
+     "title": "betty gilpin",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-10-13"
+    },
+    {
+     "title": "fortnite servers",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-10-15"
+    }
+   ]
+  }
+ ]
+}
