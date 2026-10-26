@@ -1,0 +1,1033 @@
+{
+ "id": "2026-W44",
+ "title": "La semaine du 20 octobre au 26 octobre",
+ "published": "2026-10-26T11:27:08+00:00",
+ "period": {
+  "from": "2026-10-20",
+  "to": "2026-10-26",
+  "days": 7
+ },
+ "editorial": null,
+ "summary": "plus forte montée : +15 places en Bricolage · Apple occupe 5 des 10 premières places en High-Tech (US)",
+ "sections": [
+  {
+   "type": "climbers",
+   "market": "FR",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 26 octobre comparé à celui du 20 octobre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B00BW4V6JW",
+     "title": "Zenitech - Multiprise biplite pour façade 16A - Blanc",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/41kTecS9YQL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B00BW4V6JW",
+     "price": 2.33,
+     "rating": 4.7,
+     "reviews": 5564,
+     "market": "FR",
+     "category": "bricolage",
+     "rank_now": 10,
+     "rank_before": 25,
+     "change": 15
+    },
+    {
+     "id": "B0CH3K112H",
+     "title": "Bosch H7 Pure Light lampe de phare - 12 V 55 W PX26d - 1 ampoule (Lot de 2)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71UmRS+S3XL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0CH3K112H",
+     "price": 8.58,
+     "rating": 4.5,
+     "reviews": 4868,
+     "market": "FR",
+     "category": "auto",
+     "rank_now": 15,
+     "rank_before": 28,
+     "change": 13
+    },
+    {
+     "id": "B003JY81TG",
+     "title": "Bosch W5W Pure Light lampes auto - 12 V 5 W W2,1x9,5d - 2 ampoules | Compatible avec: ABARTH 124 Spider, 500 / 595 / 695, 500C / 595C / 695C, GRANDE PUNTO, PUNTO, PUNTO EVO, ALFA ROMEO 145, 146",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61rQFVeNqdS._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B003JY81TG",
+     "price": 1.66,
+     "rating": 4.6,
+     "reviews": 6414,
+     "market": "FR",
+     "category": "auto",
+     "rank_now": 16,
+     "rank_before": 29,
+     "change": 13
+    },
+    {
+     "id": "B0FPXFLNR7",
+     "title": "LEGO Botanicals Petites Plantes dansantes 11506 | Jouet pour fille dès 9 ans avec fleurs artificielles, 2 fausses plantes & 2 pots, décoration de chambre, cadeau, 253 pièces",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71-wMiHjzEL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0FPXFLNR7",
+     "price": null,
+     "rating": 4.8,
+     "reviews": 1364,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 4,
+     "rank_before": 15,
+     "change": 11
+    },
+    {
+     "id": "B0H4R2RNBY",
+     "title": "Nintendo Switch Sports Resort Nintendo Switch 2",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81f1xUWhpgL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H4R2RNBY",
+     "price": 36.8,
+     "rating": 4.6,
+     "reviews": 3,
+     "market": "FR",
+     "category": "jeux-video",
+     "rank_now": 6,
+     "rank_before": 17,
+     "change": 11
+    },
+    {
+     "id": "B0H7JVDYM7",
+     "title": "EA SPORTS FC 27 Edition Standard PlayStation 5 |Disque I Jeu Vidéo |Français",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81DIg37F4yL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H7JVDYM7",
+     "price": 44.88,
+     "rating": 4.4,
+     "reviews": 237,
+     "market": "FR",
+     "category": "jeux-video",
+     "rank_now": 2,
+     "rank_before": 12,
+     "change": 10
+    },
+    {
+     "id": "B0DJRCQYST",
+     "title": "FIXCHORD Bande Thermocollante, Ruban Thermocollant pour Ourlet, Ourlet Facile sans Couture, Ruban Thermocollant sans Couture, Ruban de Ourlet pour Vêtements, Repassage et Fixation, Blanc, 30M*20MM",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71nFbPkHE5L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0DJRCQYST",
+     "price": null,
+     "rating": 4.2,
+     "reviews": 3701,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 17,
+     "rank_before": 27,
+     "change": 10
+    },
+    {
+     "id": "B000H6W2GW",
+     "title": "Snazaroo - Peinture Pour Visage et le Corps, Maquillage Pour Visage et Déguisement, Pour Enfants et Adults,Fard 18 ML, Couleur Blanc",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/715iciQ4INL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B000H6W2GW",
+     "price": 5.06,
+     "rating": 4.3,
+     "reviews": 33707,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 5,
+     "rank_before": 14,
+     "change": 9
+    },
+    {
+     "id": "B07CWV3PRS",
+     "title": "X-Sense Détecteur de Fumée avec Batterie Scellée 10 Ans, SD11, Lot de 1 | Conforme à la Norme EN14604",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61ts50x6mhL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B07CWV3PRS",
+     "price": 14.99,
+     "rating": 4.5,
+     "reviews": 11936,
+     "market": "FR",
+     "category": "bricolage",
+     "rank_now": 9,
+     "rank_before": 18,
+     "change": 9
+    },
+    {
+     "id": "B0D3PPQJ37",
+     "title": "W Wise Block Blocs de Construction Magnétiques 131 PCS avec 2 Voitures, Jouets magnétiques pour Enfants Les Tout-Petits, Jouets pour 3 4 5 6 7 8 Ans garçon Fille, Multicolore.",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81FfIaGFuEL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0D3PPQJ37",
+     "price": null,
+     "rating": 4.7,
+     "reviews": 978,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 13,
+     "rank_before": 22,
+     "change": 9
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "FR",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B0DHS9Y433",
+     "title": "LEGO Speed Champions Voiture F1 Mercedes-AMG W15-77244 | Jouet pour garçon ou fille dès 10 ans, voiture de course, minifigurine collector de pilote de F1, idée cadeau, 267 pièces",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81rBFqKhnmL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0DHS9Y433",
+     "price": null,
+     "rating": 4.8,
+     "reviews": 22919,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0GCBV5MZT",
+     "title": "Mattel KPop Demon Hunters HUNTR/X Poupée fashion Rumi | Tenue « How It’s Done » de performance, épée, inspirée du film, JRN35",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/814AQxqFIzL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0GCBV5MZT",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 1786,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 3,
+     "best_rank": 3
+    },
+    {
+     "id": "B0FN7ZG39D",
+     "title": "Playstation Sony, 5 Édition Numérique, PS5 avec 1 Manette Sans Fil DualSense, Couleur : Blanche",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61h7VjYt-fL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0FN7ZG39D",
+     "price": 499.17,
+     "rating": 4.7,
+     "reviews": 1497,
+     "market": "FR",
+     "category": "jeux-video",
+     "rank_now": 8,
+     "best_rank": 5
+    },
+    {
+     "id": "B07GFLKX7J",
+     "title": "by Amazon - Croquettes complètes pour Chats Adultes au Saumon, Thon et légumes, 1 Lot de 3kg",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/713vAH9mxXL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B07GFLKX7J",
+     "price": null,
+     "rating": 4.4,
+     "reviews": 7032,
+     "market": "FR",
+     "category": "animaux",
+     "rank_now": 6,
+     "best_rank": 6
+    },
+    {
+     "id": "B00A9BGLA8",
+     "title": "PremiumCord Multiprise 2m, Interrupteur Secteur, 5 Prises, Rallonge 230V | Rallonge 230V, Prises Françaises Tournées à 45°, Multiprise de Qualité avec Sécurité Enfant, Couleur Blanc",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61t0StQFYkL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B00A9BGLA8",
+     "price": 4.91,
+     "rating": 4.5,
+     "reviews": 3399,
+     "market": "FR",
+     "category": "bricolage",
+     "rank_now": 13,
+     "best_rank": 8
+    },
+    {
+     "id": "B06XFYL2KM",
+     "title": "Amazon Basics Drap Housse, 160 x 200 x 30 cm, en Polyester Microfibre pour Matelas Épais jusqu'à 30 cm, Noir",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71Apbl+GugL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B06XFYL2KM",
+     "price": 9.99,
+     "rating": 4.5,
+     "reviews": 143796,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 9,
+     "best_rank": 9
+    },
+    {
+     "id": "B0HN3DV52R",
+     "title": "Playstation Manette sans fil DualSense – Gran Turismo Édition limitée",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71vs7C5J8tL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0HN3DV52R",
+     "price": 70.82,
+     "rating": null,
+     "reviews": null,
+     "market": "FR",
+     "category": "jeux-video",
+     "rank_now": 14,
+     "best_rank": 10
+    },
+    {
+     "id": "B008F7YKCO",
+     "title": "Rubson AERO 360° TAB, Recharges Déshumidificateur, Parfum Neutre, 6x 450g | Recharge avec cristaux pour absorbeur d'humidité, Anti odeurs & humidité, Jusqu'à 3 mois, Compatible appareils 450g+, 20m²",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71K+KDq7qNL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B008F7YKCO",
+     "price": 20.75,
+     "rating": 4.2,
+     "reviews": 6741,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 11,
+     "best_rank": 11
+    },
+    {
+     "id": "B00008D968",
+     "title": "UHU Patafix - Pastilles Adhésives Double Face Prédécoupées Tous Supports | Fixation Rapide, Propre et Repositionnable - Testées Sous Contrôle Dermatologique - Jaunes - 80 Pastilles",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71uyJWoUgEL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B00008D968",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 1378,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 12,
+     "best_rank": 12
+    },
+    {
+     "id": "B0C9D5JJS4",
+     "title": "BOBISUKA Halloween Faux Sang Lavable 50ml,Fake Blood Réaliste (Rouge Vif) | Faux Sang pour Halloween, Film, Théâpre, Farces, Blessures Simulées",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71Pj1+-Tg5L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0C9D5JJS4",
+     "price": null,
+     "rating": 4.4,
+     "reviews": 512,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 12,
+     "best_rank": 12
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "FR",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "panne orange",
+     "traffic": 50000,
+     "traffic_label": "50000+",
+     "day": "2026-10-21"
+    },
+    {
+     "title": "micromania",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-10-22"
+    },
+    {
+     "title": "trappes",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-10-23"
+    },
+    {
+     "title": "épargne",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-25"
+    },
+    {
+     "title": "coureur",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-26"
+    },
+    {
+     "title": "jean-philippe tanguy",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-20"
+    },
+    {
+     "title": "la france insoumise",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-20"
+    },
+    {
+     "title": "grève",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-21"
+    },
+    {
+     "title": "benjamin ball",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-23"
+    },
+    {
+     "title": "cfdt",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "type": "climbers",
+   "market": "US",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 26 octobre comparé à celui du 20 octobre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B0FHJ7TKZM",
+     "title": "Ring Battery Doorbell 2K (newest model) Retinal 2K with wide-angle video, up to 6x Enhanced Zoom, Two-Way Talk, and Built-In Battery, Speckled Gray",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61ZzGy5LwDL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0FHJ7TKZM",
+     "price": 44.99,
+     "rating": 4.2,
+     "reviews": 7960,
+     "market": "US",
+     "category": "bricolage",
+     "rank_now": 5,
+     "rank_before": 24,
+     "change": 19
+    },
+    {
+     "id": "B0C294ZLTR",
+     "title": "Happy Hippo Halloween Spider Web Decoration, 200 Square Feet & Plastic Spiders, Halloween Party Supplies, Spider Webs (Small, 200 Sq Feet) (8 Fake Spiders Included)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61f9pzZjQ7L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0C294ZLTR",
+     "price": 7.69,
+     "rating": 4.4,
+     "reviews": 1300,
+     "market": "US",
+     "category": "jardin",
+     "rank_now": 7,
+     "rank_before": 24,
+     "change": 17
+    },
+    {
+     "id": "B0BLG8NL23",
+     "title": "LULUCATCH Mouse & Insect Traps 12 Pack, Heavier Sticky Traps with Non-Toxic Glue for Small Mice & Insects. Sticky Mouse Traps Indoor for Home, Easy to Set",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71hbDf-I3VL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0BLG8NL23",
+     "price": 7.98,
+     "rating": 4.4,
+     "reviews": 15204,
+     "market": "US",
+     "category": "jardin",
+     "rank_now": 6,
+     "rank_before": 22,
+     "change": 16
+    },
+    {
+     "id": "B0H4JTS1LV",
+     "title": "DUMOS Countertop Ice Maker with Handle, 26lbs/24H, Makes 9 Bullet Cubes in 6 Mins, Auto-Cleaning, Portable Ice Machine for Home Kitchen RV Camping, Green",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61CrbMiwy8L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0H4JTS1LV",
+     "price": 49.93,
+     "rating": 4.4,
+     "reviews": 175,
+     "market": "US",
+     "category": "electromenager",
+     "rank_now": 13,
+     "rank_before": 28,
+     "change": 15
+    },
+    {
+     "id": "B0H4NSZ7SZ",
+     "title": "FINAL FANTASY RESONANCE - Nintendo Switch 2",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81EUvrbtKML._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0H4NSZ7SZ",
+     "price": 49.99,
+     "rating": 3.7,
+     "reviews": 11,
+     "market": "US",
+     "category": "jeux-video",
+     "rank_now": 15,
+     "rank_before": 28,
+     "change": 13
+    },
+    {
+     "id": "B0CYT2JKRP",
+     "title": "HOMEXCEL Microfiber Cleaning Cloth 12 Pack, 12.5 x 12.5 inch Microfiber Towels for Cars, Ultra Absorbent Washing Cloth, Lint Free Streak Free Cleaning Rags for Car, Kitchen, and Window (Grey)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81Fcz9Q4NpL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CYT2JKRP",
+     "price": 5.98,
+     "rating": 4.5,
+     "reviews": 12310,
+     "market": "US",
+     "category": "auto",
+     "rank_now": 17,
+     "rank_before": 30,
+     "change": 13
+    },
+    {
+     "id": "B0GXV5TBY8",
+     "title": "200 Pcs Stickers for Kids, Cute Kids Water Bottle Stickers, Party Favors | Waterproof Vinyl Sticker Pack, Goodie Bags Stuffers for Kids, Classroom Prizes for Elementary Students, Stickers Bulk",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81hVp8drMpL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GXV5TBY8",
+     "price": 6.99,
+     "rating": 4.7,
+     "reviews": 183,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 17,
+     "rank_before": 29,
+     "change": 12
+    },
+    {
+     "id": "B09DT48V16",
+     "title": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Waterproof in-Ear Ear buds with Mic for TV Smart Phone Laptop Computer Sports",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61uEvVoizoL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B09DT48V16",
+     "price": 25.99,
+     "rating": 4.4,
+     "reviews": 89668,
+     "market": "US",
+     "category": "high-tech",
+     "rank_now": 18,
+     "rank_before": 30,
+     "change": 12
+    },
+    {
+     "id": "B0B56CHMSC",
+     "title": "Lifewit Medium Lunch Bag, Insulated Lunch Box, Soft Cooler Cooling Tote for Adult Men Women, Black 12-Can (9L)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71tf1kD9PBL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0B56CHMSC",
+     "price": 7.98,
+     "rating": 4.4,
+     "reviews": 64523,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 19,
+     "rank_before": 30,
+     "change": 11
+    },
+    {
+     "id": "B0H37MKQ64",
+     "title": "Call of Duty: Modern Warfare 4 | Standard Edition | PlayStation 5",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71U6qjGU-VL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0H37MKQ64",
+     "price": 69.0,
+     "rating": 5.0,
+     "reviews": 5,
+     "market": "US",
+     "category": "jeux-video",
+     "rank_now": 8,
+     "rank_before": 17,
+     "change": 9
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "US",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B09W4S2ZX7",
+     "title": "SZIVYSHI 14-Bone Overbust Corset Top",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81hbs7D00gL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B09W4S2ZX7",
+     "price": 23.99,
+     "rating": 4.4,
+     "reviews": 10631,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0CTQDTF1V",
+     "title": "Zevo Flying Insect Trap Refill Cartridges for Fruit Flies & Gnats, 6 Count | Fits Zevo MAX & Zevo Flying Insect Trap, Catches House Flies, Gnats & Fruit Flies 24/7, No Added Fragrance or Dyes",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81+nq0FrOeL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CTQDTF1V",
+     "price": 21.97,
+     "rating": 4.8,
+     "reviews": 10035,
+     "market": "US",
+     "category": "jardin",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B00JUM2VAQ",
+     "title": "Hanes Men's Hoodie - EcoSmart Fleece Hooded Sweatshirt for Men & Women - Midweight Fleece - Big & Tall Available",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71ZMHOmk2WL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00JUM2VAQ",
+     "price": 13.06,
+     "rating": 4.5,
+     "reviews": 172575,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B00IOTB7PG",
+     "title": "Temptations Classic Crunchy and Soft Cat Treats, Tasty Chicken, 16 oz | Under 2 calories per treat, crunchy outside & soft inside, resealable tub, 100% complete & balanced, snack, meal or topper",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81UE7sAQuwL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00IOTB7PG",
+     "price": 6.49,
+     "rating": 4.8,
+     "reviews": 73815,
+     "market": "US",
+     "category": "animaux",
+     "rank_now": 5,
+     "best_rank": 4
+    },
+    {
+     "id": "B097ZKJ1CT",
+     "title": "COSUSKET Snug Fit Unisex Adult Onesie Pajamas, Flannel Cosplay Animal One Piece Halloween Costume Sleepwear Homewear",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61vtwqvfLNL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B097ZKJ1CT",
+     "price": 23.99,
+     "rating": 4.7,
+     "reviews": 9210,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 5,
+     "best_rank": 5
+    },
+    {
+     "id": "B0D9ZTW7PS",
+     "title": "Schylling NeeDoh Nice Ice Baby - 1.25\" Cube - Color May Vary (Pack of 1) | Sensory Squeeze Toy with Super Solid Squish",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/717FM41-pPL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0D9ZTW7PS",
+     "price": null,
+     "rating": 4.1,
+     "reviews": 5027,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 5,
+     "best_rank": 5
+    },
+    {
+     "id": "B07KX2N355",
+     "title": "Amazon Basics AAA Long-Lasting Alkaline Batteries, 12 Count, 1.5 Volt, 10-Year Shelf Life, for Home and Office",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71QBmfIkOHL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07KX2N355",
+     "price": 6.5,
+     "rating": 4.7,
+     "reviews": 682723,
+     "market": "US",
+     "category": "sante",
+     "rank_now": 7,
+     "best_rank": 5
+    },
+    {
+     "id": "B0DXRKN7KY",
+     "title": "Schylling NeeDoh Teenie 10-Pack - Variety of Mini Squish Toys | Includes Original, Swirl, Ripples, Glow, Nice Ice Baby",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81LMlw57DAL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DXRKN7KY",
+     "price": 23.13,
+     "rating": 4.6,
+     "reviews": 295,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 11,
+     "best_rank": 5
+    },
+    {
+     "id": "B0BW93676T",
+     "title": "Trendy Queen Womens Long Sleeve T Shirts Fall Fashion Basic Y2K Tops 2026 | Buttery-Soft, Super Stretchy, Fitted Cute Tops, Going Out Basic Tees, Compression Underscrubs Shirts",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71hWicdj77L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0BW93676T",
+     "price": 5.59,
+     "rating": 4.4,
+     "reviews": 8338,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 6,
+     "best_rank": 6
+    },
+    {
+     "id": "B0D9H8R8VQ",
+     "title": "CARORY Cabin Air Filter w/Activated Carbon for Toyota Camry, Corolla, RAV4, Highlander, Lexus RX350, NX300, GX460, Subaru Legacy, Outback, Jaguar F-Pace, Land Rover Discovery, and More, CF285",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71eNJVdhmpL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0D9H8R8VQ",
+     "price": 7.89,
+     "rating": 4.7,
+     "reviews": 10150,
+     "market": "US",
+     "category": "auto",
+     "rank_now": 6,
+     "best_rank": 6
+    }
+   ]
+  },
+  {
+   "type": "leaders",
+   "market": "US",
+   "title": "Indéboulonnables",
+   "intro": "N° 1 de leur catégorie chacun des 7 jours relevés.",
+   "items": [
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 281486,
+     "market": "US",
+     "category": "high-tech",
+     "days": 7
+    },
+    {
+     "id": "B0GVTPKJVT",
+     "title": "Amazon Fire HD 10 tablet, built for relaxation, 10.1\" vibrant Full HD screen, octa-core processor, 4 GB RAM, 32 GB, Black",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71ZvPIpKktL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GVTPKJVT",
+     "price": 72.99,
+     "rating": 4.5,
+     "reviews": 45024,
+     "market": "US",
+     "category": "informatique",
+     "days": 7
+    },
+    {
+     "id": "B0BZYCJK89",
+     "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/51VU5d5ySHL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0BZYCJK89",
+     "price": 29.99,
+     "rating": 4.6,
+     "reviews": 143560,
+     "market": "US",
+     "category": "cuisine-maison",
+     "days": 7
+    },
+    {
+     "id": "B0F42MT8JX",
+     "title": "Antarctic Star Countertop Ice Maker Machine, 26Lbs/Day Fastest 6‑Min Ice | 8 bullet ice in 6min, 2 sizes, energy-saving, portable handle, Self-Cleaning, basket/scoop for Home/bar/RV/camping. Black",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71-5YmYfsAL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0F42MT8JX",
+     "price": 59.99,
+     "rating": 4.1,
+     "reviews": 4148,
+     "market": "US",
+     "category": "electromenager",
+     "days": 7
+    },
+    {
+     "id": "B07BGLT25K",
+     "title": "Scott ComfortPlus Toilet Paper, 12 Triple Rolls, 231 Sheets per Roll, Septic-Safe, 1-Ply Toilet Tissue",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81ErUf17aRL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07BGLT25K",
+     "price": 5.68,
+     "rating": 4.5,
+     "reviews": 146967,
+     "market": "US",
+     "category": "sante",
+     "days": 7
+    },
+    {
+     "id": "B0FJN3BTPV",
+     "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Black Cherry",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/41ZPiDU6woL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0FJN3BTPV",
+     "price": 29.99,
+     "rating": 4.6,
+     "reviews": 143560,
+     "market": "US",
+     "category": "sport",
+     "days": 7
+    },
+    {
+     "id": "B07RZ74VLR",
+     "title": "Roblox Digital Gift Card - 1,000 Robux [Includes Exclusive Virtual Item] [Digital Code]",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61s70-2HoBL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07RZ74VLR",
+     "price": 10.0,
+     "rating": 4.5,
+     "reviews": 84921,
+     "market": "US",
+     "category": "jeux-video",
+     "days": 7
+    },
+    {
+     "id": "B07DC8BR3B",
+     "title": "Pampers Swaddlers Diapers, Size 4 (15-34 lbs), 150 Count, Fragrance Free, Hypoallergenic, Absorbent, Pediatrician Recommended, Skin Safe",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81IG24dpMuL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07DC8BR3B",
+     "price": 49.77,
+     "rating": 4.8,
+     "reviews": 129776,
+     "market": "US",
+     "category": "bebe",
+     "days": 7
+    },
+    {
+     "id": "B0009X29WK",
+     "title": "Dr. Elsey's Ultra UnScented Clumping Clay Cat Litter 40 lb. Bag",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61eb-cX2wrL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0009X29WK",
+     "price": 22.99,
+     "rating": 4.4,
+     "reviews": 70490,
+     "market": "US",
+     "category": "animaux",
+     "days": 7
+    },
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 281486,
+     "market": "US",
+     "category": "bricolage",
+     "days": 7
+    },
+    {
+     "id": "B0C1HJV7BJ",
+     "title": "Drift Car Air Freshener - The Original Wood Air Freshener - Car Odor Eliminator - Long Lasting Scent - Auto Accessories - Metal Clip - Essential Oils - Clean Ingredients - Teak Scent Starter Kit",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/717n+0jibbL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0C1HJV7BJ",
+     "price": 12.95,
+     "rating": 3.7,
+     "reviews": 24999,
+     "market": "US",
+     "category": "auto",
+     "days": 7
+    },
+    {
+     "id": "B01FV0F8H8",
+     "title": "Amazon Basics Multipurpose Copy Printer Paper, 8.5 x 11 Inches, 20 lb, 92 Bright, White, 1 Ream (500 Sheets), Jam-Free",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61nnrxtz6QL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01FV0F8H8",
+     "price": 6.97,
+     "rating": 4.8,
+     "reviews": 231728,
+     "market": "US",
+     "category": "bureau",
+     "days": 7
+    },
+    {
+     "id": "B01N05APQY",
+     "title": "Nespresso Capsules Vertuo, Variety Pack, Medium and Dark Roast Coffee, 30 Count Coffee Pods, Brews 7.8 oz.",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/613UCQXJDwL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01N05APQY",
+     "price": 42.0,
+     "rating": 4.8,
+     "reviews": 68074,
+     "market": "US",
+     "category": "epicerie",
+     "days": 7
+    }
+   ]
+  },
+  {
+   "type": "rush",
+   "market": "US",
+   "title": "Ruées",
+   "intro": "Catégories dont au moins 5 des 10 premières places reviennent au même nom.",
+   "items": [
+    {
+     "id": "B0DCH8VDXF",
+     "title": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/513OSdW4elL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DCH8VDXF",
+     "price": 19.0,
+     "rating": 4.5,
+     "reviews": 19552,
+     "market": "US",
+     "category": "high-tech",
+     "brand": "apple",
+     "share": 5,
+     "of": 10
+    }
+   ]
+  },
+  {
+   "type": "shopify",
+   "market": "US",
+   "title": "Entrées dans les boutiques",
+   "intro": "Produits arrivés cette semaine dans le top 12 « meilleures ventes » des boutiques suivies.",
+   "items": [
+    {
+     "id": "www.rhodeskin.com/peptide-lip-tint-toast-unscented",
+     "title": "peptide lip tint unscented toast",
+     "image": "https://cdn.shopify.com/s/files/1/0606/5451/8510/files/toast-flatlay-square.png?v=1695253887",
+     "url": "https://www.rhodeskin.com/products/peptide-lip-tint-toast-unscented",
+     "price": 20.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 2,
+     "store": "Rhode"
+    },
+    {
+     "id": "www.rhodeskin.com/peptide-lip-tint-ribbon-unscented",
+     "title": "peptide lip tint unscented ribbon",
+     "image": "https://cdn.shopify.com/s/files/1/0606/5451/8510/files/flatlay-square.png?v=1695258922",
+     "url": "https://www.rhodeskin.com/products/peptide-lip-tint-ribbon-unscented",
+     "price": 20.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 3,
+     "store": "Rhode"
+    },
+    {
+     "id": "www.summerfridays.com/lip-butter-balm-sweet-mint",
+     "title": "Lip Butter Balm Sweet Mint",
+     "image": "https://cdn.shopify.com/s/files/1/2382/2877/files/Square-Lip-Butter-Balm-Mint-Main.jpg?v=1716507860",
+     "url": "https://www.summerfridays.com/products/lip-butter-balm-sweet-mint",
+     "price": 24.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 6,
+     "store": "Summer Fridays"
+    },
+    {
+     "id": "www.summerfridays.com/jet-lag-mask",
+     "title": "Jet Lag Mask",
+     "image": "https://cdn.shopify.com/s/files/1/2382/2877/files/Jet-Lag-Main-Square.jpg?v=1720469004",
+     "url": "https://www.summerfridays.com/products/jet-lag-mask",
+     "price": 49.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 7,
+     "store": "Summer Fridays"
+    },
+    {
+     "id": "www.summerfridays.com/mini-jet-lag-mask",
+     "title": "Jet Lag Mask Mini Travel Size",
+     "image": "https://cdn.shopify.com/s/files/1/2382/2877/files/Mini-Jet-Lag-Main-Square.jpg?v=1720469004",
+     "url": "https://www.summerfridays.com/products/mini-jet-lag-mask",
+     "price": 26.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 8,
+     "store": "Summer Fridays"
+    },
+    {
+     "id": "www.summerfridays.com/sheer-skin-tint",
+     "title": "Sheer Skin Tint",
+     "image": "https://cdn.shopify.com/s/files/1/2382/2877/files/PDP-SST-Goop-Shade_1_Goop.jpg?v=1744240190",
+     "url": "https://www.summerfridays.com/products/sheer-skin-tint",
+     "price": 42.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 9,
+     "store": "Summer Fridays"
+    },
+    {
+     "id": "www.summerfridays.com/cc-me-serum",
+     "title": "CC Me Serum with Vitamin C + Niacinamide",
+     "image": "https://cdn.shopify.com/s/files/1/2382/2877/files/Main_PDP_1-15.jpg?v=1678750025",
+     "url": "https://www.summerfridays.com/products/cc-me-serum",
+     "price": 68.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 10,
+     "store": "Summer Fridays"
+    },
+    {
+     "id": "www.summerfridays.com/lip-butter-balm-poppy",
+     "title": "Lip Butter Balm Poppy",
+     "image": "https://cdn.shopify.com/s/files/1/2382/2877/files/Square-Lip-Butter-Balm-Poppy-Main.jpg?v=1716507860",
+     "url": "https://www.summerfridays.com/products/lip-butter-balm-poppy",
+     "price": 24.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 11,
+     "store": "Summer Fridays"
+    },
+    {
+     "id": "www.summerfridays.com/babymoon-belly-balm",
+     "title": "Babymoon Belly Balm",
+     "image": "https://cdn.shopify.com/s/files/1/2382/2877/files/Main_PDP_1-7.jpg?v=1678750666",
+     "url": "https://www.summerfridays.com/products/babymoon-belly-balm",
+     "price": 29.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 12,
+     "store": "Summer Fridays"
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "US",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "spacex",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-10-20"
+    },
+    {
+     "title": "spacex launch",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-10-20"
+    },
+    {
+     "title": "swift",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-10-25"
+    },
+    {
+     "title": "jaylen brown instagram comment cap",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-23"
+    },
+    {
+     "title": "lawrence mccutcheon",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-25"
+    },
+    {
+     "title": "stop & shop",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-10-21"
+    },
+    {
+     "title": "jay bhattacharya",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-10-21"
+    },
+    {
+     "title": "s&p 500 futures",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-10-22"
+    },
+    {
+     "title": "chase sexton news",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-10-24"
+    },
+    {
+     "title": "elena rybakina",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-10-25"
+    }
+   ]
+  }
+ ]
+}
