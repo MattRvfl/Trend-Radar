@@ -1,0 +1,946 @@
+{
+ "id": "2026-W45",
+ "title": "La semaine du 27 octobre au 2 novembre",
+ "published": "2026-11-02T13:50:33+00:00",
+ "period": {
+  "from": "2026-10-27",
+  "to": "2026-11-02",
+  "days": 7
+ },
+ "editorial": null,
+ "summary": "plus forte montée : +20 places en Sports et Loisirs · Apple occupe 5 des 10 premières places en High-Tech (US)",
+ "sections": [
+  {
+   "type": "climbers",
+   "market": "FR",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 2 novembre comparé à celui du 27 octobre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B08CDN297K",
+     "title": "General Medi Trousse de Premiers Secours Composée de 92 Articles pour la Maison, Le Véhicule, Les Voyages, Le Bureau, Le Lieu de Travail, la Randonnée, la Survie et l'Extérieur (Rouge)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/7110tk+57UL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B08CDN297K",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 1932,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 8,
+     "rank_before": 28,
+     "change": 20
+    },
+    {
+     "id": "B0788DYBCT",
+     "title": "Takit Couverture De Survie 5X- Réutilisable - Extra Large - 210 * 160cm - Imperméable - Couverture Chauffante De Survie en Mylar pour Camping, Randonnée, Premiers Soins - Or & Gris",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81LCDltZQZL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0788DYBCT",
+     "price": null,
+     "rating": 4.7,
+     "reviews": 1442,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 4,
+     "rank_before": 21,
+     "change": 17
+    },
+    {
+     "id": "B0D9D96Z47",
+     "title": "TUUHAW Chaussettes Homme Femme Coton Chaussettes de Sport Éponge (Lot de 6) | Mi-Mollet, Doux Respirable Confortable, Anti-Ampoule, Coussinée, Pour Tennis Course Basket Skate Golf, OEKO-TEX Standard 100",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71qShZIH+YL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0D9D96Z47",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 2196,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 13,
+     "rank_before": 30,
+     "change": 17
+    },
+    {
+     "id": "B0CSDX8LR8",
+     "title": "SNOWGO - Jeu de 2 Chaussettes à Neige Textile - Taille XS à XXL - Homologué 16662-1 Europe - Compatibles véhicules 4x4, Électriques, camionnettes et véhicules Utilitaires <3,5T. (XL)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71SbJn8+27L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0CSDX8LR8",
+     "price": 23.65,
+     "rating": 4.4,
+     "reviews": 195,
+     "market": "FR",
+     "category": "auto",
+     "rank_now": 2,
+     "rank_before": 17,
+     "change": 15
+    },
+    {
+     "id": "B0BLW6DCM1",
+     "title": "Pampers Baby-Dry Pants Couches-Culottes Taille 5 x160 Pack 1 Mois | 12kg-17kg. Protection 360° Contre les Fuites Jour Et Nuit. Faciles à Changer. Pack 1 Mois.",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81KbwHZtxEL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0BLW6DCM1",
+     "price": 53.32,
+     "rating": 4.7,
+     "reviews": 21725,
+     "market": "FR",
+     "category": "bebe",
+     "rank_now": 15,
+     "rank_before": 29,
+     "change": 14
+    },
+    {
+     "id": "B09HC76T8W",
+     "title": "VSUDO Lacets Chaussures Plats pour Baskets, Lacets Plats pour Sneakers - Économiques, 8mm de Large, 29 Couleurs 14 Longueurs au Choix",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/51f2XqHUTML._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B09HC76T8W",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 25855,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 9,
+     "rank_before": 22,
+     "change": 13
+    },
+    {
+     "id": "B0C66VQDFC",
+     "title": "SOXCO 10 Paires Chaussettes de travail noires homme, mi-mollet | Technologie DRI-WIK d’évacuation de l’humidité | Ultra douce et coussinée | Talon et pointe renforcés | WORK Socks Lot de 6/10 paires",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81XqHDREB1L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0C66VQDFC",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 27155,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 17,
+     "rank_before": 29,
+     "change": 12
+    },
+    {
+     "id": "B01K5NBVB8",
+     "title": "DIM Homme – Chaussettes Ecodim x5",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61CazS-s+8L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B01K5NBVB8",
+     "price": 8.75,
+     "rating": 4.4,
+     "reviews": 13000,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 6,
+     "rank_before": 17,
+     "change": 11
+    },
+    {
+     "id": "B08CXFH3FV",
+     "title": "QINCAO Boxer Homme Coton Peigné Lot de 6 Ultra Doux Confort Coupe Ajustée | Calecon Homme Coton Peigné, sans Étiquette, Taille Élastique Large, Seconde Peau, Respirant, Usage Quotidien",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/813T5SmhQcL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B08CXFH3FV",
+     "price": null,
+     "rating": 4.5,
+     "reviews": 47702,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 3,
+     "rank_before": 13,
+     "change": 10
+    },
+    {
+     "id": "B0CYQ9GDXH",
+     "title": "Babymoov Trousse de Soin Bébé, Compacte & Nomade, 9 Accessoires - Sable",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71oMzR93xXL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0CYQ9GDXH",
+     "price": null,
+     "rating": 4.7,
+     "reviews": 1689,
+     "market": "FR",
+     "category": "bebe",
+     "rank_now": 17,
+     "rank_before": 26,
+     "change": 9
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "FR",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B0HJ5XGLC3",
+     "title": "Bottine Femme Cowboy Chaudes Boots Fermeture Éclair Plissées Bottine Pieds Larges Chaussures Confortable Automne Hiver Bottes 35-45",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61YOX7uMNnL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0HJ5XGLC3",
+     "price": null,
+     "rating": null,
+     "reviews": null,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0HK8499XD",
+     "title": "Basket Orthopedique Femme avec Fermeture éclair, Baskets Décontractées avec Soutien de la Voûte Plantaire,Chaussures de Tennis Orthopédique Confortables à Enfiler pour Sports et Quotidien 36-43",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61UM64jO0qL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0HK8499XD",
+     "price": null,
+     "rating": null,
+     "reviews": null,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B0788DYBCT",
+     "title": "Takit Couverture De Survie 5X- Réutilisable - Extra Large - 210 * 160cm - Imperméable - Couverture Chauffante De Survie en Mylar pour Camping, Randonnée, Premiers Soins - Or & Gris",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81LCDltZQZL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0788DYBCT",
+     "price": null,
+     "rating": 4.7,
+     "reviews": 1442,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 4,
+     "best_rank": 2
+    },
+    {
+     "id": "B0D9KWGRJW",
+     "title": "TK Gruppe Timo Klingler Cape à capuche – Déguisement de vampire pour Halloween, Mardi gras et carnaval, pour enfants et adultes, double face",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/31hiHc97wfL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0D9KWGRJW",
+     "price": null,
+     "rating": 3.4,
+     "reviews": 281,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 28,
+     "best_rank": 2
+    },
+    {
+     "id": "B08CDN297K",
+     "title": "General Medi Trousse de Premiers Secours Composée de 92 Articles pour la Maison, Le Véhicule, Les Voyages, Le Bureau, Le Lieu de Travail, la Randonnée, la Survie et l'Extérieur (Rouge)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/7110tk+57UL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B08CDN297K",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 1932,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 8,
+     "best_rank": 4
+    },
+    {
+     "id": "B0FKBP1K7C",
+     "title": "LCGOD Lot de 4 Housse Hivernage Plante 80g/m²avec Fermeture Éclair 100x80cm | Renforcée, Antigel, Coupe-Vent, Respirant, Réutilisable, Facile à Installer, pour Grands Végétaux, Jardin & Terrasse",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61fVZX0xv-L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0FKBP1K7C",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 210,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 6,
+     "best_rank": 6
+    },
+    {
+     "id": "B01N6VTTC4",
+     "title": "Skechers Burns- Agoura Hommes Baskets | Skechers Burns - Baskets Agoura pour homme - Design sportif, entraînement et loisirs. Mousse à mémoire de forme pour plus de",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71+HQKguoEL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B01N6VTTC4",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 17531,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 16,
+     "best_rank": 6
+    },
+    {
+     "id": "B09RT26WWG",
+     "title": "BIOLANE - Sérum Physiologique Bébé - Embout rond - 90 Unidoses - Lot de 3 | Nettoie le nez et les yeux, Dès la naissance, Fabriqué en France",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61-Dx6-SakL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B09RT26WWG",
+     "price": null,
+     "rating": 4.8,
+     "reviews": 7071,
+     "market": "FR",
+     "category": "bebe",
+     "rank_now": 8,
+     "best_rank": 7
+    },
+    {
+     "id": "B0H5HLSNLH",
+     "title": "Chaufferette Main Rechargeable 2 en 1, Base de charge noire | Lot de 2, 3 niveaux de température, chauffe en 1 seconde, 11h × 2, pour camping, randonnée, ski et trajets quotidiens",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61DJfDpRXSL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H5HLSNLH",
+     "price": null,
+     "rating": 4.7,
+     "reviews": 31,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 11,
+     "best_rank": 7
+    },
+    {
+     "id": "B0F5B9P7Z8",
+     "title": "adidas Unisex Chaussettes matelassées mi-mollet (6 paires)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81X7KadtGKL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0F5B9P7Z8",
+     "price": 12.49,
+     "rating": 4.6,
+     "reviews": 1767,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 10,
+     "best_rank": 10
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "FR",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "grenoble",
+     "traffic": 20000,
+     "traffic_label": "20000+",
+     "day": "2026-10-31"
+    },
+    {
+     "title": "gamm vert fermeture définitive",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-27"
+    },
+    {
+     "title": "fraude",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-27"
+    },
+    {
+     "title": "sncf",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-28"
+    },
+    {
+     "title": "céline dion",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-29"
+    },
+    {
+     "title": "employeur",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-28"
+    },
+    {
+     "title": "grand theft auto vi",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-28"
+    },
+    {
+     "title": "travail",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-29"
+    },
+    {
+     "title": "gouvernement",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-29"
+    },
+    {
+     "title": "médicament",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-30"
+    }
+   ]
+  },
+  {
+   "type": "climbers",
+   "market": "US",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 2 novembre comparé à celui du 27 octobre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B09FFQN924",
+     "title": "Aquatabs Water Purification Tablets, 397mg 100 Pack, Camping & Emergency | Water Filtration System for Boating, Marine, Survival Kit. Easy-to-use purifier treatment for safe drinking water",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71pCSig8A5L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B09FFQN924",
+     "price": 36.99,
+     "rating": 4.7,
+     "reviews": 3593,
+     "market": "US",
+     "category": "sport",
+     "rank_now": 1,
+     "rank_before": 22,
+     "change": 21
+    },
+    {
+     "id": "B0CTD36YKK",
+     "title": "Kleenex Ultra Soft Facial Tissues, 8 Cube Boxes, 80 Tissues per Box",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81rOPPxAokL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CTD36YKK",
+     "price": 16.97,
+     "rating": 4.8,
+     "reviews": 130793,
+     "market": "US",
+     "category": "sante",
+     "rank_now": 8,
+     "rank_before": 27,
+     "change": 19
+    },
+    {
+     "id": "B0FX5X647R",
+     "title": "Dawn Ultra Dish Soap Refill Jug, Large Size Original Blue Liquid Dishwashing Detergent, Powerful Dish Soap for Grease, 51.5 oz",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71uOsJVS5RL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0FX5X647R",
+     "price": 8.69,
+     "rating": 4.8,
+     "reviews": 155591,
+     "market": "US",
+     "category": "sante",
+     "rank_now": 13,
+     "rank_before": 29,
+     "change": 16
+    },
+    {
+     "id": "B0CRTYZG5C",
+     "title": "soundcore P30i by Anker Noise Cancelling Earbuds, Hands-Free Viewing | Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Bluetooth 5.4",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/51HbL1WS+KL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CRTYZG5C",
+     "price": 24.99,
+     "rating": 4.3,
+     "reviews": 45981,
+     "market": "US",
+     "category": "high-tech",
+     "rank_now": 13,
+     "rank_before": 28,
+     "change": 15
+    },
+    {
+     "id": "B00LXMD998",
+     "title": "Pure Life Purified Bottled Water - 15 Pack, 16.9 Fl Oz | Still Drinking Water Enhanced with Minerals for a Crisp Taste",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81BPzKmpujL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00LXMD998",
+     "price": 4.95,
+     "rating": 4.7,
+     "reviews": 57133,
+     "market": "US",
+     "category": "epicerie",
+     "rank_now": 13,
+     "rank_before": 28,
+     "change": 15
+    },
+    {
+     "id": "B004QF0TFQ",
+     "title": "Dickies Men's Dri-tech Original Moisture Control Crew Socks, Available in M-xxl (6, 12, 18 Pairs)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/91wgdLWJc2L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B004QF0TFQ",
+     "price": 11.99,
+     "rating": 4.7,
+     "reviews": 218859,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 15,
+     "rank_before": 30,
+     "change": 15
+    },
+    {
+     "id": "B0D9ZTW7PS",
+     "title": "Schylling NeeDoh Nice Ice Baby - 1.25\" Cube - Color May Vary (Pack of 1) | Sensory Squeeze Toy with Super Solid Squish",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/717FM41-pPL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0D9ZTW7PS",
+     "price": null,
+     "rating": 4.1,
+     "reviews": 5040,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 1,
+     "rank_before": 13,
+     "change": 12
+    },
+    {
+     "id": "B08R6S1M1K",
+     "title": "Wall Charger, Surge Protector, QINLIANF 5 Outlet Extender with 4 USB Ports | 1680 Joules, 3-Sided Power Strip, Multi Plug Wall Outlet Adapter Spaced for Home Travel Office, White",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/51lGPGOkjUL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B08R6S1M1K",
+     "price": 9.98,
+     "rating": 4.7,
+     "reviews": 119938,
+     "market": "US",
+     "category": "high-tech",
+     "rank_now": 12,
+     "rank_before": 24,
+     "change": 12
+    },
+    {
+     "id": "B00ZRD99C0",
+     "title": "Bright Starts Oball Easy Grasp Classic Ball BPA-Free Infant Toy in Red, Yellow, Green, Blue, Age Newborn and up, 4 Inches",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71BFqKPjRBL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00ZRD99C0",
+     "price": 4.74,
+     "rating": 4.9,
+     "reviews": 45696,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 15,
+     "rank_before": 27,
+     "change": 12
+    },
+    {
+     "id": "B086KSDTQ4",
+     "title": "Hanes Men's Underwear Boxer Briefs Pack, Cool & Breathable Cotton Moisture-wicking Underwear for Men, No Ride Up",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81cd4aNVNhL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B086KSDTQ4",
+     "price": 23.98,
+     "rating": 4.4,
+     "reviews": 143422,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 7,
+     "rank_before": 17,
+     "change": 10
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "US",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B0GRSZ5TDC",
+     "title": "Schylling NeeDoh Teenie Color Change - Sensory Squeeze Toy - 4 Pack",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Hcez1wLNL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GRSZ5TDC",
+     "price": null,
+     "rating": 4.4,
+     "reviews": 424,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 12,
+     "best_rank": 1
+    },
+    {
+     "id": "B0GJTXVN9Z",
+     "title": "Apple AirTag (2nd Generation) - 4 Pack: Tracker for Keychain, Wallet, and More; Locator with Sound; Simple One-Tap Setup with iPhone or iPad; Key Finder with up to 1.5X Precision Finding Range*",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/611DjYhflAL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GJTXVN9Z",
+     "price": 70.0,
+     "rating": 4.6,
+     "reviews": 12612,
+     "market": "US",
+     "category": "high-tech",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B0GR19X8DC",
+     "title": "Apple 2026 MacBook Air 13-inch Laptop with M5 chip: Built for AI, 13.6-inch Liquid Retina Display, 16GB Unified Memory, 512GB SSD, 12MP Center Stage Camera, Touch ID, Wi-Fi 7; Silver",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71txEBdkjxL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GR19X8DC",
+     "price": 1099.99,
+     "rating": 4.7,
+     "reviews": 1332,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B0GWCRDBXL",
+     "title": "Owala SmoothSip Slider Insulated Stainless Steel Coffee Tumbler, Reusable Iced Coffee Cup, Hot Coffee Travel Mug, BPA Free 20 oz, Off Road",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/41kv3XY94zL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GWCRDBXL",
+     "price": 29.99,
+     "rating": 4.3,
+     "reviews": 28,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B00JUM3FXI",
+     "title": "Hanes Men's Hoodie - EcoSmart Fleece Hooded Sweatshirt for Men & Women - Midweight Fleece - Big & Tall Available",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81MHcJ5ip7L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00JUM3FXI",
+     "price": null,
+     "rating": 4.5,
+     "reviews": 172754,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B0G36WL2LN",
+     "title": "Horizon Group USA Slimygloop Gelli Gels, Purple Squishmallows | Slow-Flow Glitter Squishy Sensory Toys, Squeeze Stress Ball for Kids and Teens, Satisfying Sugar Squish Fidget",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/91tyUp19fRL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0G36WL2LN",
+     "price": 8.51,
+     "rating": 4.3,
+     "reviews": 1422,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B0HBWQWNN6",
+     "title": "Silonn Ice Maker Countertop, 10 Ice Cubes in 5 Mins, 33 lbs/24H, 2 Bullet Ice Sizes, Self-Cleaning Ice Maker with Scoop, Portable Compact Ice Machine for Home, Kitchen, Party",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71cS76OoQUL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0HBWQWNN6",
+     "price": 79.95,
+     "rating": 4.2,
+     "reviews": 27876,
+     "market": "US",
+     "category": "electromenager",
+     "rank_now": 3,
+     "best_rank": 3
+    },
+    {
+     "id": "B0DXJQT19B",
+     "title": "Anker USB C Hub, 7in1 Multi-Port USB Adapter, 4K@60Hz USBC to HDMI Splitter | 85W Max PD, 2 USB 3.0 & 1 USBC Data Ports, SD/TF Card Reader, for Laptops/Mac and Other Type C Devices (Charger Not Included)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Z9T0VgGyL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DXJQT19B",
+     "price": 25.99,
+     "rating": 4.5,
+     "reviews": 5944,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 9,
+     "best_rank": 3
+    },
+    {
+     "id": "B09LDFR8HX",
+     "title": "Practical Survival Reusable Emergency Water Filter Straws, 5-Pack | Lightweight, High-Capacity, 1800-Gallon Lifespan, No Expiration Date. For Camping, Hiking, Travel, Biking and Survival",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81VFIF3qjgL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B09LDFR8HX",
+     "price": null,
+     "rating": 4.7,
+     "reviews": 3814,
+     "market": "US",
+     "category": "sport",
+     "rank_now": 4,
+     "best_rank": 4
+    },
+    {
+     "id": "B015QIC1PW",
+     "title": "Midland - ER310, Emergency Crank Weather AM/FM Radio - Red/Black | Multiple Power Sources, SOS Emergency Flashlight, Ultrasonic Dog Whistle, & NOAA Weather Scan + Alert",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71MnhLhcyHL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B015QIC1PW",
+     "price": 79.99,
+     "rating": 4.6,
+     "reviews": 6044,
+     "market": "US",
+     "category": "high-tech",
+     "rank_now": 5,
+     "best_rank": 5
+    }
+   ]
+  },
+  {
+   "type": "leaders",
+   "market": "US",
+   "title": "Indéboulonnables",
+   "intro": "N° 1 de leur catégorie chacun des 7 jours relevés.",
+   "items": [
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 281657,
+     "market": "US",
+     "category": "high-tech",
+     "days": 7
+    },
+    {
+     "id": "B0GVTPKJVT",
+     "title": "Amazon Fire HD 10 tablet, built for relaxation, 10.1\" vibrant Full HD screen, octa-core processor, 4 GB RAM, 32 GB, Black",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71ZvPIpKktL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GVTPKJVT",
+     "price": 72.99,
+     "rating": 4.5,
+     "reviews": 45181,
+     "market": "US",
+     "category": "informatique",
+     "days": 7
+    },
+    {
+     "id": "B0BZYCJK89",
+     "title": "Owala FreeSip Stainless Steel Water Bottle 24 oz Denim",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61Gvw0-b0eL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0BZYCJK89",
+     "price": 29.98,
+     "rating": 4.6,
+     "reviews": 144289,
+     "market": "US",
+     "category": "cuisine-maison",
+     "days": 7
+    },
+    {
+     "id": "B07BGLT25K",
+     "title": "Scott ComfortPlus Toilet Paper, 12 Triple Rolls, 231 Sheets per Roll, Septic-Safe, 1-Ply Toilet Tissue",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81ErUf17aRL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07BGLT25K",
+     "price": 6.99,
+     "rating": 4.5,
+     "reviews": 147768,
+     "market": "US",
+     "category": "sante",
+     "days": 7
+    },
+    {
+     "id": "B07RZ74VLR",
+     "title": "Roblox Digital Gift Card - 1,000 Robux [Includes Exclusive Virtual Item] [Digital Code]",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61s70-2HoBL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07RZ74VLR",
+     "price": 10.0,
+     "rating": 4.5,
+     "reviews": 84998,
+     "market": "US",
+     "category": "jeux-video",
+     "days": 7
+    },
+    {
+     "id": "B0009X29WK",
+     "title": "Dr. Elsey's Ultra UnScented Clumping Clay Cat Litter 40 lb. Bag",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61eb-cX2wrL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0009X29WK",
+     "price": 22.99,
+     "rating": 4.4,
+     "reviews": 70572,
+     "market": "US",
+     "category": "animaux",
+     "days": 7
+    },
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 281657,
+     "market": "US",
+     "category": "bricolage",
+     "days": 7
+    },
+    {
+     "id": "B0C1HJV7BJ",
+     "title": "Drift Car Air Freshener - The Original Wood Air Freshener - Car Odor Eliminator - Long Lasting Scent - Auto Accessories - Metal Clip - Essential Oils - Clean Ingredients - Teak Scent Starter Kit",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/717n+0jibbL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0C1HJV7BJ",
+     "price": 12.95,
+     "rating": 3.7,
+     "reviews": 25171,
+     "market": "US",
+     "category": "auto",
+     "days": 7
+    },
+    {
+     "id": "B01FV0F8H8",
+     "title": "Amazon Basics Multipurpose Copy Printer Paper, 8.5 x 11 Inches, 20 lb, 92 Bright, White, 1 Ream (500 Sheets), Jam-Free",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61nnrxtz6QL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01FV0F8H8",
+     "price": 6.97,
+     "rating": 4.8,
+     "reviews": 232087,
+     "market": "US",
+     "category": "bureau",
+     "days": 7
+    }
+   ]
+  },
+  {
+   "type": "rush",
+   "market": "US",
+   "title": "Ruées",
+   "intro": "Catégories dont au moins 5 des 10 premières places reviennent au même nom.",
+   "items": [
+    {
+     "id": "B0GJTXVN9Z",
+     "title": "Apple AirTag (2nd Generation) - 4 Pack: Tracker for Keychain, Wallet, and More; Locator with Sound; Simple One-Tap Setup with iPhone or iPad; Key Finder with up to 1.5X Precision Finding Range*",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/611DjYhflAL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GJTXVN9Z",
+     "price": 70.0,
+     "rating": 4.6,
+     "reviews": 12612,
+     "market": "US",
+     "category": "high-tech",
+     "brand": "apple",
+     "share": 5,
+     "of": 10
+    }
+   ]
+  },
+  {
+   "type": "shopify",
+   "market": "US",
+   "title": "Entrées dans les boutiques",
+   "intro": "Produits arrivés cette semaine dans le top 12 « meilleures ventes » des boutiques suivies.",
+   "items": [
+    {
+     "id": "www.ugmonk.com/ugmonk-utility-tote-field-tan",
+     "title": "Ugmonk Utility Tote (Field Tan)",
+     "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/tote-tan-1.jpg?v=1793117251",
+     "url": "https://www.ugmonk.com/products/ugmonk-utility-tote-field-tan",
+     "price": 29.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "bureau",
+     "rank_now": 1,
+     "store": "Ugmonk"
+    },
+    {
+     "id": "www.puravidabracelets.com/anxiety-disorder-awareness",
+     "title": "Anxiety Disorder Awareness",
+     "image": "https://cdn.shopify.com/s/files/1/0297/6313/products/Anxiety_Disorder_Awareness.jpg?v=1619730267",
+     "url": "https://www.puravidabracelets.com/products/anxiety-disorder-awareness",
+     "price": 8.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 8,
+     "store": "Pura Vida"
+    },
+    {
+     "id": "www.puravidabracelets.com/love-hearts-band-ring",
+     "title": "Love Hearts Band Ring",
+     "image": "https://cdn.shopify.com/s/files/1/0297/6313/products/10JERG1234RGOL.jpg?v=1674768043",
+     "url": "https://www.puravidabracelets.com/products/love-hearts-band-ring",
+     "price": 9.6,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 9,
+     "store": "Pura Vida"
+    },
+    {
+     "id": "www.puravidabracelets.com/friendship-pack",
+     "title": "Friendship 10 Pack",
+     "image": "https://cdn.shopify.com/s/files/1/0297/6313/products/10BRXP1001_FRIEOV1-min.jpg?v=1679426642",
+     "url": "https://www.puravidabracelets.com/products/friendship-pack",
+     "price": 48.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 10,
+     "store": "Pura Vida"
+    },
+    {
+     "id": "www.puravidabracelets.com/beach-life-anklet",
+     "title": "Beach Life Anklet",
+     "image": "https://cdn.shopify.com/s/files/1/0297/6313/products/Beach_Life_Anklet_9239a0fc-7ad7-46ff-bdb8-bec66e64c94d.jpg?v=1619730295",
+     "url": "https://www.puravidabracelets.com/products/beach-life-anklet",
+     "price": 9.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 11,
+     "store": "Pura Vida"
+    },
+    {
+     "id": "www.puravidabracelets.com/ocean-conservation-bracelet",
+     "title": "Ocean Conservation Bracelet",
+     "image": "https://cdn.shopify.com/s/files/1/0297/6313/products/10BRCH1001OCCOV1.jpg?v=1647061387",
+     "url": "https://www.puravidabracelets.com/products/ocean-conservation-bracelet",
+     "price": 8.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 12,
+     "store": "Pura Vida"
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "US",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "nascar",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-10-27"
+    },
+    {
+     "title": "when is gta 6 coming out",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-10-29"
+    },
+    {
+     "title": "iphone duo apple",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-10-27"
+    },
+    {
+     "title": "levante badalona - barcelona",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-01"
+    },
+    {
+     "title": "pakhtakor vs al-nassr",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-02"
+    },
+    {
+     "title": "orlando weather",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-11-01"
+    },
+    {
+     "title": "bill murray",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-11-02"
+    },
+    {
+     "title": "indw vs zimw",
+     "traffic": 500,
+     "traffic_label": "500+",
+     "day": "2026-10-28"
+    },
+    {
+     "title": "king tides",
+     "traffic": 500,
+     "traffic_label": "500+",
+     "day": "2026-10-28"
+    },
+    {
+     "title": "nyc marathon 2026",
+     "traffic": 500,
+     "traffic_label": "500+",
+     "day": "2026-10-29"
+    }
+   ]
+  }
+ ]
+}
