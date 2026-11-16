@@ -1,0 +1,956 @@
+{
+ "id": "2026-W47",
+ "title": "La semaine du 10 novembre au 16 novembre",
+ "published": "2026-11-16T13:58:02+00:00",
+ "period": {
+  "from": "2026-11-10",
+  "to": "2026-11-16",
+  "days": 7
+ },
+ "editorial": null,
+ "summary": "plus forte montée : +22 places en Jeux et Jouets · Apple occupe 5 des 10 premières places en High-Tech (US)",
+ "sections": [
+  {
+   "type": "climbers",
+   "market": "FR",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 16 novembre comparé à celui du 10 novembre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B0FF4J5VDK",
+     "title": "Paw Patrol - Pat Patrouille - Véhicule 15 Cm Et Figurine Liberty | Voiture Figurine À Collectionner - Jouet Fabriqué Avec Plastique Recyclé - Voiture Enfant - Pat Patrouille Jouet - Dès 3 Ans",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81Z5MxsGkDL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0FF4J5VDK",
+     "price": null,
+     "rating": 4.8,
+     "reviews": 5835,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 5,
+     "rank_before": 27,
+     "change": 22
+    },
+    {
+     "id": "B0HNQW3HQQ",
+     "title": "Calendrier de l'Avent Squishy de Noël 2026 Compte à Rebours pour Adultes, 24 Mini Articles Adorables Surprises, Décorations de Noël Dumpling Baozi Anti-Stress pour Surprises Quotidiennes de Décembre (#1)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81raLkG5WlL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0HNQW3HQQ",
+     "price": null,
+     "rating": 1.0,
+     "reviews": 4,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 7,
+     "rank_before": 23,
+     "change": 16
+    },
+    {
+     "id": "B0B7724Y6X",
+     "title": "Speedbac - Jeu de Société Famille et Amis - 2 à 7 Joueurs | Le petit bac en rapide et délirant - Grand Prix du Jouet 2024 - ambiance - format voyage - idée cadeau",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/718BTCZMZeL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0B7724Y6X",
+     "price": 13.55,
+     "rating": 4.7,
+     "reviews": 9792,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 8,
+     "rank_before": 24,
+     "change": 16
+    },
+    {
+     "id": "B0GGSK4J2N",
+     "title": "LEGO Star Wars Le calendrier de l’Avent 2026 - 75456 | Jouets pour enfant dès 6 ans, 24 surprises dont 4 minifigurines, droïde IG-11 & figurine de Grogu, cadeau de Noël, 293 pièces",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/91ywYCHeeYL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0GGSK4J2N",
+     "price": null,
+     "rating": 4.7,
+     "reviews": 283,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 6,
+     "rank_before": 21,
+     "change": 15
+    },
+    {
+     "id": "B0CCYRCDDD",
+     "title": "TYROL - Mélange de Graines pour Oiseaux du Ciel et Sauvages - 4 kg - Nourriture Extérieur pour Rouge-Gorge, Pinson, Mésange - Sac de Graines",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71aTfq17WrL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0CCYRCDDD",
+     "price": null,
+     "rating": 4.4,
+     "reviews": 2008,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 10,
+     "rank_before": 24,
+     "change": 14
+    },
+    {
+     "id": "B08X19VZN8",
+     "title": "TP-Link Répéteur WiFi Puissant 1200 Mbps, Port Gigabit, RE330 | Compatible toutes box, Profitez d'une connexion plus stable dans les pièces mal couvertes pour le Streaming HD & Télétravail",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/610DNPYXx7L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B08X19VZN8",
+     "price": 22.16,
+     "rating": 4.2,
+     "reviews": 24375,
+     "market": "FR",
+     "category": "informatique",
+     "rank_now": 14,
+     "rank_before": 28,
+     "change": 14
+    },
+    {
+     "id": "B0D44JL16V",
+     "title": "Velway Sacs à Déchets de Jardin Robustes 500 L x 2 Pack Réutilisables | Sacs de Jardin avec Poignées Pliables Tissu Industriel pour Feuilles Déchets Débris Sacs à Déchets de Jardin Étanches Vert",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/91TGcL0mVkL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0D44JL16V",
+     "price": 16.66,
+     "rating": 4.4,
+     "reviews": 2859,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 12,
+     "rank_before": 25,
+     "change": 13
+    },
+    {
+     "id": "B07MKCZJNJ",
+     "title": "Spin Master Games - Perplexus Rebel - Labyrinthe Parcours 3D | Labyrinthe 3D Avec 70 Défis - Jeu d'Action Et Réflexe - Casse Tete Enfant - Vertus Pédagogiques - Dès 8 Ans",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/814fnidffPL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B07MKCZJNJ",
+     "price": null,
+     "rating": 4.7,
+     "reviews": 36223,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 13,
+     "rank_before": 26,
+     "change": 13
+    },
+    {
+     "id": "B0BYZW1TRM",
+     "title": "Aimé Eco Box Boules de Graisse Nourriture pour Oiseaux x 30 | Sans filet, nourriture complémentaire",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71qWf2FwgpL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0BYZW1TRM",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 1173,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 5,
+     "rank_before": 16,
+     "change": 11
+    },
+    {
+     "id": "B01MROLYGF",
+     "title": "Simple Solution Extreme Nettoyant Taches & Odeurs 3x Puissant 750ml | Nettoyant enzymatique puissant contre urine, selles, vomi. Agit en 15 min sur les souillures d'animaux.",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/51h1jaCL1rL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B01MROLYGF",
+     "price": null,
+     "rating": 4.1,
+     "reviews": 6850,
+     "market": "FR",
+     "category": "animaux",
+     "rank_now": 15,
+     "rank_before": 26,
+     "change": 11
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "FR",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B08CBJCQ39",
+     "title": "PHILIPS machine à café grain 5400, 12 boissons, carafe LatteGo, Noir | Carafe LatteGo facile à nettoyer, écran intuitif, Expresso broyeur avec 4 profils utilisateur, broyeur céramique (EP5441/50)",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61bIqkKjShL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B08CBJCQ39",
+     "price": null,
+     "rating": 4.2,
+     "reviews": 12126,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0GQT56FRV",
+     "title": "ECOVACS DEEBOT T50 Omni Gen3 Robot Aspirateur Laveur 25 000 Pa 81mm AIVI 3D | TruEdge 2.0, brosse & patin extensibles, ZeroTangle 3.0, vidage automatique, séchage 45°C, lavage 75°C, station OMNI, Blanc",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61DOf3tlCaL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0GQT56FRV",
+     "price": 195.82,
+     "rating": 4.4,
+     "reviews": 1267,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 9,
+     "best_rank": 8
+    },
+    {
+     "id": "B08GD94LQC",
+     "title": "by Amazon Nourriture Humide pour Chats, Pâté Mélangé, 100g, Lot de 32",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71+N4YMGzwL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B08GD94LQC",
+     "price": null,
+     "rating": 4.2,
+     "reviews": 5919,
+     "market": "FR",
+     "category": "animaux",
+     "rank_now": 9,
+     "best_rank": 9
+    },
+    {
+     "id": "B0CZ63J96Q",
+     "title": "NYX PROFESSIONAL MAKEUP - Blush en Poudre, enrichi en beurre de mangue, beurre d'amande & beure de karité - Texture Fondante - Formule Vegan - Buttermelt Blush, Teinte : Butta Together",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71CZACiUZ1L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0CZ63J96Q",
+     "price": 4.99,
+     "rating": 4.5,
+     "reviews": 14513,
+     "market": "FR",
+     "category": "beaute",
+     "rank_now": 10,
+     "best_rank": 10
+    },
+    {
+     "id": "B0BWNW7H47",
+     "title": "Oral-B Brossettes de Rechange Cross Action, lot de 10, Blanches | Recharges Brosse à Dents Électrique Pro, Filaments pour Eliminer la Plaque Dentaire, Emballage en Carton",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81085n5YUFL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0BWNW7H47",
+     "price": 19.16,
+     "rating": 4.7,
+     "reviews": 21676,
+     "market": "FR",
+     "category": "sante",
+     "rank_now": 10,
+     "best_rank": 10
+    },
+    {
+     "id": "B0GSH3QWL1",
+     "title": "Playmobil | Christmas | Boule de Noël : Concepteur de Jouets | Boule Festive avec Père Noël inventeur et Cheval Jouet | pour Enfants à partir de 4 Ans | 72222",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71rR7ewloHL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0GSH3QWL1",
+     "price": 4.17,
+     "rating": 3.9,
+     "reviews": 29,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 11,
+     "best_rank": 11
+    },
+    {
+     "id": "B0BLCZX6XP",
+     "title": "Maybelline New York - Instant Effaceur - Anti-cernes/Correcteur Fluide - Teinte : Beige Rosé (01) - 6,8 ml",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/41eTm4mo91L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0BLCZX6XP",
+     "price": 6.06,
+     "rating": 4.4,
+     "reviews": 41921,
+     "market": "FR",
+     "category": "beaute",
+     "rank_now": 11,
+     "best_rank": 11
+    },
+    {
+     "id": "B00F5RP8P0",
+     "title": "Aime Mangeoire Multi-Grains pour Oiseaux et Animaux Sauvages",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61NSDhSusNL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B00F5RP8P0",
+     "price": 4.19,
+     "rating": 4.5,
+     "reviews": 725,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 11,
+     "best_rank": 11
+    },
+    {
+     "id": "B09XB5LJGJ",
+     "title": "EOCVACS Liquide de Nettoyage pour Robot aspirateur 1L",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/51OKmAG4ODL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B09XB5LJGJ",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 4364,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 12,
+     "best_rank": 12
+    },
+    {
+     "id": "B08HM594DY",
+     "title": "Cheminett Laine de Bois Allume Feu 100% Naturel 1 kg",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61BNSN0QUjL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B08HM594DY",
+     "price": 10.75,
+     "rating": 4.6,
+     "reviews": 943,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 30,
+     "best_rank": 14
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "FR",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "coup de vent",
+     "traffic": 50000,
+     "traffic_label": "50000+",
+     "day": "2026-11-16"
+    },
+    {
+     "title": "single day",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-11-11"
+    },
+    {
+     "title": "tours",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-12"
+    },
+    {
+     "title": "italie – argentine",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-14"
+    },
+    {
+     "title": "mandelieu-la-napoule",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-12"
+    },
+    {
+     "title": "a43",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-12"
+    },
+    {
+     "title": "salon du made in france",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-15"
+    },
+    {
+     "title": "rugby aujourd'hui",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-15"
+    },
+    {
+     "title": "banque",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-16"
+    },
+    {
+     "title": "chômage",
+     "traffic": 1000,
+     "traffic_label": "1000+",
+     "day": "2026-11-10"
+    }
+   ]
+  },
+  {
+   "type": "climbers",
+   "market": "US",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 16 novembre comparé à celui du 10 novembre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B07MJL8NXR",
+     "title": "Premier Protein 30g High Protein Shake, Chocolate, 12 Pack | 160 Calories, 24 Vitamins & Minerals, No Added Sugar, Supports Muscle Health, Gluten-Free, 11.5 oz",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Y8GT3GYvL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07MJL8NXR",
+     "price": 31.98,
+     "rating": 4.6,
+     "reviews": 62098,
+     "market": "US",
+     "category": "epicerie",
+     "rank_now": 6,
+     "rank_before": 28,
+     "change": 22
+    },
+    {
+     "id": "B0CZPLV566",
+     "title": "Beats Solo 4 On-Ear Headphones, 50 Hours Battery Life - Matte Black | Rich, Bass-Forward Sound Quality, Spatial Audio, USB-C Fast Fuel Charging, Compatible with Apple & Android Devices",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/515FE+S4yLL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CZPLV566",
+     "price": 129.95,
+     "rating": 4.6,
+     "reviews": 30437,
+     "market": "US",
+     "category": "high-tech",
+     "rank_now": 11,
+     "rank_before": 28,
+     "change": 17
+    },
+    {
+     "id": "B005FEGYCO",
+     "title": "Lepro LED White Light Flashlight, High Lumens Waterproof Adjustable Focus | Small, lightweight. For outdoor, camping, emergency, tactical use. AAA batteries included. Adjustable zoom focus.",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Z59-COL8L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B005FEGYCO",
+     "price": 9.99,
+     "rating": 4.6,
+     "reviews": 51591,
+     "market": "US",
+     "category": "sport",
+     "rank_now": 13,
+     "rank_before": 27,
+     "change": 14
+    },
+    {
+     "id": "B0874M3KW4",
+     "title": "Anker Laptop Docking Station Dual Monitor, 8-in-1 USB C Hub with 4K HDMI | Dual HDMI USB C Dock, 1Gbps Ethernet, 85W Max PD, SD/TF Card Reader, for USB C Laptops, XPS and More (Charger Not Included)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71S-NPBF-qL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0874M3KW4",
+     "price": 53.99,
+     "rating": 4.5,
+     "reviews": 35333,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 10,
+     "rank_before": 23,
+     "change": 13
+    },
+    {
+     "id": "B0CQSKPZ3S",
+     "title": "6 Pack Mouse Traps Indoor for Home,Mice Traps for House,Reusable Mouse Trap that Work,Small Mice Catchers for Home Indoor, Quick Set Mousetraps Effective",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Rnn30u-RL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CQSKPZ3S",
+     "price": 9.99,
+     "rating": 4.2,
+     "reviews": 5851,
+     "market": "US",
+     "category": "jardin",
+     "rank_now": 12,
+     "rank_before": 24,
+     "change": 12
+    },
+    {
+     "id": "B01LYHE49W",
+     "title": "Amazon Basics Sturdy File Folders with Reinforced Tabs for Filing and Organization, 1/3-Cut Tab, Assorted Positions, Letter Size, 8.5x11 inches, Manila, 100-Pack",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61fuHeaBSaL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01LYHE49W",
+     "price": 12.59,
+     "rating": 4.8,
+     "reviews": 57725,
+     "market": "US",
+     "category": "bureau",
+     "rank_now": 10,
+     "rank_before": 21,
+     "change": 11
+    },
+    {
+     "id": "B0GGFG69YQ",
+     "title": "Ring Battery Doorbell (newest model), Speckled Gray with Chime (newest model), White",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/5183my21gkL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GGFG69YQ",
+     "price": 49.99,
+     "rating": 4.6,
+     "reviews": 234,
+     "market": "US",
+     "category": "high-tech",
+     "rank_now": 16,
+     "rank_before": 27,
+     "change": 11
+    },
+    {
+     "id": "B084TC8D4L",
+     "title": "Gas One 12 Pack 6 Hour Chafing Fuel - Food Warmer for Chafing Dish Buffet Set - Reusable Liquid Safe Fuel With Wick & Lid Opener",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71i86G2o3KL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B084TC8D4L",
+     "price": 24.99,
+     "rating": 4.7,
+     "reviews": 11402,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 16,
+     "rank_before": 27,
+     "change": 11
+    },
+    {
+     "id": "B002G9UDYG",
+     "title": "Carhartt Men's Iconic A18 Watch Cap Beanie",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81W5UTTEaYL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B002G9UDYG",
+     "price": 19.99,
+     "rating": 4.8,
+     "reviews": 176066,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 16,
+     "rank_before": 27,
+     "change": 11
+    },
+    {
+     "id": "B0C7KSGVRM",
+     "title": "Fall Thanksgiving Decorations Terracotta Cheesecloth Table Runner 120 Inch | For Autumn Thanksgiving Friendsgiving Wedding Bridal Shower Baby Shower Engagement Farmhouse Rustic Sheer Boho Decor",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81ZL-k23GWL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0C7KSGVRM",
+     "price": 12.99,
+     "rating": 4.7,
+     "reviews": 4544,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 18,
+     "rank_before": 29,
+     "change": 11
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "US",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B0FK1LF5PM",
+     "title": "Owala FreeSip Stainless Steel Water Bottle 32 oz Black Cherry | 2-in-1 Sip or Swig Spout | Leakproof when Locked | Push-Button Lid | Carry Loop | Triple-Wall Insulated",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/411VuaxGFsL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0FK1LF5PM",
+     "price": 28.0,
+     "rating": 4.6,
+     "reviews": 146007,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0HNQW14LD",
+     "title": "Magic: The Gathering Nauctis: The Sunken Realm Secret Lair Bundle | 2 Mythic Secret Lair Cards, 2 Collector Boosters, 6 Booster Packs, 20 Full-Art Lands, 1 Spindown",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81E3d+g-zML._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0HNQW14LD",
+     "price": null,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B0GZ4ZZ4QS",
+     "title": "Horizon Group USA Slimygloop Gelli Gels, Minecraft Creeper | Slow-Flow Glitter Squishy Sensory Toys, Squeeze Stress Ball for Kids and Teens, Satisfying Sugar Squish Fidget",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/814Mco1pjlL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GZ4ZZ4QS",
+     "price": 8.67,
+     "rating": 4.3,
+     "reviews": 1640,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 3,
+     "best_rank": 2
+    },
+    {
+     "id": "B0HBWJ6FS1",
+     "title": "Silonn Nugget Ice Maker Countertop with Carry Handle, 36 lbs/24H | First ice in 5 minutes, soft chewable nugget ice, self-cleaning, compact countertop size",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71i2WtR2RoL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0HBWJ6FS1",
+     "price": 139.95,
+     "rating": 4.3,
+     "reviews": 32639,
+     "market": "US",
+     "category": "electromenager",
+     "rank_now": 5,
+     "best_rank": 4
+    },
+    {
+     "id": "B00D7OAOYI",
+     "title": "Hasbro Gaming Trouble Board Game for Kids Ages 5 and Up 2-4 Players",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81-oNwrbbnL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00D7OAOYI",
+     "price": 9.84,
+     "rating": 4.7,
+     "reviews": 40565,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 6,
+     "best_rank": 5
+    },
+    {
+     "id": "B0FHKZ4BP1",
+     "title": "Official Hasbro Games Connect 4 Game (2025 Edition) | All-in-1 Storage, Carrying Case, Score Tracker | Ages 6+ | 2 Players | Family Games for Kids",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81ENjThbHuL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0FHKZ4BP1",
+     "price": 5.0,
+     "rating": 4.8,
+     "reviews": 565,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 7,
+     "best_rank": 7
+    },
+    {
+     "id": "B076HK9H7Z",
+     "title": "Sorry! Board Game for Kids Ages 6 and Up; Classic Hasbro Board Game; Each Player Gets 4 Pawns; Family Game",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81CA3GV9sXL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B076HK9H7Z",
+     "price": 5.0,
+     "rating": 4.8,
+     "reviews": 34763,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 8,
+     "best_rank": 8
+    },
+    {
+     "id": "B0G3Y2FSKT",
+     "title": "CrunchLabs by Mark Rober, Turbo Trick Paper Airplane, Fold, Launch, Fly | Launcher kit with 5 flight designs, 3 power bands, and QR how-to videos for experimenting with airplanes",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71I+FgEdZAL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0G3Y2FSKT",
+     "price": 14.97,
+     "rating": 4.4,
+     "reviews": 117,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 27,
+     "best_rank": 8
+    },
+    {
+     "id": "B0D87PKYYK",
+     "title": "Official Hasbro Games Jenga Game | Digital Die for 6 More Ways to Play | Original Wood Block Game | Stacking Tower | Ages 6+ | 1+ Players | Party Games",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71s0N4+PW-L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0D87PKYYK",
+     "price": 5.0,
+     "rating": 4.8,
+     "reviews": 4074,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 10,
+     "best_rank": 10
+    },
+    {
+     "id": "B091FXQQMQ",
+     "title": "Kasa Smart Plug Ultra Mini 15A, EP10P2, Smart Home Wi-Fi Outlet | Works with Alexa & Google Home, No Hub Required, UP Certified, 2.4GHz Wi-Fi Only, 2-Pack, White",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/51c+0pl9KvS._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B091FXQQMQ",
+     "price": 11.99,
+     "rating": 4.5,
+     "reviews": 41025,
+     "market": "US",
+     "category": "bricolage",
+     "rank_now": 10,
+     "best_rank": 10
+    }
+   ]
+  },
+  {
+   "type": "leaders",
+   "market": "US",
+   "title": "Indéboulonnables",
+   "intro": "N° 1 de leur catégorie chacun des 7 jours relevés.",
+   "items": [
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 282073,
+     "market": "US",
+     "category": "high-tech",
+     "days": 7
+    },
+    {
+     "id": "B0GVTPKJVT",
+     "title": "Amazon Fire HD 10 tablet, built for relaxation, 10.1\" vibrant Full HD screen, octa-core processor, 4 GB RAM, 32 GB, Black",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71ZvPIpKktL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GVTPKJVT",
+     "price": null,
+     "rating": 4.5,
+     "reviews": 45498,
+     "market": "US",
+     "category": "informatique",
+     "days": 7
+    },
+    {
+     "id": "B0BWHZJHPL",
+     "title": "EUHOMY Countertop Ice Maker Machine with Handle, 26lbs in 24Hrs, 9 Ice Cubes Ready in 6 Mins, Auto-Cleaning Portable Ice Maker with Basket and Scoop, for Home/Kitchen/Camping/RV. (Black)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61v0kBhe+LL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0BWHZJHPL",
+     "price": 69.99,
+     "rating": 4.2,
+     "reviews": 17044,
+     "market": "US",
+     "category": "electromenager",
+     "days": 7
+    },
+    {
+     "id": "B08KT2Z93D",
+     "title": "eos Shea Better Body Lotion- Vanilla Cashmere,  24-Hour Moisture, 16 fl oz | Natural Shea Butter & Oil, Whipped Vanilla & Caramel, Lasting Hydration, 100% Vegan & Cruelty-Free, Apply to Dry Skin",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61toxHQdbML._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B08KT2Z93D",
+     "price": 9.97,
+     "rating": 4.7,
+     "reviews": 93966,
+     "market": "US",
+     "category": "beaute",
+     "days": 7
+    },
+    {
+     "id": "B07BGLT25K",
+     "title": "Scott ComfortPlus Toilet Paper, 12 Triple Rolls, 231 Sheets per Roll, Septic-Safe, 1-Ply Toilet Tissue",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81ErUf17aRL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07BGLT25K",
+     "price": 5.68,
+     "rating": 4.5,
+     "reviews": 152224,
+     "market": "US",
+     "category": "sante",
+     "days": 7
+    },
+    {
+     "id": "B01L8JJ57U",
+     "title": "Hanes Men's Sweatshirt, EcoSmart Fleece Crewneck Sweatshirt, Big & Tall Available, 1 or 2-Pack",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61azFaUG-XL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01L8JJ57U",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 9607,
+     "market": "US",
+     "category": "mode",
+     "days": 7
+    },
+    {
+     "id": "B0BQZFVJTB",
+     "title": "Schylling NeeDoh Nice Cube - Sensory Squeeze Toy with Super Solid Squish - 2.25\" Cube - Color May Vary (Pack of 1)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/51uyZ+EfDML._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0BQZFVJTB",
+     "price": null,
+     "rating": 4.2,
+     "reviews": 9123,
+     "market": "US",
+     "category": "jouets",
+     "days": 7
+    },
+    {
+     "id": "B010OVZO64",
+     "title": "Pampers Swaddlers Diapers, Size 5 (20-37 lbs), 132 Count, Fragrance Free, Hypoallergenic, Absorbent, Pediatrician Recommended, Skin Safe (Packaging May Vary)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81FE7T2r4wL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B010OVZO64",
+     "price": 49.77,
+     "rating": 4.8,
+     "reviews": 129873,
+     "market": "US",
+     "category": "bebe",
+     "days": 7
+    },
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 282073,
+     "market": "US",
+     "category": "bricolage",
+     "days": 7
+    },
+    {
+     "id": "B0C1HJV7BJ",
+     "title": "Drift Wood Car Air Freshener Starter Kit with Visor Clip - Teak Scent | The Original Wood Air Freshener, Car Odor Eliminator, Long Lasting Scent, Essential Oils, Clean Ingredients, Auto Accessories",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/717n+0jibbL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0C1HJV7BJ",
+     "price": 12.95,
+     "rating": 3.7,
+     "reviews": 25291,
+     "market": "US",
+     "category": "auto",
+     "days": 7
+    },
+    {
+     "id": "B01FV0F8H8",
+     "title": "Amazon Basics Multipurpose Copy Printer Paper, 8.5 x 11 Inches, 20 lb, 92 Bright, White, 1 Ream (500 Sheets), Jam-Free",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61nnrxtz6QL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01FV0F8H8",
+     "price": 6.97,
+     "rating": 4.8,
+     "reviews": 232943,
+     "market": "US",
+     "category": "bureau",
+     "days": 7
+    },
+    {
+     "id": "B01N05APQY",
+     "title": "Nespresso Capsules Vertuo, Variety Pack, Medium and Dark Roast Coffee, 30 Count Coffee Pods, Brews 7.8 oz.",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/715720Nw5fL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01N05APQY",
+     "price": 42.0,
+     "rating": 4.8,
+     "reviews": 68198,
+     "market": "US",
+     "category": "epicerie",
+     "days": 7
+    }
+   ]
+  },
+  {
+   "type": "rush",
+   "market": "US",
+   "title": "Ruées",
+   "intro": "Catégories dont au moins 5 des 10 premières places reviennent au même nom.",
+   "items": [
+    {
+     "id": "B0DCH8VDXF",
+     "title": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/513OSdW4elL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DCH8VDXF",
+     "price": 19.0,
+     "rating": 4.5,
+     "reviews": 20296,
+     "market": "US",
+     "category": "high-tech",
+     "brand": "apple",
+     "share": 5,
+     "of": 10
+    }
+   ]
+  },
+  {
+   "type": "shopify",
+   "market": "US",
+   "title": "Entrées dans les boutiques",
+   "intro": "Produits arrivés cette semaine dans le top 12 « meilleures ventes » des boutiques suivies.",
+   "items": [
+    {
+     "id": "kith.com/khla150154-841",
+     "title": "Kith for the New York Knicks Basketball Pouch - Clementine",
+     "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHLA150154-841-Detail.jpg?v=1794001923",
+     "url": "https://kith.com/products/khla150154-841",
+     "price": 95.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 1,
+     "store": "Kith"
+    },
+    {
+     "id": "kith.com/khla150151-101",
+     "title": "Kith for the New York Knicks Mug - White",
+     "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHLA150151-101-Detail.jpg?v=1794001930",
+     "url": "https://kith.com/products/khla150151-101",
+     "price": 40.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 2,
+     "store": "Kith"
+    },
+    {
+     "id": "www.ugmonk.com/analog-task-cards-small",
+     "title": "Analog Task Cards - Small",
+     "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/task-small.jpg?v=1781712689",
+     "url": "https://www.ugmonk.com/products/analog-task-cards-small",
+     "price": 12.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "bureau",
+     "rank_now": 10,
+     "store": "Ugmonk"
+    },
+    {
+     "id": "ridge.com/forged-ember",
+     "title": "Ridge Wallet - Forged Ember",
+     "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/ForgedEmber-Wallet-RenderFront1__FM.webp?v=1794348646",
+     "url": "https://ridge.com/products/forged-ember",
+     "price": 150.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 11,
+     "store": "Ridge"
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "US",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "active shooter dc",
+     "traffic": 20000,
+     "traffic_label": "20000+",
+     "day": "2026-11-12"
+    },
+    {
+     "title": "holmes documentary",
+     "traffic": 20000,
+     "traffic_label": "20000+",
+     "day": "2026-11-16"
+    },
+    {
+     "title": "stock market open today",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-11-11"
+    },
+    {
+     "title": "social security trust fund depletion 2032",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-12"
+    },
+    {
+     "title": "resident evil code veronica remake",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-12"
+    },
+    {
+     "title": "thiago agustín tirante",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-14"
+    },
+    {
+     "title": "gma deals and steals",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-12"
+    },
+    {
+     "title": "dustin hoffman",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-10"
+    },
+    {
+     "title": "ihsaa football scores",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-14"
+    },
+    {
+     "title": "nitto atp finals",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-16"
+    }
+   ]
+  }
+ ]
+}
