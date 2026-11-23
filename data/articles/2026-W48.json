@@ -1,0 +1,931 @@
+{
+ "id": "2026-W48",
+ "title": "La semaine du 17 novembre au 23 novembre",
+ "published": "2026-11-23T16:15:27+00:00",
+ "period": {
+  "from": "2026-11-17",
+  "to": "2026-11-23",
+  "days": 7
+ },
+ "editorial": null,
+ "summary": "plus forte montée : +23 places en Jeux et Jouets · Medicube occupe 5 des 10 premières places en Beauté et Parfum (US)",
+ "sections": [
+  {
+   "type": "climbers",
+   "market": "FR",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 23 novembre comparé à celui du 17 novembre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B0CSP8H16R",
+     "title": "HEX BOTS - Gecko Radiocommandé Qui Rampe sur Le Sol Et Les Murs | Lézard Télécommandé Avec Yeux Lumineux - Pilotage Facile - Télécommande Et Câble USB Inclus - Jouet Enfant - Dès 4 Ans",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/8109aqLlmAL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0CSP8H16R",
+     "price": null,
+     "rating": 4.2,
+     "reviews": 3432,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 1,
+     "rank_before": 24,
+     "change": 23
+    },
+    {
+     "id": "B0BZCV658S",
+     "title": "SONOFF SNZB-02D Mini Capteur ZigBee de Température et d'humidité, Thermomètre Hygrometre Intérieur, Affichage sur écran LCD, Compatible avec Alexa/Google Home, 2 Pack",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61Og2rcCYeL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0BZCV658S",
+     "price": 17.73,
+     "rating": 4.4,
+     "reviews": 3532,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 2,
+     "rank_before": 21,
+     "change": 19
+    },
+    {
+     "id": "B091TY9XDZ",
+     "title": "Super Ninja Anti Moucherons Plantes Intérieur, 10 Pièges Jaunes | Pièges Collants Imperméables pour Moucherons de Terreau, Forme Naturelle de Feuille, Non Toxique Attrape Moucheron",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81Oo6kieHgL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B091TY9XDZ",
+     "price": null,
+     "rating": 4.0,
+     "reviews": 13017,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 8,
+     "rank_before": 25,
+     "change": 17
+    },
+    {
+     "id": "B09MKR6KSV",
+     "title": "Edifit, Ballon Grossesse, 55, 65 et 75, Swiss Ball, Gym, Pilates, Gonfleur Inclus, Fitness Materiel, Gymnastique, Yoga Accessoires",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/51L9fjrCtqL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B09MKR6KSV",
+     "price": 11.32,
+     "rating": 4.3,
+     "reviews": 4413,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 10,
+     "rank_before": 27,
+     "change": 17
+    },
+    {
+     "id": "B00PY3EYQO",
+     "title": "LEGO Classic Boîte de briques créatives deluxe LEGO 10698 | Jouet pour garçon ou fille dès 4 ans, jeu créatif avec rangement, fenêtres & roues, loisirs créatifs, idée cadeau, 790 pièces",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81VonH7gevL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B00PY3EYQO",
+     "price": null,
+     "rating": 4.8,
+     "reviews": 8066,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 10,
+     "rank_before": 27,
+     "change": 17
+    },
+    {
+     "id": "B0H71MYDBK",
+     "title": "SWEETFULL  Lot de 2 Chauffe Main Rechargeables 2 en 1 Magnetique 3 Modes | Chauffe-mains électrique 4000mAh ,Chaufferette Reutilisable Portable Chauffage cadeau de Noël femme homme Pour l'extérieur",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71nejTm7YfL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H71MYDBK",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 343,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 3,
+     "rank_before": 18,
+     "change": 15
+    },
+    {
+     "id": "B09HCLZBL7",
+     "title": "FELIX Tendres Effilés - pâtée pour chat Adulte - Multipack 44 x 85g | Saveur Saumon, Poulet, Canard et Cabillaud - Pour un Pelage Brillant - Riche en Vitamines et Oméga-6 - Nourriture Chat",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81NTuSe4DbL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B09HCLZBL7",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 4461,
+     "market": "FR",
+     "category": "animaux",
+     "rank_now": 15,
+     "rank_before": 30,
+     "change": 15
+    },
+    {
+     "id": "B0G15HL7VX",
+     "title": "MASSA Chaussettes Paillettes - Taille Unique - Parfaite, Unique, Wesh, Tana, Princesse, Pipelette, Raleuse, Gourmande, Aigrie, Mamounette - Chaussettes à Paillettes",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81Q51sXENJL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0G15HL7VX",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 392,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 6,
+     "rank_before": 19,
+     "change": 13
+    },
+    {
+     "id": "B00SP2ZKW8",
+     "title": "Bulk Créatine Monohydrate Poudre, Non aromatisé, 500 g | 147 portions, Créatine micronisée pure, Vegan et Halal, Idéal pour le fitness, l'entraînement et la salle de sport",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61uTYXdSbHL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B00SP2ZKW8",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 11605,
+     "market": "FR",
+     "category": "sante",
+     "rank_now": 14,
+     "rank_before": 27,
+     "change": 13
+    },
+    {
+     "id": "B0DD43PYQ6",
+     "title": "PIC Anti Mites Alimentaires – 12x Piege a Pheromone pour Cuisine et Placard | Sans insecticide, sûr pour les aliments, efficace jusqu'à 8 semaines, détection précoce dans placard et garde-manger",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81xdIxa8HYL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0DD43PYQ6",
+     "price": null,
+     "rating": 4.4,
+     "reviews": 4777,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 9,
+     "rank_before": 20,
+     "change": 11
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "FR",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B077B7HZ2V",
+     "title": "Calvin Klein Homme Boxer Lot De 3",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71NPaJkcoKL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B077B7HZ2V",
+     "price": null,
+     "rating": 4.5,
+     "reviews": 65723,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0H5KWCXDK",
+     "title": "Legami - Calendrier de l’Avent Dream Peaks 2026 | Calendrier de l’Avent, 23 surprises + 1 stylo en gel effaçable édition limitée, L 49,5 x H 39,5 x H 39 cm",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/815vMIKOCkL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H5KWCXDK",
+     "price": null,
+     "rating": 4.8,
+     "reviews": 7,
+     "market": "FR",
+     "category": "jouets",
+     "rank_now": 2,
+     "best_rank": 1
+    },
+    {
+     "id": "B0DNHSYFXP",
+     "title": "Amazon Basics Paire d'haltères en néoprène",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/616HB78CC0L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0DNHSYFXP",
+     "price": 31.24,
+     "rating": 4.7,
+     "reviews": 32316,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B0H86XV213",
+     "title": "XIAOMI Smart Band 11, Bracelet connecté, 1,72'', Autonomie 21 jours, Noir | 150+ modes sport, fréquence cardiaque & sommeil, cadres multi-matériaux, bracelet hypoallergénique, iOS & Android",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61rfkIZKcBL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0H86XV213",
+     "price": null,
+     "rating": 4.2,
+     "reviews": 78,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 4,
+     "best_rank": 3
+    },
+    {
+     "id": "B0D44B1326",
+     "title": "Velway Sacs à Déchets de Jardin Robustes 272 L x 3 Pack Réutilisables | Sacs de Jardin avec Poignées Pliables Tissu Industriel pour Feuilles Déchets Débris Sacs à Déchets de Jardin Étanches Vert",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/91yY1hcLmoL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0D44B1326",
+     "price": 11.87,
+     "rating": 4.4,
+     "reviews": 2888,
+     "market": "FR",
+     "category": "jardin",
+     "rank_now": 4,
+     "best_rank": 4
+    },
+    {
+     "id": "B0C69LXDG9",
+     "title": "douceur d'intérieur, Drap Housse (140 x 190 cm) Lina Blanc, 100% Coton | Coton 57 fils : douceur naturelle et excellente résistance",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71n9Veu8W0L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0C69LXDG9",
+     "price": 9.16,
+     "rating": 4.4,
+     "reviews": 600,
+     "market": "FR",
+     "category": "cuisine-maison",
+     "rank_now": 5,
+     "best_rank": 5
+    },
+    {
+     "id": "B01N2WEY7S",
+     "title": "Reebok Club C 85 SneakerHomme",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/51q8kt7Ej9L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B01N2WEY7S",
+     "price": 24.97,
+     "rating": 4.4,
+     "reviews": 8464,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 5,
+     "best_rank": 5
+    },
+    {
+     "id": "B0GVQMF224",
+     "title": "IERAKOR Boxe Mural Musique, Machine de Boxe Musicale, 2 Paires de Gants | Music Boxing Machine, Bluetooth, 9 Vitesses et Modes, Sport à Domicile, Anti-Stress, Adulte et Enfant",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/81czx3lINuL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0GVQMF224",
+     "price": null,
+     "rating": 4.5,
+     "reviews": 923,
+     "market": "FR",
+     "category": "sport",
+     "rank_now": 5,
+     "best_rank": 5
+    },
+    {
+     "id": "B0G3542DLZ",
+     "title": "Levi's Jean Slim 511 pour Homme",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/61FO2RFYHWL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0G3542DLZ",
+     "price": null,
+     "rating": 4.2,
+     "reviews": 18966,
+     "market": "FR",
+     "category": "mode",
+     "rank_now": 7,
+     "best_rank": 5
+    },
+    {
+     "id": "B0G2CYQ99M",
+     "title": "MyVariations - Brosse à Dents Électrique Sonique [5 Modes] [1 Mois Batterie]",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/51931GO1mTL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B0G2CYQ99M",
+     "price": null,
+     "rating": 4.6,
+     "reviews": 3094,
+     "market": "FR",
+     "category": "sante",
+     "rank_now": 6,
+     "best_rank": 6
+    }
+   ]
+  },
+  {
+   "type": "leaders",
+   "market": "FR",
+   "title": "Indéboulonnables",
+   "intro": "N° 1 de leur catégorie chacun des 7 jours relevés.",
+   "items": [
+    {
+     "id": "B00MW8G3YU",
+     "title": "Amazon Basics Lot de 50 protections pour déjections canines, anti-fuite, 5 couches, surface à séchage rapide, taille classique, pour chiens et chiots, Bleu",
+     "image": "https://images-eu.ssl-images-amazon.com/images/I/71Co+yjlWAL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.fr/dp/B00MW8G3YU",
+     "price": 9.67,
+     "rating": 4.5,
+     "reviews": 223525,
+     "market": "FR",
+     "category": "animaux",
+     "days": 7
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "FR",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "train",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-11-20"
+    },
+    {
+     "title": "nantes",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-17"
+    },
+    {
+     "title": "jean gabin",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-22"
+    },
+    {
+     "title": "mêlée",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-23"
+    },
+    {
+     "title": "amine el khatmi",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-17"
+    },
+    {
+     "title": "arthur fils",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-17"
+    },
+    {
+     "title": "carlos alcaraz",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-20"
+    },
+    {
+     "title": "élève",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-18"
+    },
+    {
+     "title": "autoroute",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-19"
+    },
+    {
+     "title": "playstation ps5 grand theft auto vi",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-20"
+    }
+   ]
+  },
+  {
+   "type": "climbers",
+   "market": "US",
+   "title": "Les plus fortes montées",
+   "intro": "Rang du 23 novembre comparé à celui du 17 novembre, dans la même catégorie.",
+   "items": [
+    {
+     "id": "B07XXSYLL8",
+     "title": "TempPro TempSwift TP19H 1 Sec Instant Read Meat Thermometer Digital | Auto-Rotating Backlit, Motion-Activated, Waterproof Cooking Food Thermometer for BBQ Grill Candy, Gifts for Men Husband Dad",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71GAhr0v1hL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B07XXSYLL8",
+     "price": 12.59,
+     "rating": 4.7,
+     "reviews": 56873,
+     "market": "US",
+     "category": "jardin",
+     "rank_now": 3,
+     "rank_before": 24,
+     "change": 21
+    },
+    {
+     "id": "B00MUEHPGQ",
+     "title": "PriorityChef Large 15oz Potato Ricer, Heavy Duty Stainless Steel Potato Masher and Ricer Kitchen Tool, Press and Mash Kitchen Gadget For Perfect Mashed Potatoes - Everytime",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Nm2CTmkjL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00MUEHPGQ",
+     "price": 27.99,
+     "rating": 4.6,
+     "reviews": 15100,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 7,
+     "rank_before": 28,
+     "change": 21
+    },
+    {
+     "id": "B0DFCH3C4W",
+     "title": "Anker 140W Max 4-Port GaN Charging Blocks,Smart Display for Macbook Charger | Fast Charger USB C Adapter with Touch Controls for MacBook, iPad, iPhone 18 Pro / 17 (5 ft Cable Included, Not a Power Bank)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71TNYvW23mL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DFCH3C4W",
+     "price": 59.99,
+     "rating": 4.4,
+     "reviews": 3920,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 7,
+     "rank_before": 27,
+     "change": 20
+    },
+    {
+     "id": "B0178ENI4K",
+     "title": "ALOHA Organic Plant Based Protein Bar | Peanut Butter Chocolate Chip, 12 Ct | 14g Plant-Based Protein, 10g Fiber, 5g Sugar | No Sucralose or Stevia | Non-GMO, Vegan & Dairy Free",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71vuwFBqCVL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0178ENI4K",
+     "price": 19.52,
+     "rating": 4.5,
+     "reviews": 8771,
+     "market": "US",
+     "category": "epicerie",
+     "rank_now": 7,
+     "rank_before": 26,
+     "change": 19
+    },
+    {
+     "id": "B0G2KJ8V5R",
+     "title": "LEGO Snowman Ornaments 40812 | Christmas Craft, Building Toys, Girls & Boys, Ages 6+, Christmas Tree Decoration with Hanging Rings, 168 pieces",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71mUU78SAJL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0G2KJ8V5R",
+     "price": 10.29,
+     "rating": 4.8,
+     "reviews": 213,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 7,
+     "rank_before": 24,
+     "change": 17
+    },
+    {
+     "id": "B09V366BDY",
+     "title": "KSIPZE 100ft Led Strip Lights RGB Music Sync Color Changing Led Lights with Smart App Control Remote Led Lights for Bedroom Room Lighting Flexible Home Décor",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71lntIT6FfL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B09V366BDY",
+     "price": 9.48,
+     "rating": 4.4,
+     "reviews": 42464,
+     "market": "US",
+     "category": "bricolage",
+     "rank_now": 10,
+     "rank_before": 26,
+     "change": 16
+    },
+    {
+     "id": "B0DF1L929C",
+     "title": "GHOST Energy Drink, Zero Sugars, 12-Pack, Welch's Grape, 16oz | Energy & Focus Pre Workout Drink, No Artificial Colors, Gluten-Free, Vegan - 200MG Natural Caffeine, L-Carnitine, Taurine",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81U-Do4QV-L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DF1L929C",
+     "price": 25.48,
+     "rating": 4.5,
+     "reviews": 15416,
+     "market": "US",
+     "category": "epicerie",
+     "rank_now": 13,
+     "rank_before": 29,
+     "change": 16
+    },
+    {
+     "id": "B0H2K3RD7C",
+     "title": "EA Sports Madden NFL 27 - Standard Edition PS5 |Disc I VideoGame",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61i4mpAfgRL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0H2K3RD7C",
+     "price": null,
+     "rating": 4.7,
+     "reviews": 299,
+     "market": "US",
+     "category": "jeux-video",
+     "rank_now": 8,
+     "rank_before": 22,
+     "change": 14
+    },
+    {
+     "id": "B0GD6R7CFJ",
+     "title": "BIODANCE Hydrogel Eye Patches for Under Eye, Collagen Peptide (60 Count) | Under Eye Patches for Wrinkles, Smile Line Patches, Depuffing Eye Mask, Stocking Stuffers, Gifts for Women, Korean Skin Care",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61jB74Wpd5L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0GD6R7CFJ",
+     "price": 17.5,
+     "rating": 4.6,
+     "reviews": 6676,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 14,
+     "rank_before": 28,
+     "change": 14
+    },
+    {
+     "id": "B0FB8QB54F",
+     "title": "Anker 100W Max USB C Charger, 3-Port GaN Phone Charger with Smart Display | Ultra-Compact Fast Laptop Charger with Touch Control for iPhone 18 Pro/17 ,iPad,MacBook Pro/Air(Include Cable,Non-Battery)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71vOwOXaTFL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0FB8QB54F",
+     "price": 45.99,
+     "rating": 4.7,
+     "reviews": 1599,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 11,
+     "rank_before": 24,
+     "change": 13
+    }
+   ]
+  },
+  {
+   "type": "newcomers",
+   "market": "US",
+   "title": "Nouveaux venus",
+   "intro": "Absents de tous nos relevés précédents, ils sont dans le top 30 ce matin.",
+   "items": [
+    {
+     "id": "B0HCVX8XHV",
+     "title": "Miracase Magnetic for iPhone 18 Pro Max Case 6.9\", Glacier Blue | Translucent Matte, Compatible with MagSafe, N56 Stronger Magnets, Military Grade Drop Proof, Rugged Shockproof Protective",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61QBBf1CHiL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0HCVX8XHV",
+     "price": 18.69,
+     "rating": 4.5,
+     "reviews": 40870,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0CP9Z56SW",
+     "title": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Rose Quartz 2.0 | Handle and Straw | 3-Position Lid | Cup Holder Compatible for Travel | Insulated Stainless Steel Cup | BPA-Free",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/41ryNvEnNCL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0CP9Z56SW",
+     "price": 22.5,
+     "rating": 4.7,
+     "reviews": 208181,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B0882ZJ48W",
+     "title": "GE XWFE™ Refrigerator Water Filter, Genuine Filter, Guaranteed Fit, 1-pack | Reduces 70+ Impurities including Lead, Microplastics, & PFOA/PFOS, Certified to NSF/ANSI Standards 42, 53, 372, 401",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Z4DYovOvL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0882ZJ48W",
+     "price": 49.98,
+     "rating": 4.5,
+     "reviews": 43661,
+     "market": "US",
+     "category": "electromenager",
+     "rank_now": 1,
+     "best_rank": 1
+    },
+    {
+     "id": "B075JTR46M",
+     "title": "Amazon Essentials Men's Fleece Open Bottom Sweatpant (Available in Big & Tall)",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71qyzq5YXuL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B075JTR46M",
+     "price": 10.88,
+     "rating": 4.5,
+     "reviews": 64590,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 11,
+     "best_rank": 1
+    },
+    {
+     "id": "B071NFVVNG",
+     "title": "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6-Month Life, Easy Install, Pack of 1",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/51p8oHwHzXL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B071NFVVNG",
+     "price": 29.99,
+     "rating": 4.6,
+     "reviews": 44493,
+     "market": "US",
+     "category": "electromenager",
+     "rank_now": 2,
+     "best_rank": 2
+    },
+    {
+     "id": "B00UXG4WR8",
+     "title": "everydrop by Whirlpool Ice & Water Refrigerator Filter 1, Purple, EDR1RXD1 | NSF 42, 53 & 401 Certified, Reduces 70 Contaminants Including 99% Microplastics, Coconut Shell Carbon Core, 6-Month Life",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61FIciD4MhL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B00UXG4WR8",
+     "price": 53.99,
+     "rating": 4.7,
+     "reviews": 109576,
+     "market": "US",
+     "category": "electromenager",
+     "rank_now": 3,
+     "best_rank": 2
+    },
+    {
+     "id": "B0F5FHFSTT",
+     "title": "Amazon Kids Tablet 11 (newest model), Ages 6-12, Includes books, apps and videos for STEM and hobbies; add popular school apps to support homework; with Stellar Swirl slim hard case",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61xSiuDthlL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0F5FHFSTT",
+     "price": 219.99,
+     "rating": 3.5,
+     "reviews": 71,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 3,
+     "best_rank": 3
+    },
+    {
+     "id": "B0F5F96SDH",
+     "title": "Amazon Kids Tablet 11 (newest model), Ages 3-5, Includes 1-year of Kids+ with early-learning books, apps and videos about letters, numbers, shapes and colors, and Cool Green soft bumper",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61U5YLhJo3L._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0F5F96SDH",
+     "price": 219.99,
+     "rating": 3.7,
+     "reviews": 32,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 4,
+     "best_rank": 3
+    },
+    {
+     "id": "B0FQLK994V",
+     "title": "ZipString Aracna Glow-in-the-Dark Webshooter String Launcher Toy | With Travel Box & Fluorescent Strings, For Kids, Teens & Adults, Patented, Reloading, Durable, Superhero Web Shooting Action",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81n6MaTUelL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0FQLK994V",
+     "price": 36.0,
+     "rating": 4.4,
+     "reviews": 783,
+     "market": "US",
+     "category": "jouets",
+     "rank_now": 4,
+     "best_rank": 3
+    },
+    {
+     "id": "B0DZZWMB2L",
+     "title": "ASUS ROG Strix G16 (2025) Gaming Laptop, 16” FHD+ 16:10 165Hz/3ms, NVIDIA® GeForce RTX™ 5060, Intel® Core™ i7 Processor 14650HX, 16GB DDR5, 1TB Gen 4 SSD, Wi-Fi 7, Windows 11 Home, G615JMR-AS74",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/81n1T4CYfmL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0DZZWMB2L",
+     "price": 1564.99,
+     "rating": 4.4,
+     "reviews": 661,
+     "market": "US",
+     "category": "informatique",
+     "rank_now": 9,
+     "best_rank": 3
+    }
+   ]
+  },
+  {
+   "type": "leaders",
+   "market": "US",
+   "title": "Indéboulonnables",
+   "intro": "N° 1 de leur catégorie chacun des 7 jours relevés.",
+   "items": [
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 282249,
+     "market": "US",
+     "category": "high-tech",
+     "days": 7
+    },
+    {
+     "id": "B08JHCVHTY",
+     "title": "blink plus plan with monthly auto-renewal",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/31YHGbJsldL._AC_UL300_SR300,200_.png",
+     "url": "https://www.amazon.com/dp/B08JHCVHTY",
+     "price": 11.99,
+     "rating": 4.4,
+     "reviews": 282249,
+     "market": "US",
+     "category": "bricolage",
+     "days": 7
+    },
+    {
+     "id": "B0C1HJV7BJ",
+     "title": "Drift Wood Car Air Freshener Starter Kit with Visor Clip - Teak Scent | The Original Wood Air Freshener, Car Odor Eliminator, Long Lasting Scent, Essential Oils, Clean Ingredients, Auto Accessories",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/7196wH6oNBL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B0C1HJV7BJ",
+     "price": 9.71,
+     "rating": 3.7,
+     "reviews": 25465,
+     "market": "US",
+     "category": "auto",
+     "days": 7
+    },
+    {
+     "id": "B01FV0F8H8",
+     "title": "Amazon Basics Multipurpose Copy Printer Paper, 8.5 x 11 Inches, 20 lb, 92 Bright, White, 1 Ream (500 Sheets), Jam-Free",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/61nnrxtz6QL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01FV0F8H8",
+     "price": 6.97,
+     "rating": 4.8,
+     "reviews": 233356,
+     "market": "US",
+     "category": "bureau",
+     "days": 7
+    },
+    {
+     "id": "B01N05APQY",
+     "title": "Nespresso Capsules Vertuo, Variety Pack, Medium and Dark Roast Coffee, 30 Count Coffee Pods, Brews 7.8 oz.",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/715720Nw5fL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B01N05APQY",
+     "price": 42.0,
+     "rating": 4.8,
+     "reviews": 68252,
+     "market": "US",
+     "category": "epicerie",
+     "days": 7
+    }
+   ]
+  },
+  {
+   "type": "rush",
+   "market": "US",
+   "title": "Ruées",
+   "intro": "Catégories dont au moins 5 des 10 premières places reviennent au même nom.",
+   "items": [
+    {
+     "id": "B09V7Z4TJG",
+     "title": "medicube Toner Pads Zero Pore Pad 2.0 for Exfoliation and Pore Care | Dual-Textured Facial Pad with 4.5% AHA Lactic Acid, 0.45% BHA Salicylic Acid - For All, Korean Skin Care, 70 Pads, 1 Pack",
+     "image": "https://images-na.ssl-images-amazon.com/images/I/71Mcspt-6AL._AC_UL300_SR300,200_.jpg",
+     "url": "https://www.amazon.com/dp/B09V7Z4TJG",
+     "price": 13.23,
+     "rating": 4.6,
+     "reviews": 37368,
+     "market": "US",
+     "category": "beaute",
+     "brand": "medicube",
+     "share": 5,
+     "of": 10
+    }
+   ]
+  },
+  {
+   "type": "shopify",
+   "market": "US",
+   "title": "Entrées dans les boutiques",
+   "intro": "Produits arrivés cette semaine dans le top 12 « meilleures ventes » des boutiques suivies.",
+   "items": [
+    {
+     "id": "kith.com/khla150260-910",
+     "title": "Disney | Kith Kids Glass Slipper Metal Keyring Charm - Silver",
+     "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHLA150260-910-Detail.jpg?v=1794856005",
+     "url": "https://kith.com/products/khla150260-910",
+     "price": 35.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 1,
+     "store": "Kith"
+    },
+    {
+     "id": "kith.com/khla270214-906",
+     "title": "Disney | Kith Kids Toy Story Lunch Box - Multi",
+     "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHLA270214-906-Detail.jpg?v=1794855983",
+     "url": "https://kith.com/products/khla270214-906",
+     "price": 45.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 2,
+     "store": "Kith"
+    },
+    {
+     "id": "fentybeauty.com/cookies-n-clean-whipped-clay-pore-detox-face-mask-with-salicylic-acid-charcoal",
+     "title": "Cookies N Clean Whipped Clay Pore Detox Face Mask With Salicylic Acid + Charcoal",
+     "image": "https://cdn.shopify.com/s/files/1/0341/3458/9485/files/FS_FSPR_SUM22_T2PRODUCT_ECOMM_COOKIES_N_CLEAN_DETOX_FACE_MASK_OPEN_1200x1500_1d582acc-ae1a-41e4-9fb7-74f2cf1ea562.jpg?v=1762198905",
+     "url": "https://fentybeauty.com/products/cookies-n-clean-whipped-clay-pore-detox-face-mask-with-salicylic-acid-charcoal",
+     "price": 39.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "beaute",
+     "rank_now": 12,
+     "store": "Fenty Beauty"
+    },
+    {
+     "id": "kith.com/khk030553-001",
+     "title": "Kith Kids 3-Pack Origins Tee - Black",
+     "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHK030553-001-FRONT_67433b9e-059e-4e14-9db0-fb05bce79c4d.jpg?v=1765299735",
+     "url": "https://kith.com/products/khk030553-001",
+     "price": 55.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 12,
+     "store": "Kith"
+    },
+    {
+     "id": "www.stanley1913.com/the-quick-flip-go-bottle-24-oz",
+     "title": "The Quick Flip Go Bottle | 24 OZ",
+     "image": "https://cdn.shopify.com/s/files/1/0375/3269/6635/files/Web_PNG_Square-TheQuickFlipGOBottle24OZ-Mist-Front.png?v=1762181969",
+     "url": "https://www.stanley1913.com/products/the-quick-flip-go-bottle-24-oz",
+     "price": 18.75,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "cuisine-maison",
+     "rank_now": 12,
+     "store": "Stanley"
+    },
+    {
+     "id": "ridge.com/magnetic-power-bank-matte-black",
+     "title": "Ridge Power Bank - 10k mAh - Matte Black",
+     "image": "https://cdn.shopify.com/s/files/1/0613/6213/files/MagneticPowerbank-Black-RenderFront_8eaa23d3-50ef-41e8-89a8-71b9d43a6ca0.jpg?v=1784334658",
+     "url": "https://ridge.com/products/magnetic-power-bank-matte-black",
+     "price": 79.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "mode",
+     "rank_now": 12,
+     "store": "Ridge"
+    },
+    {
+     "id": "www.ugmonk.com/analog-card-bar-16-black",
+     "title": "Analog Card Bar (Large 16\" – Black)",
+     "image": "https://cdn.shopify.com/s/files/1/0167/4484/files/sep-blk-16.jpg?v=1773846357",
+     "url": "https://www.ugmonk.com/products/analog-card-bar-16-black",
+     "price": 79.0,
+     "rating": null,
+     "reviews": null,
+     "market": "US",
+     "category": "bureau",
+     "rank_now": 12,
+     "store": "Ugmonk"
+    }
+   ]
+  },
+  {
+   "type": "buzz",
+   "market": "US",
+   "title": "Ce que les gens ont cherché",
+   "intro": "Recherches Google qui ont explosé cette semaine (toutes recherches, pas seulement des produits).",
+   "items": [
+    {
+     "title": "daniel jones indianapolis colts",
+     "traffic": 20000,
+     "traffic_label": "20000+",
+     "day": "2026-11-21"
+    },
+    {
+     "title": "anthropic ipo",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-11-18"
+    },
+    {
+     "title": "brad pitt",
+     "traffic": 10000,
+     "traffic_label": "10000+",
+     "day": "2026-11-23"
+    },
+    {
+     "title": "florida flooding",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-18"
+    },
+    {
+     "title": "nitto atp finals",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-19"
+    },
+    {
+     "title": "the body netflix",
+     "traffic": 5000,
+     "traffic_label": "5000+",
+     "day": "2026-11-21"
+    },
+    {
+     "title": "carlos alcaraz",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-20"
+    },
+    {
+     "title": "glenn close",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-18"
+    },
+    {
+     "title": "toxic hall of shame",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-18"
+    },
+    {
+     "title": "turkey",
+     "traffic": 2000,
+     "traffic_label": "2000+",
+     "day": "2026-11-20"
+    }
+   ]
+  }
+ ]
+}
